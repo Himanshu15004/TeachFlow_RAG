@@ -1,0 +1,1051 @@
+{
+    "file": "Max of 2 Numbers.mp3",
+    "title": "Max of 2 Numbers",
+    "number": "",
+    "text": " The next question we are going to solve is to print maximum of two numbers. Logically, if we are given any number, let's suppose 3 and 5, then which one is the largest of the two? We will compare it with this. Is 3 greater than 5? Yes or No? If it is No, then it means 5 is greater. If it is Yes, then it means 3 is greater. This is how our logical mind works, that we compare one with another. So, the work of comparison, that is, the work of checking whether this thing is true or not, we do it in the Diamond block, that is, in our decision block. For that, we have written a simple code. We will be given two numbers in the input, A and B. And simply we have to output larger of A and B. Now, for that, we will start first. After starting, first of all, we will input our two numbers, which are A and B. Then we will check, is A greater than B? Either the answer will be Yes or No. If the answer of A is greater than B is Yes, then the Yes arrow will be connected here, which we can write. If A is greater, then print the value of A. If A is not greater, then print the value of B. And as soon as any of the two is printed, the same way, exit. For example, let's suppose we have the value of A as 2, and the value of B, let's suppose, is 7. So, first we will input A and B, then we will check, is 2 greater than 7? The answer will be No. As soon as the No is printed, we will print B. B means, I have output 7 here. And then we will exit. So, 7, which was larger of two numbers, will be printed. So, logical flow works like this in problem solving. And we can convert this into pseudocode. How will we do it in pseudocode? Let's try to write the pseudocode. In pseudocode, the first step is very simple. It is to input A and B. The second step is the decision block. To write the decision block in pseudocode, we will use FLs. Before talking about FLs, there is one more point that I will tell you. Pseudocode does not have any fixed rules. Because pseudocode is just general English. Basically, in such English, you have to write your code, which everyone can understand. So, it does not have any hard and fast rules. If you use words or such things in it, which you can understand, then there is no problem. So, we can do a little bit of pseudocode according to our needs. In fact, different flowcharts can be created to solve the same problem. Because if there are multiple solutions to solve one problem, then multiple flowcharts can be created. So, there is no problem in that. At the end, our goal should be that our problem is being solved efficiently. To convert the decision block into pseudocode, we use something called FLs. So, in FLs, we write some statements and then some work. After that, we write FLs. Basically, FLs means checking the condition. Which condition is being checked here? A greater than B. If we write Is here, then we convert it into If in pseudocode. So, basically, I have to write If. If means if in English. If A greater than B, then I have to print A. If it is Yes, then A. If means the condition gave Yes. The decision block gave Yes. So, here we will print A. We give some space to this work. We give space because we want to represent that if this thing gives Yes, then this work will be done. That's why we give space to it. If it gives Yes, then this work will be done. It's not that this work will be done continuously. If it gives No, then this work will be done. So, because my work depends on this condition, that's why I have given a small space here. This space is called indentation in programming. Indentation is not that important in C++. It is important to see the code but it is important in pseudocode. In fact, there are some programming languages where everything depends on indentation. For example, Python is a programming language where indentation is very important. But it is not that important in C++. In fact, I personally like C++ because of that. So, we have to give proper spacing by giving some space. In the case of Else, we will write that Else means if the condition gives No. Whatever we have written here, if it gives Yes, then write its work here. If it gives No, then write its work here. So, we will write Else, print B. This whole thing will become our step 2. This whole thing will become our step 2. This whole thing and this whole thing I have counted as my step 2. Finally, whatever was to be printed will be done and we will exit from here. So, whenever we have to write the decision block, we write it in the form of If Else. We write If our decision, our question whose answer should be Yes or No. If it is Yes, then we will write Else tells us that if No has come, then whatever work has to be done, we will write it here with space. So, this whole thing is considered as a single step in Pseudo Code. So, in this way, logically we write our max of two numbers in the form of Pseudo Code.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 0.0,
+            "end": 4.32,
+            "text": " The next question we are going to solve is to print maximum of two numbers."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 4.32,
+            "end": 8.72,
+            "text": " Logically, if we are given any number, let's suppose 3 and 5,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 8.72,
+            "end": 10.72,
+            "text": " then which one is the largest of the two?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 10.72,
+            "end": 13.92,
+            "text": " We will compare it with this. Is 3 greater than 5?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 13.92,
+            "end": 15.92,
+            "text": " Yes or No?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 15.92,
+            "end": 18.8,
+            "text": " If it is No, then it means 5 is greater."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 18.8,
+            "end": 20.8,
+            "text": " If it is Yes, then it means 3 is greater."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 20.8,
+            "end": 22.8,
+            "text": " This is how our logical mind works,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 22.8,
+            "end": 24.8,
+            "text": " that we compare one with another."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 24.8,
+            "end": 26.8,
+            "text": " So, the work of comparison,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 26.8,
+            "end": 30.0,
+            "text": " that is, the work of checking whether this thing is true or not,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 30.0,
+            "end": 34.32,
+            "text": " we do it in the Diamond block, that is, in our decision block."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 34.32,
+            "end": 36.32,
+            "text": " For that, we have written a simple code."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 36.32,
+            "end": 39.92,
+            "text": " We will be given two numbers in the input, A and B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 39.92,
+            "end": 43.6,
+            "text": " And simply we have to output larger of A and B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 43.6,
+            "end": 45.6,
+            "text": " Now, for that, we will start first."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 45.6,
+            "end": 51.120000000000005,
+            "text": " After starting, first of all, we will input our two numbers, which are A and B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 51.120000000000005,
+            "end": 54.32,
+            "text": " Then we will check, is A greater than B?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 54.32,
+            "end": 56.32,
+            "text": " Either the answer will be Yes or No."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 56.32,
+            "end": 59.92,
+            "text": " If the answer of A is greater than B is Yes,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 59.92,
+            "end": 63.120000000000005,
+            "text": " then the Yes arrow will be connected here,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 63.120000000000005,
+            "end": 65.12,
+            "text": " which we can write."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 65.12,
+            "end": 67.12,
+            "text": " If A is greater, then print the value of A."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 67.12,
+            "end": 71.12,
+            "text": " If A is not greater, then print the value of B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 71.12,
+            "end": 73.12,
+            "text": " And as soon as any of the two is printed,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 73.12,
+            "end": 75.12,
+            "text": " the same way, exit."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 75.12,
+            "end": 77.12,
+            "text": " For example, let's suppose we have the value of A as 2,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 77.12,
+            "end": 79.12,
+            "text": " and the value of B, let's suppose, is 7."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 79.12,
+            "end": 81.12,
+            "text": " So, first we will input A and B,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 81.12,
+            "end": 83.12,
+            "text": " then we will check,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 83.92,
+            "end": 85.92,
+            "text": " is 2 greater than 7?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 85.92,
+            "end": 87.92,
+            "text": " The answer will be No."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 87.92,
+            "end": 89.92,
+            "text": " As soon as the No is printed,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 89.92,
+            "end": 91.92,
+            "text": " we will print B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 91.92,
+            "end": 93.92,
+            "text": " B means, I have output 7 here."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 93.92,
+            "end": 95.92,
+            "text": " And then we will exit."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 95.92,
+            "end": 97.92,
+            "text": " So, 7, which was larger of two numbers,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 97.92,
+            "end": 99.92,
+            "text": " will be printed."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 99.92,
+            "end": 101.92,
+            "text": " So, logical flow works like this in problem solving."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 101.92,
+            "end": 103.92,
+            "text": " And we can convert this into pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 103.92,
+            "end": 105.92,
+            "text": " How will we do it in pseudocode?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 105.92,
+            "end": 107.92,
+            "text": " Let's try to write the pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 107.92,
+            "end": 109.92,
+            "text": " In pseudocode,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 109.92,
+            "end": 111.92,
+            "text": " the first step is very simple."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 112.72,
+            "end": 114.72,
+            "text": " It is to input A and B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 114.72,
+            "end": 116.72,
+            "text": " The second step is"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 116.72,
+            "end": 118.72,
+            "text": " the decision block."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 118.72,
+            "end": 120.72,
+            "text": " To write the decision block in pseudocode,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 120.72,
+            "end": 122.72,
+            "text": " we will use FLs."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 122.72,
+            "end": 124.72,
+            "text": " Before talking about FLs,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 124.72,
+            "end": 126.72,
+            "text": " there is one more point that I will tell you."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 126.72,
+            "end": 128.72,
+            "text": " Pseudocode does not have any fixed rules."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 128.72,
+            "end": 130.72,
+            "text": " Because pseudocode is just general English."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 130.72,
+            "end": 132.72,
+            "text": " Basically, in such English,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 132.72,
+            "end": 134.72,
+            "text": " you have to write your code,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 134.72,
+            "end": 136.72,
+            "text": " which everyone can understand."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 136.72,
+            "end": 138.72,
+            "text": " So, it does not have any hard and fast rules."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 138.72,
+            "end": 140.72,
+            "text": " If you use words or such things in it,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 141.52,
+            "end": 143.52,
+            "text": " which you can understand,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 143.52,
+            "end": 145.52,
+            "text": " then there is no problem."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 145.52,
+            "end": 147.52,
+            "text": " So, we can do a little bit of pseudocode according to our needs."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 147.52,
+            "end": 149.52,
+            "text": " In fact,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 149.52,
+            "end": 151.52,
+            "text": " different flowcharts can be created"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 151.52,
+            "end": 153.52,
+            "text": " to solve the same problem."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 153.52,
+            "end": 155.52,
+            "text": " Because if there are multiple solutions to solve one problem,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 155.52,
+            "end": 157.52,
+            "text": " then multiple flowcharts can be created."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 157.52,
+            "end": 159.52,
+            "text": " So, there is no problem in that."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 159.52,
+            "end": 161.52,
+            "text": " At the end, our goal should be"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 161.52,
+            "end": 163.52,
+            "text": " that our problem is being solved efficiently."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 163.52,
+            "end": 165.52,
+            "text": " To convert the decision block into pseudocode,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 165.52,
+            "end": 167.52,
+            "text": " we use something called FLs."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 167.52,
+            "end": 169.52,
+            "text": " So, in FLs,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 170.32000000000002,
+            "end": 172.32000000000002,
+            "text": " we write some statements and then some work."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 172.32000000000002,
+            "end": 174.32000000000002,
+            "text": " After that, we write FLs."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 174.32000000000002,
+            "end": 176.32000000000002,
+            "text": " Basically, FLs means"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 176.32000000000002,
+            "end": 178.32000000000002,
+            "text": " checking the condition."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 178.32000000000002,
+            "end": 180.32000000000002,
+            "text": " Which condition is being checked here?"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 180.32000000000002,
+            "end": 182.32000000000002,
+            "text": " A greater than B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 182.32000000000002,
+            "end": 184.32000000000002,
+            "text": " If we write Is here,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 184.32000000000002,
+            "end": 186.32000000000002,
+            "text": " then we convert it into If in pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 186.32000000000002,
+            "end": 188.32000000000002,
+            "text": " So, basically,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 188.32000000000002,
+            "end": 190.32000000000002,
+            "text": " I have to write If."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 190.32000000000002,
+            "end": 192.32000000000002,
+            "text": " If means if in English."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 192.32000000000002,
+            "end": 194.32000000000002,
+            "text": " If A greater than B,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 194.32000000000002,
+            "end": 196.32000000000002,
+            "text": " then I have to print A."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 196.32000000000002,
+            "end": 198.32000000000002,
+            "text": " If it is Yes, then A."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 199.12,
+            "end": 201.12,
+            "text": " If means"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 201.12,
+            "end": 203.12,
+            "text": " the condition gave Yes."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 203.12,
+            "end": 205.12,
+            "text": " The decision block gave Yes."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 205.12,
+            "end": 207.12,
+            "text": " So, here we will print"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 207.12,
+            "end": 209.12,
+            "text": " A."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 209.12,
+            "end": 211.12,
+            "text": " We give some space"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 211.12,
+            "end": 213.12,
+            "text": " to this work."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 213.12,
+            "end": 215.12,
+            "text": " We give space because"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 215.12,
+            "end": 217.12,
+            "text": " we want to represent that"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 217.12,
+            "end": 219.12,
+            "text": " if this thing gives Yes, then this work will be done."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 219.12,
+            "end": 221.12,
+            "text": " That's why we give space to it."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 221.12,
+            "end": 223.12,
+            "text": " If it gives Yes, then this work will be done."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 223.12,
+            "end": 225.12,
+            "text": " It's not that this work will be done continuously."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 225.12,
+            "end": 227.12,
+            "text": " If it gives No, then this work will be done."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 227.92000000000002,
+            "end": 229.92000000000002,
+            "text": " So, because my work depends on this condition,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 229.92000000000002,
+            "end": 231.92000000000002,
+            "text": " that's why I have given"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 231.92000000000002,
+            "end": 233.92000000000002,
+            "text": " a small space here."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 233.92000000000002,
+            "end": 235.92000000000002,
+            "text": " This space"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 235.92000000000002,
+            "end": 237.92000000000002,
+            "text": " is called indentation"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 237.92000000000002,
+            "end": 239.92000000000002,
+            "text": " in programming."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 239.92000000000002,
+            "end": 241.92000000000002,
+            "text": " Indentation is not that important"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 241.92000000000002,
+            "end": 243.92000000000002,
+            "text": " in C++."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 243.92000000000002,
+            "end": 245.92000000000002,
+            "text": " It is important to see the code"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 245.92000000000002,
+            "end": 247.92000000000002,
+            "text": " but it is important in pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 247.92000000000002,
+            "end": 249.92000000000002,
+            "text": " In fact, there are some programming languages"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 249.92000000000002,
+            "end": 251.92000000000002,
+            "text": " where everything depends on indentation."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 251.92000000000002,
+            "end": 253.92000000000002,
+            "text": " For example, Python is a programming language"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 253.92000000000002,
+            "end": 255.92000000000002,
+            "text": " where indentation is very important."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 256.71999999999997,
+            "end": 258.71999999999997,
+            "text": " But it is not that important in C++."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 258.71999999999997,
+            "end": 260.71999999999997,
+            "text": " In fact, I personally like C++"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 260.71999999999997,
+            "end": 262.71999999999997,
+            "text": " because of that."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 262.71999999999997,
+            "end": 264.71999999999997,
+            "text": " So, we have to give proper spacing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 264.71999999999997,
+            "end": 266.71999999999997,
+            "text": " by giving some space."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 266.71999999999997,
+            "end": 268.71999999999997,
+            "text": " In the case of Else,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 268.71999999999997,
+            "end": 270.71999999999997,
+            "text": " we will write that Else means"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 270.71999999999997,
+            "end": 272.71999999999997,
+            "text": " if the condition gives No."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 272.71999999999997,
+            "end": 274.71999999999997,
+            "text": " Whatever we have written here,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 274.71999999999997,
+            "end": 276.71999999999997,
+            "text": " if it gives Yes, then write its work here."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 276.71999999999997,
+            "end": 278.71999999999997,
+            "text": " If it gives No, then write its work here."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 278.71999999999997,
+            "end": 280.71999999999997,
+            "text": " So, we will write Else, print B."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 280.71999999999997,
+            "end": 282.71999999999997,
+            "text": " This whole thing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 282.71999999999997,
+            "end": 284.71999999999997,
+            "text": " will become our step 2."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 285.52000000000004,
+            "end": 287.52000000000004,
+            "text": " This whole thing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 287.52000000000004,
+            "end": 289.52000000000004,
+            "text": " will become our step 2."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 289.52000000000004,
+            "end": 291.52000000000004,
+            "text": " This whole thing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 291.52000000000004,
+            "end": 293.52000000000004,
+            "text": " and this whole thing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 293.52000000000004,
+            "end": 295.52000000000004,
+            "text": " I have counted as my step 2."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 295.52000000000004,
+            "end": 297.52000000000004,
+            "text": " Finally, whatever was to be printed"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 297.52000000000004,
+            "end": 299.52000000000004,
+            "text": " will be done and we will exit from here."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 299.52000000000004,
+            "end": 301.52000000000004,
+            "text": " So, whenever we have to write"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 301.52000000000004,
+            "end": 303.52000000000004,
+            "text": " the decision block,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 303.52000000000004,
+            "end": 305.52000000000004,
+            "text": " we write it in the form of If Else."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 305.52000000000004,
+            "end": 307.52000000000004,
+            "text": " We write If"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 307.52000000000004,
+            "end": 309.52000000000004,
+            "text": " our decision, our question"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 309.52000000000004,
+            "end": 311.52000000000004,
+            "text": " whose answer should be Yes or No."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 311.52000000000004,
+            "end": 313.52000000000004,
+            "text": " If it is Yes, then we will write"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 313.52,
+            "end": 315.52,
+            "text": " Else tells us that if No has come,"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 315.52,
+            "end": 317.52,
+            "text": " then whatever work has to be done, we will write it here with space."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 317.52,
+            "end": 319.52,
+            "text": " So, this whole thing"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 319.52,
+            "end": 321.52,
+            "text": " is considered as a single step in Pseudo Code."
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 321.52,
+            "end": 323.52,
+            "text": " So, in this way, logically"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 323.52,
+            "end": 325.52,
+            "text": " we write our max of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Max of 2 Numbers",
+            "start": 325.52,
+            "end": 327.52,
+            "text": " in the form of Pseudo Code."
+        }
+    ]
+}

@@ -1,0 +1,645 @@
+{
+    "file": "What to Install-.mp3",
+    "title": "What to Install-",
+    "number": "",
+    "text": " First of all, we have to install a code editor. Code editor is like a digital notebook. Till date, we have been reading physics, chemistry, math on a notebook. Similarly, to code, we have to write on a paper pen plus the final code we have to write it on a laptop, a digital notebook. So, this digital notebook is called a code editor. Generally, if we talk about code editors, there are many code editors available in the market. If you already have a code editor for C++, you can continue with it. I will advise you on Visual Studio Code. We will also write all the code in our course on Visual Studio Code. I am advising you on Visual Studio Code because most of the developers use Visual Studio Code to write their code. Secondly, today you may be downloading it on C++. It may be that after 6 months or 1 year, you may want to learn web development or something else. You can write all that code in Visual Studio Code. You don't have to install anything else. Apart from this, it is built by Microsoft. It is really stable. It is free to use. It is open source. We don't need to buy a license. You can simply download it. The second thing we have to install on our system is a C++ compiler. To run C++ code on a computer, it is important that our computer can recognize how C++ code looks like. C++ code has to run on an executor. That is why it is important to set up a C++ compiler in our system. We have to do both of these things positively. Whether you are on a Mac machine, Windows machine or Linux machine. First of all, we have to install Visual Studio Code. Second step is to set up a C++ compiler. As soon as we do these two steps, we will be ready to code. As a beginner, if we have a new laptop or computer, it may take some time to install the software for the first time. When we install the software for the first time, especially when we install a C++ compiler, we may have errors, bugs, and it may take some time to understand. It may take 2-4 days to install these things. Still, I would advise you to install these things. Why? Because as a programmer, installing things on your system is a basic thing. This will give us confidence as a beginner. I know how to work on my system and install software on it. If I need to install something new in the future, I will have confidence that I know how to deal with my system. Confidence is very important as a programmer. You have to do this. But because some students may have to do this, most of the students will do this on day 1. But 5%, 7%, 10% students may take 3-4 days. So, I will tell you an alternate option for those students. But this alternate option is not a permanent solution. This is a 3-4 day solution that you can use. Basically, there are many websites on which you can go and write your C++ code without downloading these things. But this is not a permanent solution. You have to see this as a temporary solution. There are many such platforms that you can use. One of these free platforms is called Replit. You can create an account on this platform if you have any issue installing these things. If you have any issue installing these things for a few days, you can use Replit for that. You have to search for things on Google and Stack Overflow. In the meantime, we don't have to worry about coding. You can use Replit for that. You don't have to install anything here. You can simply create an account and start executing things. I am stressing this again because if you are serious about your placement preparation, then you have to install these things. You have to see this as a band-aid that can help you in the starting stages. But the permanent solution that we will be learning is to download these tools on your system. You have to install and set up these tools. There are many helpful videos linked with this. You can install these things according to your machine. You can install these things according to your machine. You can install these things according to your machine.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 0.0,
+            "end": 3.2,
+            "text": " First of all, we have to install a code editor."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 3.2,
+            "end": 6.2,
+            "text": " Code editor is like a digital notebook."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 6.2,
+            "end": 9.28,
+            "text": " Till date, we have been reading physics, chemistry, math"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 9.28,
+            "end": 12.24,
+            "text": " on a notebook."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 12.24,
+            "end": 15.280000000000001,
+            "text": " Similarly, to code, we have to write on a paper pen"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 15.280000000000001,
+            "end": 18.28,
+            "text": " plus the final code"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 18.28,
+            "end": 21.44,
+            "text": " we have to write it on a laptop, a digital notebook."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 21.44,
+            "end": 24.44,
+            "text": " So, this digital notebook is called a code editor."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 24.44,
+            "end": 27.44,
+            "text": " Generally, if we talk about code editors,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 27.44,
+            "end": 30.44,
+            "text": " there are many code editors available in the market."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 30.44,
+            "end": 33.44,
+            "text": " If you already have a code editor for C++,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 33.44,
+            "end": 36.44,
+            "text": " you can continue with it."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 36.44,
+            "end": 39.44,
+            "text": " I will advise you on Visual Studio Code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 39.44,
+            "end": 42.44,
+            "text": " We will also write all the code in our course on Visual Studio Code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 42.44,
+            "end": 45.44,
+            "text": " I am advising you on Visual Studio Code"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 45.44,
+            "end": 48.44,
+            "text": " because most of the developers"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 48.44,
+            "end": 51.44,
+            "text": " use Visual Studio Code to write their code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 51.44,
+            "end": 54.44,
+            "text": " Secondly, today you may be downloading it on C++."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 54.44,
+            "end": 57.44,
+            "text": " It may be that after 6 months or 1 year,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 57.44,
+            "end": 60.44,
+            "text": " you may want to learn web development or something else."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 60.44,
+            "end": 63.44,
+            "text": " You can write all that code in Visual Studio Code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 63.44,
+            "end": 66.44,
+            "text": " You don't have to install anything else."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 66.44,
+            "end": 69.44,
+            "text": " Apart from this, it is built by Microsoft. It is really stable."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 69.44,
+            "end": 72.44,
+            "text": " It is free to use. It is open source."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 72.44,
+            "end": 75.44,
+            "text": " We don't need to buy a license. You can simply download it."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 75.44,
+            "end": 78.44,
+            "text": " The second thing we have to install on our system"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 78.44,
+            "end": 81.44,
+            "text": " is a C++ compiler."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 81.44,
+            "end": 84.44,
+            "text": " To run C++ code on a computer,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 84.44,
+            "end": 87.44,
+            "text": " it is important that our computer can recognize"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 87.44,
+            "end": 90.44,
+            "text": " how C++ code looks like."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 90.44,
+            "end": 93.44,
+            "text": " C++ code has to run on an executor."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 93.44,
+            "end": 96.44,
+            "text": " That is why it is important to set up a C++ compiler"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 96.44,
+            "end": 99.44,
+            "text": " in our system."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 99.44,
+            "end": 102.44,
+            "text": " We have to do both of these things positively."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 102.44,
+            "end": 105.44,
+            "text": " Whether you are on a Mac machine, Windows machine or Linux machine."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 105.44,
+            "end": 108.44,
+            "text": " First of all, we have to install Visual Studio Code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 108.44,
+            "end": 111.44,
+            "text": " Second step is to set up a C++ compiler."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 111.44,
+            "end": 114.44,
+            "text": " As soon as we do these two steps,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 114.44,
+            "end": 117.44,
+            "text": " we will be ready to code."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 117.44,
+            "end": 120.44,
+            "text": " As a beginner, if we have a new laptop or computer,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 120.44,
+            "end": 123.44,
+            "text": " it may take some time to install the software for the first time."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 123.44,
+            "end": 126.44,
+            "text": " When we install the software for the first time,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 126.44,
+            "end": 129.44,
+            "text": " especially when we install a C++ compiler,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 129.44,
+            "end": 132.44,
+            "text": " we may have errors,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 132.44,
+            "end": 135.44,
+            "text": " bugs,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 135.44,
+            "end": 138.44,
+            "text": " and it may take some time to understand."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 138.44,
+            "end": 141.44,
+            "text": " It may take 2-4 days to install these things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 141.44,
+            "end": 144.44,
+            "text": " Still, I would advise you to install these things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 144.44,
+            "end": 147.44,
+            "text": " Why?"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 147.44,
+            "end": 150.44,
+            "text": " Because as a programmer,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 150.44,
+            "end": 153.44,
+            "text": " installing things on your system is a basic thing."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 153.44,
+            "end": 156.44,
+            "text": " This will give us confidence as a beginner."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 156.44,
+            "end": 159.44,
+            "text": " I know how to work on my system and install software on it."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 159.44,
+            "end": 162.44,
+            "text": " If I need to install something new in the future,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 162.44,
+            "end": 165.44,
+            "text": " I will have confidence that I know how to deal with my system."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 165.44,
+            "end": 168.44,
+            "text": " Confidence is very important as a programmer."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 168.44,
+            "end": 171.44,
+            "text": " You have to do this."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 171.44,
+            "end": 174.44,
+            "text": " But because some students may have to do this,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 174.44,
+            "end": 177.44,
+            "text": " most of the students will do this on day 1."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 177.44,
+            "end": 180.44,
+            "text": " But 5%, 7%, 10% students may take 3-4 days."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 180.44,
+            "end": 183.44,
+            "text": " So, I will tell you an alternate option for those students."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 183.44,
+            "end": 186.44,
+            "text": " But this alternate option is not a permanent solution."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 186.44,
+            "end": 189.44,
+            "text": " This is a 3-4 day solution that you can use."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 189.44,
+            "end": 192.44,
+            "text": " Basically, there are many websites on which you can go"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 192.44,
+            "end": 195.44,
+            "text": " and write your C++ code without downloading these things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 195.44,
+            "end": 198.44,
+            "text": " But this is not a permanent solution."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 198.44,
+            "end": 201.44,
+            "text": " You have to see this as a temporary solution."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 201.44,
+            "end": 204.44,
+            "text": " There are many such platforms that you can use."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 204.44,
+            "end": 207.44,
+            "text": " One of these free platforms is called Replit."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 207.44,
+            "end": 210.44,
+            "text": " You can create an account on this platform"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 210.44,
+            "end": 213.44,
+            "text": " if you have any issue installing these things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 213.44,
+            "end": 216.44,
+            "text": " If you have any issue installing these things for a few days,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 216.44,
+            "end": 219.44,
+            "text": " you can use Replit for that."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 219.44,
+            "end": 222.44,
+            "text": " You have to search for things on Google"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 222.44,
+            "end": 225.44,
+            "text": " and Stack Overflow."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 225.44,
+            "end": 228.44,
+            "text": " In the meantime, we don't have to worry about coding."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 228.44,
+            "end": 231.44,
+            "text": " You can use Replit for that."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 231.44,
+            "end": 234.44,
+            "text": " You don't have to install anything here."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 234.44,
+            "end": 237.44,
+            "text": " You can simply create an account and start executing things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 237.44,
+            "end": 240.44,
+            "text": " I am stressing this again"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 240.44,
+            "end": 243.44,
+            "text": " because if you are serious about your placement preparation,"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 243.44,
+            "end": 246.44,
+            "text": " then you have to install these things."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 246.44,
+            "end": 249.44,
+            "text": " You have to see this as a band-aid"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 249.44,
+            "end": 252.44,
+            "text": " that can help you in the starting stages."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 252.44,
+            "end": 255.44,
+            "text": " But the permanent solution that we will be learning"
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 255.44,
+            "end": 258.44,
+            "text": " is to download these tools on your system."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 258.44,
+            "end": 261.44,
+            "text": " You have to install and set up these tools."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 261.44,
+            "end": 264.44,
+            "text": " There are many helpful videos linked with this."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 264.44,
+            "end": 267.44,
+            "text": " You can install these things according to your machine."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 267.44,
+            "end": 270.44,
+            "text": " You can install these things according to your machine."
+        },
+        {
+            "number": "",
+            "title": "What to Install-",
+            "start": 270.44,
+            "end": 273.44,
+            "text": " You can install these things according to your machine."
+        }
+    ]
+}

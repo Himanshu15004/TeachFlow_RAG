@@ -1,0 +1,337 @@
+{
+    "file": "Placements & Internships.mp3",
+    "title": "Placements & Internships",
+    "number": "",
+    "text": " Hi everyone, so before preparing for placement or internship, we should have a basic idea and process. Generally, when we talk about tech companies in the industry, there are two types of tech companies that exist. One is our service based companies and the other is our product based companies. In service based companies, we must have heard the name of TCS, Infosys. So generally, these companies come under the service based industry. Whereas, if we talk about the example of product based companies, Microsoft is one of them, Google is one of them, Amazon is one of them. So generally, service based companies provide tech services to other tech companies or non-tech companies. Whereas, product based companies are making their own products. Like Microsoft Office or Microsoft Azure is Microsoft's product. Google's product includes Chrome, Google Maps, Google Play Store, Amazon has AWS. So in the same way, every company can have a lot of different tech products. Now generally, whenever service based companies come to hire us, they expect two things from us. One is that we should have aptitude for these companies. So we have to practice the questions of aptitude. And the second thing is that we should know basic programming. That is, a very high level of programming is not expected here. If we know basic programming, we know a few data structures and algorithms, then we can generally solve maximum questions on the basis of it. Whereas, the main focus of product based companies is on data structures and algorithms in their coding tests or interviews. So in our batch, in our course, we will be preparing the product based companies, whose packages are generally on the higher side. Definitely, if we learn data structures and algorithms with C++ and C++ according to product based companies, then it will be very easy for us to crack the basic programming questions of service based companies. So our main focus in our batch will be on product based companies. And according to them, we will learn C++ first and then learn data structures and algorithms in C++. Now, for placement, it is not like that. We get placement only by learning C++ and DSA. There are many other things that we have to take care of. Like how to maintain a good LinkedIn profile, how to build a good resume for ourselves. Because whenever we apply for a company, we have to send our resume first. So how to make a resume, how to make an ATS compliant resume, those things are also important. Along with this, what kind of projects do we add to our resume? It is not necessary that if we are learning DSA in C++, then we should also make our projects in C++. Generally, maximum students create their projects in web development, app development or machine learning. So we have to go and build those projects separately. So we will also discuss about what kind of projects are there that you can go and build in your own time to add them in your resume. Apart from this, what are the platforms for off-campus that we should use? What is the process of off-campus internships and placements? What exactly is the meaning of off-campus? In brief, off-campus means that we are going to the companies and submitting our application for a job or internship. Apart from this, how can we do interview preparation? Or we have some theory subjects in the interviews that are asked questions. Like how do databases work or how does an operating system work? These are some theory subjects of computer science, which are sometimes asked questions. So where can we read their notes? All these important things are related to our mentorship sessions. That is, how to make a LinkedIn profile, how to make a resume, how to apply in off-campus. These important aspects of placement and internship are related to our mentorship sessions in our batch. And all the things of C++ and DSA, we will cover in our lectures.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 0.0,
+            "end": 7.0,
+            "text": " Hi everyone, so before preparing for placement or internship, we should have a basic idea and process."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 7.0,
+            "end": 13.0,
+            "text": " Generally, when we talk about tech companies in the industry, there are two types of tech companies that exist."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 13.0,
+            "end": 18.0,
+            "text": " One is our service based companies and the other is our product based companies."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 18.0,
+            "end": 23.0,
+            "text": " In service based companies, we must have heard the name of TCS, Infosys."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 23.0,
+            "end": 27.0,
+            "text": " So generally, these companies come under the service based industry."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 27.0,
+            "end": 35.0,
+            "text": " Whereas, if we talk about the example of product based companies, Microsoft is one of them, Google is one of them, Amazon is one of them."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 35.0,
+            "end": 41.0,
+            "text": " So generally, service based companies provide tech services to other tech companies or non-tech companies."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 41.0,
+            "end": 45.0,
+            "text": " Whereas, product based companies are making their own products."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 45.0,
+            "end": 49.0,
+            "text": " Like Microsoft Office or Microsoft Azure is Microsoft's product."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 49.0,
+            "end": 55.0,
+            "text": " Google's product includes Chrome, Google Maps, Google Play Store, Amazon has AWS."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 55.0,
+            "end": 59.0,
+            "text": " So in the same way, every company can have a lot of different tech products."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 59.0,
+            "end": 66.0,
+            "text": " Now generally, whenever service based companies come to hire us, they expect two things from us."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 66.0,
+            "end": 69.0,
+            "text": " One is that we should have aptitude for these companies."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 69.0,
+            "end": 72.0,
+            "text": " So we have to practice the questions of aptitude."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 72.0,
+            "end": 75.0,
+            "text": " And the second thing is that we should know basic programming."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 75.0,
+            "end": 80.0,
+            "text": " That is, a very high level of programming is not expected here."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 80.0,
+            "end": 88.0,
+            "text": " If we know basic programming, we know a few data structures and algorithms, then we can generally solve maximum questions on the basis of it."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 88.0,
+            "end": 97.0,
+            "text": " Whereas, the main focus of product based companies is on data structures and algorithms in their coding tests or interviews."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 97.0,
+            "end": 107.0,
+            "text": " So in our batch, in our course, we will be preparing the product based companies, whose packages are generally on the higher side."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 107.0,
+            "end": 114.0,
+            "text": " Definitely, if we learn data structures and algorithms with C++ and C++ according to product based companies,"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 114.0,
+            "end": 121.0,
+            "text": " then it will be very easy for us to crack the basic programming questions of service based companies."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 121.0,
+            "end": 125.0,
+            "text": " So our main focus in our batch will be on product based companies."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 125.0,
+            "end": 133.0,
+            "text": " And according to them, we will learn C++ first and then learn data structures and algorithms in C++."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 133.0,
+            "end": 135.0,
+            "text": " Now, for placement, it is not like that."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 135.0,
+            "end": 138.0,
+            "text": " We get placement only by learning C++ and DSA."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " There are many other things that we have to take care of."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 142.0,
+            "end": 148.0,
+            "text": " Like how to maintain a good LinkedIn profile, how to build a good resume for ourselves."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 148.0,
+            "end": 152.0,
+            "text": " Because whenever we apply for a company, we have to send our resume first."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 152.0,
+            "end": 157.0,
+            "text": " So how to make a resume, how to make an ATS compliant resume, those things are also important."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 157.0,
+            "end": 162.0,
+            "text": " Along with this, what kind of projects do we add to our resume?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 162.0,
+            "end": 167.0,
+            "text": " It is not necessary that if we are learning DSA in C++, then we should also make our projects in C++."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 167.0,
+            "end": 173.0,
+            "text": " Generally, maximum students create their projects in web development, app development or machine learning."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 173.0,
+            "end": 177.0,
+            "text": " So we have to go and build those projects separately."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 177.0,
+            "end": 184.0,
+            "text": " So we will also discuss about what kind of projects are there that you can go and build in your own time to add them in your resume."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 184.0,
+            "end": 188.0,
+            "text": " Apart from this, what are the platforms for off-campus that we should use?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 188.0,
+            "end": 191.0,
+            "text": " What is the process of off-campus internships and placements?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 191.0,
+            "end": 194.0,
+            "text": " What exactly is the meaning of off-campus?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 194.0,
+            "end": 201.0,
+            "text": " In brief, off-campus means that we are going to the companies and submitting our application for a job or internship."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 201.0,
+            "end": 204.0,
+            "text": " Apart from this, how can we do interview preparation?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 204.0,
+            "end": 209.0,
+            "text": " Or we have some theory subjects in the interviews that are asked questions."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 209.0,
+            "end": 213.0,
+            "text": " Like how do databases work or how does an operating system work?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 213.0,
+            "end": 219.0,
+            "text": " These are some theory subjects of computer science, which are sometimes asked questions."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 219.0,
+            "end": 222.0,
+            "text": " So where can we read their notes?"
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 222.0,
+            "end": 228.0,
+            "text": " All these important things are related to our mentorship sessions."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 228.0,
+            "end": 234.0,
+            "text": " That is, how to make a LinkedIn profile, how to make a resume, how to apply in off-campus."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 234.0,
+            "end": 241.0,
+            "text": " These important aspects of placement and internship are related to our mentorship sessions in our batch."
+        },
+        {
+            "number": "",
+            "title": "Placements & Internships",
+            "start": 241.0,
+            "end": 246.0,
+            "text": " And all the things of C++ and DSA, we will cover in our lectures."
+        }
+    ]
+}

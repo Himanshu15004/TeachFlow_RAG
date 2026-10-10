@@ -1,0 +1,1443 @@
+{
+    "file": "Print N Natural Numbers.mp3",
+    "title": "Print N Natural Numbers",
+    "number": "",
+    "text": " next we are going to ask a question that is to print first n natural numbers natural rushes start with 1 for example in any question we are given n is equal to 4 n is basically our input if n is equal to 4 is input then i have to print 1,2,3,4 if n is equal to 6 is input then i have to print 1,2,3,4,5,6 so in this way from 1 to n we have to print all natural numbers input is given n and output is sequence so when sequence is printed we see a loop loop means something which is repeating we are going to read loops in detail in a whole chapter but if we see connecting arrows which are rotating and making circles then this thing is called loop in programming so how will the flowchart look like? first we will start if we wanted we could have taken input n and if we wanted we could have taken any other variable i which we initialized from 1 so in any i we took value 1 so this is a flowchart in which this could have come on second number and this could have come on second number now what we are going to do we know that we have to start counting from 1 so let's suppose we took a variable count whose value we started from 1 then we will print the value of count after that we will increase the value of count to 2 then we will see if this 2 is bigger than 3 it is not bigger than 3, it is less than 3 or equal to 3 so now we will print 2 then we will increase the value of count from 1 so it will become 3 i.e count value will increase to 2 and then count value will increase to 3 I am trying to explain you the logic then we will check if the count is smaller than 3 or equal to 3 yes, it is smaller than 3 and is equal to 3 now we will print the value of count after that we will increase the value of count to 1 now we will check if count is smaller than 3 or equal to 3 if it is smaller than 3 then it is not equal to 3 now we will exit here as soon as our count increases from n, we will exit and before that keep increasing the count and keep printing it so we will get to know that from 1 to n all the numbers are printed for us so we have to do this kind of logical thing because count becomes a big variable, so we have called count as i in this whole question what are we calling i? we are calling i count which we are going to print eventually so we have done a simple thing we have started with i and we have taken input n now let's see the arrow, arrow is going downwards so what we will do is we will check whether the value of i is less than or equal to n basically we are checking whether the value of my count is less than or equal to n means count will have 1, 2, 3, 4 and if n value is 5 or 5 will also come, so for all of them it will give yes, it will give true if it gives yes, then we will go here and print our i as soon as we print i, now we have to increase i since 1 is printed, now i has to be 2 from 1 so we will make i equal to i plus 1 i is equal to i plus 1 means that if value of i was 1 earlier so now what will happen? now value of i will be 1 plus 1 means equal to 2 and value of i is 2 next time i is equal to i plus 1 so this value will be 2 plus 1 means equal to 3 so like this value of i will increase one by one so i is equal to i plus 1 if it comes back, then we will reach here with this arrow and check again and we will keep checking it again and again and as soon as i increases, we will exit now let's dry run this whole flowchart dry run means basically solving for a value so let's solve it for n is equal to 4 let's suppose we are going to get n4 so let's start from here it started, initialized i with 1 after that took input n value of n came to me equal to 4 after that we will check whether i is less than or equal to n 1 is less than or equal to 4 we are checking whether 1 is less than or equal to 4 yes, it will give me yes if it gives me yes, then i have to print i so i was printed, what is the value of i now? value of i is equal to 1 so i printed 1 here let's print it separately here after printing, we will increase i by 1 so now value of i increased and became equal to 2 as soon as i became equal to 2 we will come back and check whether i is less than or equal to n is 2 less than or equal to 4? we can also write here, is 2 less than or equal to 4? it will also give me yes it will give me yes so we came here, we will print i again what is the value of i now? it is 2 so we will print 2 and again we will increase i by 1 i increased, so this time value of i became equal to 3 value of i became 3 we will check again whether i is less than or equal to n means is 3 less than or equal to 4? it will also give me yes as soon as it gives yes, we will print i value of i is still 3, we printed 3 then we increased i by 1 after increasing i by 1, it became 4 then we will check again whether 4 is less than or equal to 4? it will also give me yes as soon as it gives yes, we will print i printing i means printing 4 we printed 4 and increased i by 1 so after increasing i by 1, value of i became equal to 5 as soon as value of i became equal to 5 we will check again whether 5 is less than or equal to 4? 5 less than or equal to 4? there is no such thing in math so it will give me no finally, we will check here whether 5 is less than or equal to 4? it will give me no as soon as it gives no, we will exit and till then what we would have printed? we would have printed all the numbers from 1 to 4 so logically, our flowchart will work like this so whenever there is a task which we have to repeat again and again means this is a condition, we have to repeat it again and again we have to increase i and repeat it again increase and repeat like this task, if we have to repeat it again and again for that we use loops in flowchart now how will we convert this flowchart into a pseudocode? let's try to write the pseudocode for this flowchart for pseudocode, our first step will be that we can initialize i with 1 in second step, we are taking input n in third step, our loop is starting basically so whenever loop starts in flowchart for that, in pseudocode we write something called while while in english means till when so basically we are trying to say that till the time our condition is true till then we have to do some work till the time i value is less than or equal to n we have to do two things, which two things? we have to print i and i is equal to i plus 1 we have to keep increasing it from 1 till the time this condition is giving yes till then keep doing these two things as soon as this condition gives no, then we have to do this so till the time we write while and then we write our condition then we write our condition and then after space we write our work so as in decision if else was there, similarly here we have while for while what we will write? we will write while till the time i value is less than or equal to n till then we have to do some work what work we have to do? we have to do two things first we have to print i this was the first thing second thing was then we have to do i plus 1 two things are done and what we did in both the things? we have to give space in both the things and as soon as this condition will end means as soon as loop will end i have written the condition of whole loop this whole pseudocode this signifies this entire block which is my loop sub block small part which represents loop so to write this i have to do the third step and what we have to do in the last? nothing as soon as this condition will end we will exit so in the last i have to exit so my pseudocode looks like this for loops in this loop part there is a new thing to learn that we write while till the time this condition is true, till then what work we have to do? when this condition will not be true then i know i have to exit so in the next step exit is written but till then what work we have to do? that is important so in this way we write our loops in the form of pseudocodes",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 0.0,
+            "end": 2.98,
+            "text": " next we are going to ask a question"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 2.98,
+            "end": 5.98,
+            "text": " that is to print first n natural numbers"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 5.98,
+            "end": 8.98,
+            "text": " natural rushes start with 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 8.98,
+            "end": 11.98,
+            "text": " for example in any question we are given n is equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 11.98,
+            "end": 14.98,
+            "text": " n is basically our input"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 14.98,
+            "end": 17.98,
+            "text": " if n is equal to 4 is input then i have to print 1,2,3,4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 17.98,
+            "end": 20.98,
+            "text": " if n is equal to 6 is input then i have to print 1,2,3,4,5,6"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 20.98,
+            "end": 23.98,
+            "text": " so in this way"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 23.98,
+            "end": 26.98,
+            "text": " from 1 to n we have to print all natural numbers"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 27.96,
+            "end": 30.96,
+            "text": " input is given n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 30.96,
+            "end": 33.96,
+            "text": " and output is sequence"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 33.96,
+            "end": 36.96,
+            "text": " so when sequence is printed"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 36.96,
+            "end": 39.96,
+            "text": " we see a loop"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 39.96,
+            "end": 42.96,
+            "text": " loop means something which is repeating"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 42.96,
+            "end": 45.96,
+            "text": " we are going to read loops in detail in a whole chapter"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 45.96,
+            "end": 48.96,
+            "text": " but if we see connecting arrows"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 48.96,
+            "end": 51.96,
+            "text": " which are rotating and making circles"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 51.96,
+            "end": 54.96,
+            "text": " then this thing is called loop in programming"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 54.96,
+            "end": 57.96,
+            "text": " so how will the flowchart look like?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 57.96,
+            "end": 60.96,
+            "text": " first we will start"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 60.96,
+            "end": 63.96,
+            "text": " if we wanted we could have taken input n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 63.96,
+            "end": 66.96000000000001,
+            "text": " and if we wanted we could have taken any other variable i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 66.96000000000001,
+            "end": 69.96000000000001,
+            "text": " which we initialized from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 69.96000000000001,
+            "end": 72.96000000000001,
+            "text": " so in any i we took value 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 72.96000000000001,
+            "end": 75.96000000000001,
+            "text": " so this is a flowchart in which this could have come on second number"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 75.96000000000001,
+            "end": 78.96000000000001,
+            "text": " and this could have come on second number"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 78.96000000000001,
+            "end": 81.96000000000001,
+            "text": " now what we are going to do"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 81.96,
+            "end": 84.96,
+            "text": " we know that we have to start counting from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 84.96,
+            "end": 87.96,
+            "text": " so let's suppose we took a variable count"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 87.96,
+            "end": 90.96,
+            "text": " whose value we started from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 90.96,
+            "end": 93.96,
+            "text": " then we will print the value of count"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 93.96,
+            "end": 96.96,
+            "text": " after that we will increase the value of count to 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 96.96,
+            "end": 99.96,
+            "text": " then we will see if this 2 is bigger than 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 99.96,
+            "end": 102.96,
+            "text": " it is not bigger than 3, it is less than 3 or equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 102.96,
+            "end": 105.96,
+            "text": " so now we will print 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 105.96,
+            "end": 108.96,
+            "text": " then we will increase the value of count from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 109.64,
+            "end": 112.64,
+            "text": " so it will become 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 112.64,
+            "end": 115.63999999999999,
+            "text": " i.e count value will increase to 2 and then count value will increase to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 115.63999999999999,
+            "end": 118.63999999999999,
+            "text": " I am trying to explain you the logic"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 118.63999999999999,
+            "end": 121.63999999999999,
+            "text": " then we will check if the count is smaller than 3 or equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 121.63999999999999,
+            "end": 124.63999999999999,
+            "text": " yes, it is smaller than 3 and is equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 124.63999999999999,
+            "end": 127.63999999999999,
+            "text": " now we will print the value of count"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 127.63999999999999,
+            "end": 130.64,
+            "text": " after that we will increase the value of count to 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 130.64,
+            "end": 133.64,
+            "text": " now we will check if count is smaller than 3 or equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 133.64,
+            "end": 136.64,
+            "text": " if it is smaller than 3 then it is not equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 136.64,
+            "end": 138.39999999999998,
+            "text": " now we will exit here"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 138.39999999999998,
+            "end": 142.64,
+            "text": " as soon as our count increases from n, we will exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 142.64,
+            "end": 146.0,
+            "text": " and before that keep increasing the count and keep printing it"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 146.0,
+            "end": 151.04,
+            "text": " so we will get to know that from 1 to n all the numbers are printed for us"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 151.04,
+            "end": 153.6,
+            "text": " so we have to do this kind of logical thing"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 153.6,
+            "end": 158.07999999999998,
+            "text": " because count becomes a big variable, so we have called count as i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 158.07999999999998,
+            "end": 159.44,
+            "text": " in this whole question"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 159.44,
+            "end": 162.23999999999998,
+            "text": " what are we calling i? we are calling i count"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 162.23999999999998,
+            "end": 164.32,
+            "text": " which we are going to print eventually"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 164.32,
+            "end": 166.39999999999998,
+            "text": " so we have done a simple thing"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 166.4,
+            "end": 171.20000000000002,
+            "text": " we have started with i and we have taken input n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 171.20000000000002,
+            "end": 174.72,
+            "text": " now let's see the arrow, arrow is going downwards"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 174.72,
+            "end": 179.84,
+            "text": " so what we will do is we will check whether the value of i is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 179.84,
+            "end": 184.0,
+            "text": " basically we are checking whether the value of my count is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 184.0,
+            "end": 189.44,
+            "text": " means count will have 1, 2, 3, 4 and if n value is 5"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 189.44,
+            "end": 191.68,
+            "text": " or 5 will also come, so for all of them"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 191.68,
+            "end": 194.08,
+            "text": " it will give yes, it will give true"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 194.16000000000003,
+            "end": 198.56,
+            "text": " if it gives yes, then we will go here and print our i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 198.56,
+            "end": 201.76000000000002,
+            "text": " as soon as we print i, now we have to increase i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 201.76000000000002,
+            "end": 204.64000000000001,
+            "text": " since 1 is printed, now i has to be 2 from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 204.64000000000001,
+            "end": 207.68,
+            "text": " so we will make i equal to i plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 207.68,
+            "end": 213.12,
+            "text": " i is equal to i plus 1 means that if value of i was 1 earlier"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 213.12,
+            "end": 216.88000000000002,
+            "text": " so now what will happen? now value of i will be 1 plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 216.88000000000002,
+            "end": 220.0,
+            "text": " means equal to 2 and value of i is 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 220.0,
+            "end": 222.48,
+            "text": " next time i is equal to i plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 222.48,
+            "end": 225.52,
+            "text": " so this value will be 2 plus 1 means equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 225.52,
+            "end": 229.28,
+            "text": " so like this value of i will increase one by one"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 229.28,
+            "end": 232.16,
+            "text": " so i is equal to i plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 232.16,
+            "end": 237.12,
+            "text": " if it comes back, then we will reach here with this arrow and check again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 237.12,
+            "end": 239.2,
+            "text": " and we will keep checking it again and again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 239.2,
+            "end": 243.04,
+            "text": " and as soon as i increases, we will exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 243.04,
+            "end": 246.72,
+            "text": " now let's dry run this whole flowchart"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 246.72,
+            "end": 251.04,
+            "text": " dry run means basically solving for a value"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 251.04,
+            "end": 253.28,
+            "text": " so let's solve it for n is equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 253.28,
+            "end": 255.76,
+            "text": " let's suppose we are going to get n4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 255.76,
+            "end": 257.2,
+            "text": " so let's start from here"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 257.2,
+            "end": 260.48,
+            "text": " it started, initialized i with 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 260.48,
+            "end": 262.48,
+            "text": " after that took input n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 262.48,
+            "end": 264.8,
+            "text": " value of n came to me equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 264.8,
+            "end": 268.96,
+            "text": " after that we will check whether i is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 268.96,
+            "end": 271.44,
+            "text": " 1 is less than or equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 271.44,
+            "end": 273.44,
+            "text": " we are checking whether 1 is less than or equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 273.44,
+            "end": 275.6,
+            "text": " yes, it will give me yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 275.6,
+            "end": 279.44,
+            "text": " if it gives me yes, then i have to print i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 279.44,
+            "end": 281.68,
+            "text": " so i was printed, what is the value of i now?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 281.68,
+            "end": 283.68,
+            "text": " value of i is equal to 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 283.68,
+            "end": 285.44,
+            "text": " so i printed 1 here"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 285.44,
+            "end": 288.0,
+            "text": " let's print it separately here"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 288.0,
+            "end": 291.12,
+            "text": " after printing, we will increase i by 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 291.12,
+            "end": 294.72,
+            "text": " so now value of i increased and became equal to 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 294.72,
+            "end": 296.40000000000003,
+            "text": " as soon as i became equal to 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 296.40000000000003,
+            "end": 299.84000000000003,
+            "text": " we will come back and check whether i is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 299.84000000000003,
+            "end": 302.08000000000004,
+            "text": " is 2 less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 302.08000000000004,
+            "end": 304.48,
+            "text": " we can also write here, is 2 less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 304.48,
+            "end": 305.92,
+            "text": " it will also give me yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 305.92,
+            "end": 307.92,
+            "text": " it will give me yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 307.92,
+            "end": 309.92,
+            "text": " so we came here, we will print i again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 309.92,
+            "end": 311.36,
+            "text": " what is the value of i now?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 311.36,
+            "end": 312.16,
+            "text": " it is 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 312.16,
+            "end": 314.16,
+            "text": " so we will print 2"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 314.16,
+            "end": 317.44,
+            "text": " and again we will increase i by 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 317.44,
+            "end": 320.96000000000004,
+            "text": " i increased, so this time value of i became equal to 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 320.96000000000004,
+            "end": 322.32,
+            "text": " value of i became 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 322.32,
+            "end": 324.96000000000004,
+            "text": " we will check again whether i is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 324.96000000000004,
+            "end": 326.96000000000004,
+            "text": " means is 3 less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 326.96000000000004,
+            "end": 328.64000000000004,
+            "text": " it will also give me yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 328.64000000000004,
+            "end": 331.20000000000005,
+            "text": " as soon as it gives yes, we will print i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 331.20000000000005,
+            "end": 333.6,
+            "text": " value of i is still 3, we printed 3"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 333.6,
+            "end": 335.28000000000003,
+            "text": " then we increased i by 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 335.28000000000003,
+            "end": 338.56,
+            "text": " after increasing i by 1, it became 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 338.56,
+            "end": 341.04,
+            "text": " then we will check again whether 4 is less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 341.04,
+            "end": 342.40000000000003,
+            "text": " it will also give me yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 342.40000000000003,
+            "end": 344.72,
+            "text": " as soon as it gives yes, we will print i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 344.72,
+            "end": 347.20000000000005,
+            "text": " printing i means printing 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 347.20000000000005,
+            "end": 350.88,
+            "text": " we printed 4 and increased i by 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 350.88,
+            "end": 354.56,
+            "text": " so after increasing i by 1, value of i became equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 354.56,
+            "end": 357.04,
+            "text": " as soon as value of i became equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 357.04,
+            "end": 359.76000000000005,
+            "text": " we will check again whether 5 is less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 359.76000000000005,
+            "end": 361.04,
+            "text": " 5 less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 361.04,
+            "end": 362.56,
+            "text": " there is no such thing in math"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 362.64,
+            "end": 364.32,
+            "text": " so it will give me no"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 364.32,
+            "end": 366.8,
+            "text": " finally, we will check here"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 366.8,
+            "end": 369.36,
+            "text": " whether 5 is less than or equal to 4?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 369.36,
+            "end": 370.56,
+            "text": " it will give me no"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 370.56,
+            "end": 373.52,
+            "text": " as soon as it gives no, we will exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 373.52,
+            "end": 375.52,
+            "text": " and till then what we would have printed?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 375.52,
+            "end": 378.56,
+            "text": " we would have printed all the numbers from 1 to 4"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 378.56,
+            "end": 381.76,
+            "text": " so logically, our flowchart will work like this"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 381.76,
+            "end": 385.76,
+            "text": " so whenever there is a task which we have to repeat again and again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 385.76,
+            "end": 388.56,
+            "text": " means this is a condition, we have to repeat it again and again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 388.56,
+            "end": 390.56,
+            "text": " we have to increase i and repeat it again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 390.56,
+            "end": 392.24,
+            "text": " increase and repeat"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 392.88,
+            "end": 396.56,
+            "text": " like this task, if we have to repeat it again and again"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 396.56,
+            "end": 399.52,
+            "text": " for that we use loops in flowchart"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 399.52,
+            "end": 403.6,
+            "text": " now how will we convert this flowchart into a pseudocode?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 403.6,
+            "end": 407.92,
+            "text": " let's try to write the pseudocode for this flowchart"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 407.92,
+            "end": 410.56,
+            "text": " for pseudocode, our first step will be"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 410.56,
+            "end": 413.84000000000003,
+            "text": " that we can initialize i with 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 413.84000000000003,
+            "end": 417.84000000000003,
+            "text": " in second step, we are taking input n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 417.84000000000003,
+            "end": 422.0,
+            "text": " in third step, our loop is starting basically"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 422.0,
+            "end": 424.64,
+            "text": " so whenever loop starts in flowchart"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 424.64,
+            "end": 426.64,
+            "text": " for that, in pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 426.64,
+            "end": 429.68,
+            "text": " we write something called while"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 431.68,
+            "end": 434.48,
+            "text": " while in english means till when"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 434.48,
+            "end": 436.48,
+            "text": " so basically we are trying to say that"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 436.48,
+            "end": 438.48,
+            "text": " till the time our condition is true"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 438.48,
+            "end": 440.48,
+            "text": " till then we have to do some work"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 440.48,
+            "end": 443.2,
+            "text": " till the time i value is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 443.2,
+            "end": 445.2,
+            "text": " we have to do two things, which two things?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 445.2,
+            "end": 447.2,
+            "text": " we have to print i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 447.2,
+            "end": 448.8,
+            "text": " and i is equal to i plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 448.8,
+            "end": 450.8,
+            "text": " we have to keep increasing it from 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 450.8,
+            "end": 452.8,
+            "text": " till the time this condition is giving yes"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 452.8,
+            "end": 454.8,
+            "text": " till then keep doing these two things"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 454.8,
+            "end": 456.8,
+            "text": " as soon as this condition gives no, then we have to do this"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 456.8,
+            "end": 458.8,
+            "text": " so till the time we write while"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 458.8,
+            "end": 460.8,
+            "text": " and then we write our condition"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 460.8,
+            "end": 462.8,
+            "text": " then we write our condition"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 462.8,
+            "end": 464.8,
+            "text": " and then after space"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 464.8,
+            "end": 466.8,
+            "text": " we write our work"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 466.8,
+            "end": 468.8,
+            "text": " so as in decision"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 468.8,
+            "end": 470.8,
+            "text": " if else was there, similarly here we have while"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 470.8,
+            "end": 472.8,
+            "text": " for while what we will write?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 472.8,
+            "end": 474.8,
+            "text": " we will write while till the time"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 474.8,
+            "end": 476.8,
+            "text": " i value is less than or equal to n"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 476.8,
+            "end": 478.8,
+            "text": " till then we have to do some work"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 478.8,
+            "end": 480.8,
+            "text": " what work we have to do?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 480.8,
+            "end": 482.8,
+            "text": " we have to do two things"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 482.8,
+            "end": 484.8,
+            "text": " first we have to print i"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 484.8,
+            "end": 486.8,
+            "text": " this was the first thing"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 486.8,
+            "end": 488.8,
+            "text": " second thing was"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 488.8,
+            "end": 490.8,
+            "text": " then we have to do i plus 1"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 490.8,
+            "end": 492.8,
+            "text": " two things are done"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 492.8,
+            "end": 494.8,
+            "text": " and what we did in both the things?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 494.8,
+            "end": 496.8,
+            "text": " we have to give space in both the things"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 496.8,
+            "end": 498.8,
+            "text": " and as soon as this condition will end"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 498.8,
+            "end": 500.8,
+            "text": " means as soon as loop will end"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 500.8,
+            "end": 502.8,
+            "text": " i have written the condition of whole loop"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 502.8,
+            "end": 504.8,
+            "text": " this whole pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 504.8,
+            "end": 506.8,
+            "text": " this signifies this entire block"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 506.8,
+            "end": 508.8,
+            "text": " which is my loop sub block"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 508.8,
+            "end": 510.8,
+            "text": " small part which represents loop"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 510.8,
+            "end": 512.8,
+            "text": " so to write this"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 512.8,
+            "end": 514.8,
+            "text": " i have to do the third step"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 514.8,
+            "end": 516.8,
+            "text": " and what we have to do in the last?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 516.8,
+            "end": 518.8,
+            "text": " nothing"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 518.8,
+            "end": 520.8,
+            "text": " as soon as this condition will end"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 520.8,
+            "end": 522.8,
+            "text": " we will exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 522.8,
+            "end": 524.8,
+            "text": " so in the last i have to exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 524.8,
+            "end": 526.8,
+            "text": " so my pseudocode looks like this for loops"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 526.8,
+            "end": 528.8,
+            "text": " in this loop part"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 528.8,
+            "end": 530.8,
+            "text": " there is a new thing to learn"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 530.8,
+            "end": 532.8,
+            "text": " that we write while till the time"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 532.8,
+            "end": 534.8,
+            "text": " this condition is true, till then what work we have to do?"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 534.8,
+            "end": 536.8,
+            "text": " when this condition will not be true"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 536.8,
+            "end": 538.8,
+            "text": " then i know i have to exit"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 538.8,
+            "end": 540.8,
+            "text": " so in the next step exit is written"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 540.8,
+            "end": 542.8,
+            "text": " but till then what work we have to do? that is important"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 542.8,
+            "end": 544.8,
+            "text": " so in this way we write our loops"
+        },
+        {
+            "number": "",
+            "title": "Print N Natural Numbers",
+            "start": 544.8,
+            "end": 546.8,
+            "text": " in the form of pseudocodes"
+        }
+    ]
+}

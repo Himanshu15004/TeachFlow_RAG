@@ -1,0 +1,799 @@
+{
+    "file": "Naming Conventions.mp3",
+    "title": "Naming Conventions",
+    "number": "",
+    "text": " Next we are going to talk about naming conventions Naming conventions basically means we are trying to name our variables Like when a child is born and we have to decide his new name then the priest gives some rules that the name should start with Ra or Sir and then we decide the name of the child Similarly, C++ also has some naming conventions It's not that we can name any variable The first rule of naming variables is that we have to name the variable That is, the name of our variable i.e. our identifier that should start with an underscore or any letter It should start with any letter of English or with an underscore So, if I am making a variable Let's suppose I have made a variable age So I can write int age is equal to 25 This is a valid name because it is starting with an English letter But if I wanted I could have written underscore age This is also a valid name But if I want to write one age This is not a valid name because it starts with a digit So this is not a valid name This cannot be a name of a variable The second rule says The name can only contain uppercase and lowercase English letters So, it means all the letters can come from capital A to capital Z All the letters from small a to small z can come from English All the digits can come from zero to nine But the digit cannot come in the beginning And underscore can come So, any other special symbols like &, at the rate dollar We cannot keep any such symbol in the name of a variable So, in the name of a variable only these are allowed characters And the third rule says It must not be a keyword Now, what is a keyword? In C++ or any programming language There are some reserved words We can call it a dictionary of our programming language In which every word has a fixed meaning Similarly, C++ has a dictionary which has 90 plus words which we call keywords And these words have a fixed meaning We cannot use them like a variable So, keywords have a special meaning for the compiler So, for the compiler, it has a special meaning You cannot change that meaning In C++, we have all these keywords We do not need to remember these keywords at all Because the most frequently used keywords will help us to write C++ code So, we will remember them slowly So, no one will ask you to write 90 keywords in the interview It will never happen I am just showing you these keywords for your reference We do not need to remember them For example, we will see some words which we have already used Like int is a keyword It is not that you will keep the name of any variable as int It does not make sense to write int int is equal to 5 This will confuse the compiler We are talking about integer twice So, int is a keyword Similarly, return of main function is also a keyword We cannot keep the name of any variable Similarly, we have many different keywords In fact, if we talk about data types we will see many data types in this list So, in our naming convention the name of our variable should not be a reserved keyword Otherwise, we will get an error Let's see an example in code For example, I have written some variable int return is equal to 5 So, in return there is a special color in VS code We have got an error Expected an identifier Return is a keyword It is not an identifier Still, we will try to run the code We will get an error Expected unqualified id Return is a keyword So, C++ has unqualified it So, we cannot use return as a valid identifier",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 0.0,
+            "end": 3.36,
+            "text": " Next we are going to talk about naming conventions"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 3.36,
+            "end": 5.36,
+            "text": " Naming conventions basically means"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 5.36,
+            "end": 8.32,
+            "text": " we are trying to name our variables"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 8.32,
+            "end": 10.32,
+            "text": " Like when a child is born"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 10.32,
+            "end": 12.32,
+            "text": " and we have to decide his new name"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 12.32,
+            "end": 14.32,
+            "text": " then the priest gives some rules"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 14.32,
+            "end": 16.32,
+            "text": " that the name should start with Ra"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 16.32,
+            "end": 18.32,
+            "text": " or Sir"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 18.32,
+            "end": 20.32,
+            "text": " and then we decide the name of the child"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 20.32,
+            "end": 22.32,
+            "text": " Similarly, C++ also has some naming conventions"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 22.32,
+            "end": 24.32,
+            "text": " It's not that we can name any variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 24.32,
+            "end": 26.32,
+            "text": " The first rule of naming variables is"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 26.32,
+            "end": 28.32,
+            "text": " that we have to name the variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 28.64,
+            "end": 30.64,
+            "text": " That is, the name of our variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 30.64,
+            "end": 32.64,
+            "text": " i.e. our identifier"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 32.64,
+            "end": 34.64,
+            "text": " that should start with an underscore"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 34.64,
+            "end": 36.64,
+            "text": " or any letter"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 36.64,
+            "end": 38.64,
+            "text": " It should start with any letter of English"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 38.64,
+            "end": 40.64,
+            "text": " or with an underscore"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 40.64,
+            "end": 42.64,
+            "text": " So, if I am making a variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 42.64,
+            "end": 44.64,
+            "text": " Let's suppose I have made a variable age"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 44.64,
+            "end": 46.64,
+            "text": " So I can write int age"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 46.64,
+            "end": 48.64,
+            "text": " is equal to 25"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 48.64,
+            "end": 50.64,
+            "text": " This is a valid name because it is starting with an English letter"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 50.64,
+            "end": 52.64,
+            "text": " But if I wanted"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 52.64,
+            "end": 54.64,
+            "text": " I could have written underscore age"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 54.64,
+            "end": 56.64,
+            "text": " This is also a valid name"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 56.96,
+            "end": 58.96,
+            "text": " But if I want to write one age"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 58.96,
+            "end": 60.96,
+            "text": " This is not a valid name"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 60.96,
+            "end": 62.96,
+            "text": " because it starts with a digit"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 62.96,
+            "end": 64.96000000000001,
+            "text": " So this is not a valid name"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 64.96000000000001,
+            "end": 66.96000000000001,
+            "text": " This cannot be a name of a variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 66.96000000000001,
+            "end": 68.96000000000001,
+            "text": " The second rule says"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 68.96000000000001,
+            "end": 70.96000000000001,
+            "text": " The name can only contain uppercase and lowercase English letters"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 70.96000000000001,
+            "end": 72.96000000000001,
+            "text": " So, it means"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 72.96000000000001,
+            "end": 74.96000000000001,
+            "text": " all the letters can come from capital A to capital Z"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 74.96000000000001,
+            "end": 76.96000000000001,
+            "text": " All the letters from small a to small z"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 76.96000000000001,
+            "end": 78.96000000000001,
+            "text": " can come from English"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 78.96000000000001,
+            "end": 80.96000000000001,
+            "text": " All the digits can come from zero to nine"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 80.96000000000001,
+            "end": 82.96000000000001,
+            "text": " But the digit cannot come in the beginning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 82.96000000000001,
+            "end": 84.96000000000001,
+            "text": " And underscore can come"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 85.27999999999999,
+            "end": 87.27999999999999,
+            "text": " So, any other special symbols"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 87.27999999999999,
+            "end": 89.28,
+            "text": " like &, at the rate"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 89.28,
+            "end": 91.28,
+            "text": " dollar"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 91.28,
+            "end": 93.28,
+            "text": " We cannot keep any such symbol in the name of a variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 93.28,
+            "end": 95.28,
+            "text": " So, in the name of a variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 95.28,
+            "end": 97.28,
+            "text": " only these are allowed characters"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 97.28,
+            "end": 99.28,
+            "text": " And the third rule says"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 99.28,
+            "end": 101.28,
+            "text": " It must not be a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 101.28,
+            "end": 103.28,
+            "text": " Now, what is a keyword?"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 103.28,
+            "end": 105.28,
+            "text": " In C++ or any programming language"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 105.28,
+            "end": 107.28,
+            "text": " There are some reserved words"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 107.28,
+            "end": 109.28,
+            "text": " We can call it a dictionary of our programming language"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 109.28,
+            "end": 111.28,
+            "text": " In which"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 111.28,
+            "end": 113.28,
+            "text": " every word has a fixed meaning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 113.6,
+            "end": 115.6,
+            "text": " Similarly, C++ has a dictionary"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 115.6,
+            "end": 117.6,
+            "text": " which has 90 plus words"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 117.6,
+            "end": 119.6,
+            "text": " which we call keywords"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 119.6,
+            "end": 121.6,
+            "text": " And these words have a fixed meaning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 121.6,
+            "end": 123.6,
+            "text": " We cannot use them like a variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 123.6,
+            "end": 125.6,
+            "text": " So, keywords have a special meaning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 125.6,
+            "end": 127.6,
+            "text": " for the compiler"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 127.6,
+            "end": 129.6,
+            "text": " So, for the compiler, it has a special meaning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 129.6,
+            "end": 131.6,
+            "text": " You cannot change that meaning"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 131.6,
+            "end": 133.6,
+            "text": " In C++, we have all these keywords"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 133.6,
+            "end": 135.6,
+            "text": " We do not need to remember"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 135.6,
+            "end": 137.6,
+            "text": " these keywords at all"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 137.6,
+            "end": 139.6,
+            "text": " Because the most frequently used keywords"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 139.6,
+            "end": 141.6,
+            "text": " will help us to write C++ code"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 141.92,
+            "end": 143.92,
+            "text": " So, we will remember them slowly"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 143.92,
+            "end": 145.92,
+            "text": " So, no one will ask you"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 145.92,
+            "end": 147.92,
+            "text": " to write 90 keywords"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 147.92,
+            "end": 149.92,
+            "text": " in the interview"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 149.92,
+            "end": 151.92,
+            "text": " It will never happen"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 151.92,
+            "end": 153.92,
+            "text": " I am just showing you these keywords for your reference"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 153.92,
+            "end": 155.92,
+            "text": " We do not need to remember them"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 155.92,
+            "end": 157.92,
+            "text": " For example, we will see some words"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 157.92,
+            "end": 159.92,
+            "text": " which we have already used"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 159.92,
+            "end": 161.92,
+            "text": " Like int is a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 161.92,
+            "end": 163.92,
+            "text": " It is not that you will keep the name of any variable as int"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 163.92,
+            "end": 165.92,
+            "text": " It does not make sense to write int"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 165.92,
+            "end": 167.92,
+            "text": " int is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 167.92,
+            "end": 169.92,
+            "text": " This will confuse the compiler"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 170.23999999999998,
+            "end": 172.23999999999998,
+            "text": " We are talking about integer twice"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 172.23999999999998,
+            "end": 174.23999999999998,
+            "text": " So, int is a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 174.23999999999998,
+            "end": 176.23999999999998,
+            "text": " Similarly, return of main function"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 176.23999999999998,
+            "end": 178.23999999999998,
+            "text": " is also a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 178.23999999999998,
+            "end": 180.23999999999998,
+            "text": " We cannot keep the name of any variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 180.23999999999998,
+            "end": 182.23999999999998,
+            "text": " Similarly, we have many different keywords"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 182.23999999999998,
+            "end": 184.23999999999998,
+            "text": " In fact, if we talk about data types"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 184.23999999999998,
+            "end": 186.23999999999998,
+            "text": " we will see many data types"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 186.23999999999998,
+            "end": 188.23999999999998,
+            "text": " in this list"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 188.23999999999998,
+            "end": 190.23999999999998,
+            "text": " So, in our naming convention"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 190.23999999999998,
+            "end": 192.23999999999998,
+            "text": " the name of our variable"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 192.23999999999998,
+            "end": 194.23999999999998,
+            "text": " should not be a reserved keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 194.23999999999998,
+            "end": 196.23999999999998,
+            "text": " Otherwise, we will get an error"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 196.23999999999998,
+            "end": 198.23999999999998,
+            "text": " Let's see an example in code"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 198.56,
+            "end": 200.56,
+            "text": " For example, I have written"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 200.56,
+            "end": 202.56,
+            "text": " some variable int return"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 202.56,
+            "end": 204.56,
+            "text": " is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 204.56,
+            "end": 206.56,
+            "text": " So, in return"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 206.56,
+            "end": 208.56,
+            "text": " there is a special color in VS code"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 208.56,
+            "end": 210.56,
+            "text": " We have got an error"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 210.56,
+            "end": 212.56,
+            "text": " Expected an identifier"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 212.56,
+            "end": 214.56,
+            "text": " Return is a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 214.56,
+            "end": 216.56,
+            "text": " It is not an identifier"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 216.56,
+            "end": 218.56,
+            "text": " Still, we will try to run the code"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 218.56,
+            "end": 220.56,
+            "text": " We will get an error"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 220.56,
+            "end": 222.56,
+            "text": " Expected unqualified id"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 222.56,
+            "end": 224.56,
+            "text": " Return is a keyword"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 224.56,
+            "end": 226.56,
+            "text": " So, C++ has unqualified it"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 226.88,
+            "end": 228.88,
+            "text": " So, we cannot use return"
+        },
+        {
+            "number": "",
+            "title": "Naming Conventions",
+            "start": 228.88,
+            "end": 230.88,
+            "text": " as a valid identifier"
+        }
+    ]
+}

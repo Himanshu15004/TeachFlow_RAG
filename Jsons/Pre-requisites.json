@@ -1,0 +1,288 @@
+{
+    "file": "Pre-requisites.mp3",
+    "title": "Pre-requisites",
+    "number": "",
+    "text": " If we talk about prerequisites, then as such, learning wise we don't have any prerequisite. That is, if we have not coded anything in any programming language till date, then there is no problem. We will be doing things from zero level to advanced level. But there are some logistic prerequisites that we should have. The first thing we should have is a laptop or a computer and a stable internet connection. Because you must be watching lectures and attending live classes, then we will need internet. Along with that, we should have a laptop or a computer on which we can write our code. Because to code, we need some software that we install on our laptop or computer. Then we can code on them. Generally, some softwares allow us to code on mobile as well. But my genuine advice would be that if we are serious about placements or internships in the tech domain, then we should definitely buy a laptop or a computer there. If our budget is low, then we don't need to buy high-end laptops or computers. You can prefer whatever fits in your budget. For example, I bought an i3 processor laptop in 2017, which is generally the least configuration laptop. And without any hassle, you can do a complete DSA on it. You can solve questions by accessing different websites. And you can do maximum things on an i3 in web development. So this is the minimum configuration that I told you according to the budget. Otherwise, you can buy a laptop of that configuration, whichever budget allows you. The second thing you should have is a notebook and a pen. Now I always advise that the best notes are those that you make yourself. Definitely, we will also give you helpful resources from which you can read and refer. But the best notes are those that we write ourselves. Because DSA is something that you will read once. But after that, if you get a job, then when you are switching to a second or third job, then also it is possible that the companies are asking you for DSA. So it would be best if we have a set of notes that we can refer. So a notebook and pen is necessary for that. Along with that, the second important reason for having a notebook and pen is that coding does not mean that we have to type things. At the end, we are typing things. But typing is not coding. Coding means logic. The logic that you can write on a paper pen, you can convert it into code. So generally, the maximum logic, maximum algorithms, maximum data structures that we will do and read, we will first solve them on a paper pen and then convert it into code. So it is very important to have logic on a paper pen to start learning coding. So in prerequisites, these two things are what we should have. After that, as soon as we get a laptop computer, there are two things on it that we have to install.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 0.0,
+            "end": 4.8,
+            "text": " If we talk about prerequisites, then as such, learning wise we don't have any prerequisite."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 4.8,
+            "end": 10.72,
+            "text": " That is, if we have not coded anything in any programming language till date, then there is no problem."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 10.72,
+            "end": 14.08,
+            "text": " We will be doing things from zero level to advanced level."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 14.08,
+            "end": 17.2,
+            "text": " But there are some logistic prerequisites that we should have."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 17.2,
+            "end": 23.84,
+            "text": " The first thing we should have is a laptop or a computer and a stable internet connection."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 23.84,
+            "end": 28.64,
+            "text": " Because you must be watching lectures and attending live classes, then we will need internet."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 28.72,
+            "end": 32.56,
+            "text": " Along with that, we should have a laptop or a computer on which we can write our code."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 32.56,
+            "end": 39.2,
+            "text": " Because to code, we need some software that we install on our laptop or computer."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 39.2,
+            "end": 41.2,
+            "text": " Then we can code on them."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 41.2,
+            "end": 44.8,
+            "text": " Generally, some softwares allow us to code on mobile as well."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 44.8,
+            "end": 50.16,
+            "text": " But my genuine advice would be that if we are serious about placements or internships in the tech domain,"
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 50.16,
+            "end": 54.08,
+            "text": " then we should definitely buy a laptop or a computer there."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 54.16,
+            "end": 59.04,
+            "text": " If our budget is low, then we don't need to buy high-end laptops or computers."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 59.04,
+            "end": 63.44,
+            "text": " You can prefer whatever fits in your budget."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 63.44,
+            "end": 74.72,
+            "text": " For example, I bought an i3 processor laptop in 2017, which is generally the least configuration laptop."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 74.72,
+            "end": 78.4,
+            "text": " And without any hassle, you can do a complete DSA on it."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 78.4,
+            "end": 82.08,
+            "text": " You can solve questions by accessing different websites."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 82.16,
+            "end": 85.92,
+            "text": " And you can do maximum things on an i3 in web development."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 85.92,
+            "end": 89.44,
+            "text": " So this is the minimum configuration that I told you according to the budget."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 89.44,
+            "end": 93.44,
+            "text": " Otherwise, you can buy a laptop of that configuration, whichever budget allows you."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 93.44,
+            "end": 96.96,
+            "text": " The second thing you should have is a notebook and a pen."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 96.96,
+            "end": 101.68,
+            "text": " Now I always advise that the best notes are those that you make yourself."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 101.68,
+            "end": 106.48,
+            "text": " Definitely, we will also give you helpful resources from which you can read and refer."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 106.48,
+            "end": 110.4,
+            "text": " But the best notes are those that we write ourselves."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 110.48,
+            "end": 113.44000000000001,
+            "text": " Because DSA is something that you will read once."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 113.44000000000001,
+            "end": 118.48,
+            "text": " But after that, if you get a job, then when you are switching to a second or third job,"
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 118.48,
+            "end": 120.96000000000001,
+            "text": " then also it is possible that the companies are asking you for DSA."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 120.96000000000001,
+            "end": 125.2,
+            "text": " So it would be best if we have a set of notes that we can refer."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 125.2,
+            "end": 127.2,
+            "text": " So a notebook and pen is necessary for that."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 127.2,
+            "end": 131.04000000000002,
+            "text": " Along with that, the second important reason for having a notebook and pen is that"
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 131.04000000000002,
+            "end": 133.68,
+            "text": " coding does not mean that we have to type things."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 133.68,
+            "end": 135.92000000000002,
+            "text": " At the end, we are typing things."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 135.92000000000002,
+            "end": 137.6,
+            "text": " But typing is not coding."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 137.6,
+            "end": 139.6,
+            "text": " Coding means logic."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 139.76,
+            "end": 144.0,
+            "text": " The logic that you can write on a paper pen, you can convert it into code."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 144.0,
+            "end": 150.32,
+            "text": " So generally, the maximum logic, maximum algorithms, maximum data structures that we will do and read,"
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 150.32,
+            "end": 155.28,
+            "text": " we will first solve them on a paper pen and then convert it into code."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 155.28,
+            "end": 159.28,
+            "text": " So it is very important to have logic on a paper pen to start learning coding."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 159.28,
+            "end": 162.79999999999998,
+            "text": " So in prerequisites, these two things are what we should have."
+        },
+        {
+            "number": "",
+            "title": "Pre-requisites",
+            "start": 162.79999999999998,
+            "end": 167.6,
+            "text": " After that, as soon as we get a laptop computer, there are two things on it that we have to install."
+        }
+    ]
+}

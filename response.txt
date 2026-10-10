@@ -1,0 +1,11 @@
+Video No: 1
+Time Range: 64.0 : 69.0
+Explanation: The video teaches what flowcharts are and how they will be practiced in the chapter, along with pseudocode.
+
+ Video No: 2
+Time Range: 52.0 : 58.0
+Explanation: This part also touches upon flowcharts by mentioning that they are among the logical building blocks of coding to be learned in this chapter.
+ 
+Video No: 1
+Time Range: 54.96 : 57.96
+Explanation: And then, later in Video 1, how a specific example - "Print N Natural Numbers" - would be approached with flowcharts and pseudocode.

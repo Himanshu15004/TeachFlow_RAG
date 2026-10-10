@@ -1,0 +1,134 @@
+{
+    "file": "For Mac Users - Setting up C++.mp3",
+    "title": "For Mac Users - Setting up C++",
+    "number": "",
+    "text": " Hi everyone, in this part we will learn how to setup C++ on our Mac system. For that we will have to search for our terminal in our computer. As soon as we search for terminal, this window opens for us in our Mac system. In this window, we can write commands for ourselves. If our system already has C++ setup, then we will run a command and test it. We will have to write clang //version. As soon as this command is run and our system prints, no developer tools were found. This means that C++ is not setup in our system. To setup it, we will run this command, xcode-select-install. As soon as we run this command, our installation will start. We will see this install tools window. We will click on install and then we can agree by scrolling our agreement. And our installation will start. Now, we may have to wait for the installation. But as soon as the installation is complete, we will run this command again. This time, it will be printed in our output. Command line tools are already installed. This means that we have C++ setup and now we can run C++ code on our Mac system.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 0.0,
+            "end": 6.0,
+            "text": " Hi everyone, in this part we will learn how to setup C++ on our Mac system."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 6.0,
+            "end": 10.4,
+            "text": " For that we will have to search for our terminal in our computer."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 10.4,
+            "end": 15.0,
+            "text": " As soon as we search for terminal, this window opens for us in our Mac system."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 15.0,
+            "end": 18.0,
+            "text": " In this window, we can write commands for ourselves."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 18.0,
+            "end": 23.400000000000002,
+            "text": " If our system already has C++ setup, then we will run a command and test it."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 23.400000000000002,
+            "end": 26.8,
+            "text": " We will have to write clang //version."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 26.8,
+            "end": 31.8,
+            "text": " As soon as this command is run and our system prints, no developer tools were found."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 31.8,
+            "end": 34.8,
+            "text": " This means that C++ is not setup in our system."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 34.8,
+            "end": 42.6,
+            "text": " To setup it, we will run this command, xcode-select-install."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 42.6,
+            "end": 46.2,
+            "text": " As soon as we run this command, our installation will start."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 46.2,
+            "end": 48.0,
+            "text": " We will see this install tools window."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 48.0,
+            "end": 54.0,
+            "text": " We will click on install and then we can agree by scrolling our agreement."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 54.0,
+            "end": 55.8,
+            "text": " And our installation will start."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 55.8,
+            "end": 58.599999999999994,
+            "text": " Now, we may have to wait for the installation."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 58.599999999999994,
+            "end": 62.599999999999994,
+            "text": " But as soon as the installation is complete, we will run this command again."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 62.599999999999994,
+            "end": 64.8,
+            "text": " This time, it will be printed in our output."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 64.8,
+            "end": 67.39999999999999,
+            "text": " Command line tools are already installed."
+        },
+        {
+            "number": "",
+            "title": "For Mac Users - Setting up C++",
+            "start": 67.39999999999999,
+            "end": 73.6,
+            "text": " This means that we have C++ setup and now we can run C++ code on our Mac system."
+        }
+    ]
+}

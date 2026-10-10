@@ -1,0 +1,687 @@
+{
+    "file": "Message from the Teacher.mp3",
+    "title": "Message from the Teacher",
+    "number": "",
+    "text": " Hi everyone, my name is Shraddha Khapra and I will be your teacher for the batch. You can find me on LinkedIn or on YouTube. I am an ex-Microsoft software engineer. I have also interned in Microsoft as a software engineer. I was also a machine learning intern at DRDO. And I was also an invitee for the Google SPS program for my batch. I have been teaching coding to students for almost 4 years now. And there are a lot of my students who are currently working at good product based companies. Be it a man company, a startup or a mid-sized company. So in this course, we will be studying C++ and DSA in detail. So whenever we talk about studying DSA, I see it as a 3 step process. The first important process is to learn the language. That is, we should have a strong command on C++ language. In which generally it takes us 10-15 days. So in the 7 chapters of our starting, we will be deep diving and focusing on C++ as a language. After that, the second step is to learn data structures and algorithms. So in the remaining batch time, we will be studying different algorithms and data structures of DSA. And the third step, which is the most crucial step, is to practice, practice and practice. So that is why, with every chapter, we will be solving our practice questions in the class or in the lecture. Along with every chapter, we will have assignment questions to practice more questions. So that the more we practice, the more our logic will become strong in programming. Now in this journey, there is one more thing that we have to make our best friend. Many times as a programmer or as a human being, we are very scared of errors and problems in life. And we don't like problems. But as a software engineer, problems, errors, exceptions are our best friends. Because whenever you have a problem or an error in the code, that is your opportunity to learn a lot. Because problems and errors are our best friends in software engineering and they teach us a lot. As a software engineer or as a programmer, our job is to solve problems. So the more problems we face, the more we will solve them. And the more we will become a better software engineer and a better coder. So whenever there are problems, errors, exceptions, don't worry about them. The solution to everything is available on the internet. The best thing we can do is to simply search for any error or problem on Google search. And generally, the top results we get are from a website called Stack Overflow. On which we will get the solutions to 95-99% of our problems. Because before us, there are already millions of people who have studied programming. So our maximum problems will be such that someone has already faced. So we will have the solution for it. So those solutions are readily available on the internet. So we can use them. Otherwise, we will have a doubt community in which we will have access to it. So that we can ask our problems there. But in programming, this mindset should always be made from the beginning. That I have to become a good problem solver, only then I will be able to become a good software engineer. For that, errors and problems are my best friends. And as a good programmer, I should definitely know how to solve my own problems. Along with this, I see coding as a journey that we generally understand backwards. That is, like we start exercising in the beginning. So we don't feel much for the first 2-4 days. We start feeling like this after 1 month, 2 months, 3 months. Okay, our exercising is actually bringing some results. So it is the same with coding and programming. We will not feel anything different on the first day that we have learned a lot of logic today. But yes, definitely after 1 month, 15 days, 2 months. You will feel a big change in your logical thinking process. So coding is something that we have to do consistently, every day. But we will not feel that change every day. We will feel that change by looking backwards. That is, a month ago, my logic has become so strong. After a month, my logic has become stronger. Now in the third month, my logic has become very strong. So in this way, we have to see programming as a journey. Which is a journey of many months, learning from the day. In which we will be practicing a lot of things. We will be learning new things, we will be implementing them. So in this journey of programming, two things are most important. The first is self-belief. Whatever our college is, whatever our branch is, whatever degree we are coming from. Never think that programming is something that only a few people can do. Which is only made for geniuses. Programmers, software engineers, who are still sitting in the top companies. They are students like us, who started at a small level. And then with consistent steps, they will get better with time. So you can definitely do it, irrespective of your background. We always have to keep this self-belief in us. It is not necessary to become a good programmer or to crack a good company. It is necessary to have our IIT from Bombay. Or it is necessary to have a born genius. Programming is a skill that anyone can learn by putting in time and effort. And the second thing that we should have is discipline. We have to sit daily with consistency and complete the lectures. We have to complete the assignment questions. We have to practice and revise as much as possible. We have to try to make our own notes. If we stay consistent in this journey, then discipline will automatically become ours. And the more disciplined you are, the more we will have a good grip on programming. It is not important to sit for 8 hours or 12 hours to code. It is important to sit and code for 2 hours, 3 hours or 4 hours daily. So that the logic building process in our mind is consistently formed. So in the next 4 months, we are going to learn a lot of things. So we have to tackle this journey with self-belief and discipline. And our entire effort will be to provide you all the resources and guidance. Which is probably available to a top student of a tier 1 college's computer science branch. So you will not feel a shortage of guidance, mentorship and resources from our side. You just have to keep your hard work and efforts 100%. So let's start with our programming journey.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 0.0,
+            "end": 3.2,
+            "text": " Hi everyone, my name is Shraddha Khapra and I will be your teacher for the batch."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 3.2,
+            "end": 5.2,
+            "text": " You can find me on LinkedIn or on YouTube."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 5.2,
+            "end": 7.9,
+            "text": " I am an ex-Microsoft software engineer."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 7.9,
+            "end": 12.8,
+            "text": " I have also interned in Microsoft as a software engineer."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 12.8,
+            "end": 15.8,
+            "text": " I was also a machine learning intern at DRDO."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 15.8,
+            "end": 19.8,
+            "text": " And I was also an invitee for the Google SPS program for my batch."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 19.8,
+            "end": 23.0,
+            "text": " I have been teaching coding to students for almost 4 years now."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 23.0,
+            "end": 28.0,
+            "text": " And there are a lot of my students who are currently working at good product based companies."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 28.0,
+            "end": 33.4,
+            "text": " Be it a man company, a startup or a mid-sized company."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 33.4,
+            "end": 37.6,
+            "text": " So in this course, we will be studying C++ and DSA in detail."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 37.6,
+            "end": 42.0,
+            "text": " So whenever we talk about studying DSA, I see it as a 3 step process."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 42.0,
+            "end": 45.2,
+            "text": " The first important process is to learn the language."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 45.2,
+            "end": 48.400000000000006,
+            "text": " That is, we should have a strong command on C++ language."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 48.400000000000006,
+            "end": 50.8,
+            "text": " In which generally it takes us 10-15 days."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 50.8,
+            "end": 57.8,
+            "text": " So in the 7 chapters of our starting, we will be deep diving and focusing on C++ as a language."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 57.8,
+            "end": 61.8,
+            "text": " After that, the second step is to learn data structures and algorithms."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 61.8,
+            "end": 69.8,
+            "text": " So in the remaining batch time, we will be studying different algorithms and data structures of DSA."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 69.8,
+            "end": 74.8,
+            "text": " And the third step, which is the most crucial step, is to practice, practice and practice."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 74.8,
+            "end": 81.8,
+            "text": " So that is why, with every chapter, we will be solving our practice questions in the class or in the lecture."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 81.8,
+            "end": 86.8,
+            "text": " Along with every chapter, we will have assignment questions to practice more questions."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 86.8,
+            "end": 91.8,
+            "text": " So that the more we practice, the more our logic will become strong in programming."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 91.8,
+            "end": 96.8,
+            "text": " Now in this journey, there is one more thing that we have to make our best friend."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 96.8,
+            "end": 102.8,
+            "text": " Many times as a programmer or as a human being, we are very scared of errors and problems in life."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 102.8,
+            "end": 104.8,
+            "text": " And we don't like problems."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 104.8,
+            "end": 109.8,
+            "text": " But as a software engineer, problems, errors, exceptions are our best friends."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 109.8,
+            "end": 114.8,
+            "text": " Because whenever you have a problem or an error in the code,"
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 114.8,
+            "end": 116.8,
+            "text": " that is your opportunity to learn a lot."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 116.8,
+            "end": 122.8,
+            "text": " Because problems and errors are our best friends in software engineering and they teach us a lot."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 122.8,
+            "end": 127.8,
+            "text": " As a software engineer or as a programmer, our job is to solve problems."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 127.8,
+            "end": 131.8,
+            "text": " So the more problems we face, the more we will solve them."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 131.8,
+            "end": 136.8,
+            "text": " And the more we will become a better software engineer and a better coder."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 136.8,
+            "end": 142.8,
+            "text": " So whenever there are problems, errors, exceptions, don't worry about them."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 142.8,
+            "end": 145.8,
+            "text": " The solution to everything is available on the internet."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 145.8,
+            "end": 151.8,
+            "text": " The best thing we can do is to simply search for any error or problem on Google search."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 151.8,
+            "end": 156.8,
+            "text": " And generally, the top results we get are from a website called Stack Overflow."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 156.8,
+            "end": 160.8,
+            "text": " On which we will get the solutions to 95-99% of our problems."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 160.8,
+            "end": 164.8,
+            "text": " Because before us, there are already millions of people who have studied programming."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 164.8,
+            "end": 167.8,
+            "text": " So our maximum problems will be such that someone has already faced."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 167.8,
+            "end": 169.8,
+            "text": " So we will have the solution for it."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 169.8,
+            "end": 172.8,
+            "text": " So those solutions are readily available on the internet."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 172.8,
+            "end": 174.8,
+            "text": " So we can use them."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 174.8,
+            "end": 178.8,
+            "text": " Otherwise, we will have a doubt community in which we will have access to it."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 178.8,
+            "end": 180.8,
+            "text": " So that we can ask our problems there."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 180.8,
+            "end": 184.8,
+            "text": " But in programming, this mindset should always be made from the beginning."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 184.8,
+            "end": 188.8,
+            "text": " That I have to become a good problem solver, only then I will be able to become a good software engineer."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 188.8,
+            "end": 191.8,
+            "text": " For that, errors and problems are my best friends."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 191.8,
+            "end": 195.8,
+            "text": " And as a good programmer, I should definitely know how to solve my own problems."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 196.8,
+            "end": 201.8,
+            "text": " Along with this, I see coding as a journey that we generally understand backwards."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 201.8,
+            "end": 205.8,
+            "text": " That is, like we start exercising in the beginning."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 205.8,
+            "end": 208.8,
+            "text": " So we don't feel much for the first 2-4 days."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 208.8,
+            "end": 212.8,
+            "text": " We start feeling like this after 1 month, 2 months, 3 months."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 212.8,
+            "end": 215.8,
+            "text": " Okay, our exercising is actually bringing some results."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 215.8,
+            "end": 218.8,
+            "text": " So it is the same with coding and programming."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 218.8,
+            "end": 222.8,
+            "text": " We will not feel anything different on the first day that we have learned a lot of logic today."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 222.8,
+            "end": 226.8,
+            "text": " But yes, definitely after 1 month, 15 days, 2 months."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 226.8,
+            "end": 230.8,
+            "text": " You will feel a big change in your logical thinking process."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 230.8,
+            "end": 235.8,
+            "text": " So coding is something that we have to do consistently, every day."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 235.8,
+            "end": 237.8,
+            "text": " But we will not feel that change every day."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 237.8,
+            "end": 241.8,
+            "text": " We will feel that change by looking backwards."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 241.8,
+            "end": 244.8,
+            "text": " That is, a month ago, my logic has become so strong."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 244.8,
+            "end": 247.8,
+            "text": " After a month, my logic has become stronger."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 247.8,
+            "end": 250.8,
+            "text": " Now in the third month, my logic has become very strong."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 250.8,
+            "end": 253.8,
+            "text": " So in this way, we have to see programming as a journey."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 253.8,
+            "end": 256.8,
+            "text": " Which is a journey of many months, learning from the day."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 256.8,
+            "end": 259.8,
+            "text": " In which we will be practicing a lot of things."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 259.8,
+            "end": 262.8,
+            "text": " We will be learning new things, we will be implementing them."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 262.8,
+            "end": 265.8,
+            "text": " So in this journey of programming, two things are most important."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 265.8,
+            "end": 267.8,
+            "text": " The first is self-belief."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 267.8,
+            "end": 271.8,
+            "text": " Whatever our college is, whatever our branch is, whatever degree we are coming from."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 271.8,
+            "end": 275.8,
+            "text": " Never think that programming is something that only a few people can do."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 275.8,
+            "end": 277.8,
+            "text": " Which is only made for geniuses."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 277.8,
+            "end": 281.8,
+            "text": " Programmers, software engineers, who are still sitting in the top companies."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 281.8,
+            "end": 285.8,
+            "text": " They are students like us, who started at a small level."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 285.8,
+            "end": 289.8,
+            "text": " And then with consistent steps, they will get better with time."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 289.8,
+            "end": 294.8,
+            "text": " So you can definitely do it, irrespective of your background."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 294.8,
+            "end": 297.8,
+            "text": " We always have to keep this self-belief in us."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 297.8,
+            "end": 301.8,
+            "text": " It is not necessary to become a good programmer or to crack a good company."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 301.8,
+            "end": 303.8,
+            "text": " It is necessary to have our IIT from Bombay."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 303.8,
+            "end": 306.8,
+            "text": " Or it is necessary to have a born genius."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 306.8,
+            "end": 310.8,
+            "text": " Programming is a skill that anyone can learn by putting in time and effort."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 310.8,
+            "end": 313.8,
+            "text": " And the second thing that we should have is discipline."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 313.8,
+            "end": 317.8,
+            "text": " We have to sit daily with consistency and complete the lectures."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 317.8,
+            "end": 319.8,
+            "text": " We have to complete the assignment questions."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 319.8,
+            "end": 322.8,
+            "text": " We have to practice and revise as much as possible."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 322.8,
+            "end": 324.8,
+            "text": " We have to try to make our own notes."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 324.8,
+            "end": 328.8,
+            "text": " If we stay consistent in this journey, then discipline will automatically become ours."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 328.8,
+            "end": 333.8,
+            "text": " And the more disciplined you are, the more we will have a good grip on programming."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 333.8,
+            "end": 338.8,
+            "text": " It is not important to sit for 8 hours or 12 hours to code."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 338.8,
+            "end": 343.8,
+            "text": " It is important to sit and code for 2 hours, 3 hours or 4 hours daily."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 343.8,
+            "end": 348.8,
+            "text": " So that the logic building process in our mind is consistently formed."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 348.8,
+            "end": 352.8,
+            "text": " So in the next 4 months, we are going to learn a lot of things."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 352.8,
+            "end": 356.8,
+            "text": " So we have to tackle this journey with self-belief and discipline."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 356.8,
+            "end": 363.8,
+            "text": " And our entire effort will be to provide you all the resources and guidance."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 363.8,
+            "end": 368.8,
+            "text": " Which is probably available to a top student of a tier 1 college's computer science branch."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 368.8,
+            "end": 374.8,
+            "text": " So you will not feel a shortage of guidance, mentorship and resources from our side."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 374.8,
+            "end": 378.8,
+            "text": " You just have to keep your hard work and efforts 100%."
+        },
+        {
+            "number": "",
+            "title": "Message from the Teacher",
+            "start": 378.8,
+            "end": 381.8,
+            "text": " So let's start with our programming journey."
+        }
+    ]
+}

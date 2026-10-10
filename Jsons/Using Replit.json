@@ -1,0 +1,351 @@
+{
+    "file": "Using Replit.mp3",
+    "title": "Using Replit",
+    "number": "",
+    "text": " To use replit, we can go to this website replit.com Here we have to simply click on login After clicking on login, we can sign up for ourselves and we can set up an account for ourselves where we can sign up with any of our gmail accounts Once our replit account is created, our homepage will look like this Now if we want to write C++ code on replit and execute it then for that we have to go to this create repl We will click on this and in our favorites we can choose C++ So we will click on C++ If we can't see the option of CPP, then we can also search for C++ and then we can give any title for ourselves Let's give our title I am going to give it a title of Apna College Basically we are giving this title for our folder So I am giving my folder the name Apna College and I am going to create this repl So now we are in Apna College and automatically replit will create a file named main.cpp for us .cpp is showing that this file is C++ and where is this file? This file is here and this basic C++ code is also open for us I am going to delete all of this code and I am going to show you my sample code in this We are going to start with hash include We are going to start with hash include Iostream using namespace std int main cout apna college return 0 Now this basic code, what does it mean? We will not talk about it now, we will learn it in detail But I have written a general C++ code which is very basic and its function is to print Apna College on the screen So to run this code I can simply click on this run button Code will run and Apna College will be printed on the screen We can also see how much time it took to execute that code But while learning DSA, our major work will be to write code and at the end of the code, something or the other will be printed on the screen So in this way, whatever code we are writing on our laptop in Visual Studio Code All that code can be written on replit without installing anything But once again, this is just a temporary solution As a professional programmer, our priority should be to download Visual Studio Code and practice all our DAC on it But temporarily, we can also write our code on replit and run it",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 0.0,
+            "end": 4.2,
+            "text": " To use replit, we can go to this website replit.com"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 4.2,
+            "end": 7.0,
+            "text": " Here we have to simply click on login"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 7.0,
+            "end": 10.6,
+            "text": " After clicking on login, we can sign up for ourselves"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 10.6,
+            "end": 12.700000000000001,
+            "text": " and we can set up an account for ourselves"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 12.700000000000001,
+            "end": 15.6,
+            "text": " where we can sign up with any of our gmail accounts"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 15.6,
+            "end": 20.400000000000002,
+            "text": " Once our replit account is created, our homepage will look like this"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 20.400000000000002,
+            "end": 24.1,
+            "text": " Now if we want to write C++ code on replit and execute it"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 24.1,
+            "end": 26.7,
+            "text": " then for that we have to go to this create repl"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 26.9,
+            "end": 30.799999999999997,
+            "text": " We will click on this and in our favorites we can choose C++"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 30.799999999999997,
+            "end": 32.6,
+            "text": " So we will click on C++"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 32.6,
+            "end": 36.2,
+            "text": " If we can't see the option of CPP, then we can also search for C++"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 36.2,
+            "end": 39.2,
+            "text": " and then we can give any title for ourselves"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 39.2,
+            "end": 41.2,
+            "text": " Let's give our title"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 41.2,
+            "end": 44.0,
+            "text": " I am going to give it a title of Apna College"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 44.0,
+            "end": 47.0,
+            "text": " Basically we are giving this title for our folder"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 47.0,
+            "end": 49.4,
+            "text": " So I am giving my folder the name Apna College"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 49.4,
+            "end": 51.7,
+            "text": " and I am going to create this repl"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 52.7,
+            "end": 55.2,
+            "text": " So now we are in Apna College"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 55.2,
+            "end": 60.0,
+            "text": " and automatically replit will create a file named main.cpp for us"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 60.0,
+            "end": 64.0,
+            "text": " .cpp is showing that this file is C++"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 64.0,
+            "end": 65.0,
+            "text": " and where is this file?"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 65.0,
+            "end": 69.2,
+            "text": " This file is here and this basic C++ code is also open for us"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 69.2,
+            "end": 72.0,
+            "text": " I am going to delete all of this code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 72.0,
+            "end": 75.80000000000001,
+            "text": " and I am going to show you my sample code in this"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 75.80000000000001,
+            "end": 78.2,
+            "text": " We are going to start with hash include"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 78.7,
+            "end": 81.2,
+            "text": " We are going to start with hash include"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 81.2,
+            "end": 83.2,
+            "text": " Iostream"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 85.7,
+            "end": 89.2,
+            "text": " using namespace std"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 89.2,
+            "end": 91.2,
+            "text": " int main"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 91.2,
+            "end": 93.2,
+            "text": " cout"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 94.7,
+            "end": 97.2,
+            "text": " apna college"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 99.2,
+            "end": 101.2,
+            "text": " return 0"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 101.2,
+            "end": 104.2,
+            "text": " Now this basic code, what does it mean?"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 104.2,
+            "end": 107.2,
+            "text": " We will not talk about it now, we will learn it in detail"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 107.2,
+            "end": 110.2,
+            "text": " But I have written a general C++ code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 110.2,
+            "end": 114.2,
+            "text": " which is very basic and its function is to print Apna College on the screen"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 114.2,
+            "end": 116.2,
+            "text": " So to run this code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 116.2,
+            "end": 119.2,
+            "text": " I can simply click on this run button"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 119.2,
+            "end": 123.2,
+            "text": " Code will run and Apna College will be printed on the screen"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 123.2,
+            "end": 127.2,
+            "text": " We can also see how much time it took to execute that code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 127.2,
+            "end": 130.2,
+            "text": " But while learning DSA, our major work will be to write code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 130.2,
+            "end": 134.2,
+            "text": " and at the end of the code, something or the other will be printed on the screen"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 134.2,
+            "end": 137.2,
+            "text": " So in this way, whatever code we are writing on our laptop"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 137.2,
+            "end": 139.2,
+            "text": " in Visual Studio Code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 139.2,
+            "end": 143.2,
+            "text": " All that code can be written on replit without installing anything"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 143.2,
+            "end": 146.2,
+            "text": " But once again, this is just a temporary solution"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 146.2,
+            "end": 150.2,
+            "text": " As a professional programmer, our priority should be to download Visual Studio Code"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 150.2,
+            "end": 153.2,
+            "text": " and practice all our DAC on it"
+        },
+        {
+            "number": "",
+            "title": "Using Replit",
+            "start": 153.2,
+            "end": 158.2,
+            "text": " But temporarily, we can also write our code on replit and run it"
+        }
+    ]
+}

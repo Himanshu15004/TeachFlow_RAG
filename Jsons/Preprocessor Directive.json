@@ -1,0 +1,1177 @@
+{
+    "file": "Preprocessor Directive.mp3",
+    "title": "Preprocessor Directive",
+    "number": "",
+    "text": " Now next we will talk about 3 important topics that what is preprocessor directive in our code what is namespace and what is int main Now all the beginner students who have never read C, C++ before or this is your first programming language for them my advice is that you have to watch these 3 topics twice first time you have to watch this topic now and second time when the whole chapter is completed you have to watch this topic again because if you are learning any programming language for the first time even if it is C++ if we read these topics for the first time then we will understand these topics 50% but once we complete the first chapter and then we will read again then our understanding will increase to 100% but those students who have already read C, C++ or they have a basic idea of C++ then hopefully they will understand 100% in the first time but all the beginner students don't get scared after seeing these topics for the first time don't think that why I didn't understand the whole topic you will understand the whole topic but after completing the first chapter you will understand the whole topic but yes, watch it twice even if you are understanding only 50% in the first time so first of all let's talk about our preprocessor directive we have already talked that our first line hash include iostream this is called preprocessor directive preprocessor directive is a very strange word it is a very difficult word but let's break it into two parts first is what is a directive directive is basically a statement directive is a statement which is giving some instruction to our compiler it is telling something so directive can also tell that already there was a file you can include that directive can also tell that there is a symbol, you can change the meaning of that so directive can be any instruction and second term is preprocessor preprocessor is basically a special type of directive which is giving some instruction to the compiler which has to be done before the compilation so in simple words preprocessor directive means that our code is giving some instruction to the compiler which has to be completed before the compilation so here what instruction is preprocessor directive trying to give here preprocessor directive is telling our compiler to include hash include means join or bring the file so this file is called Iostream Iostream is a header file in C++ header file is nothing it is a C++ file in which someone else has written some other code we will read it in detail later but to show the output in C++ we use cout and to take input we use cin both are objects but someone must have made this object in C++ someone must have written their code first so that code is written in this file called Iostream so if I want to use cout and cin in my code then I have to include this Iostream file and to include it I have to write a preprocessor directive preprocessor directive is nothing I have given a command to my compiler that because I want to use cout and cin then you bring this file in which their code is written so all our preprocessor directives all start with this hash symbol so wherever you see hash most probably there is some preprocessor directive which is being used in C++ infact I have written a definition here header files include pre-written code that is required to execute our program for example here the Iostream we are using is a header file later when we will learn data structures and algorithms then we will use many header files like vectors so for vectors we use vector header file other than that there are stack and queues so their header files are created separately so these are all header files which we will start including in our code as we move forward in our chapters so preprocessor directive has a very important role that we can include other people's written code in our code other than that preprocessor directive has another important role that we can create macros in our code if you have already studied C++ then you already know about macros but if you don't know then there is nothing to worry macros are basically symbolic constants symbolic constants means that I have written hash define so preprocessor directive will start with hash and define means I am defining something like word meaning so here I have written basically that pi this word pi its value in code wherever I write pi there it should be 3.14 in math we have pi value of pi is 3.14 so similarly whenever I write pi word replace it with 3.14 so this thing this constant I have made pi a constant and this is symbolic constant and this in C++ we call it macros so now we are not defining any macros in our code but if ever we have to define macros then we can remember that macros are also preprocessor directives infact I will show you a basic code here I have hash defined pi I have given value to pi 3.14 so my pi is defined now if I try to cout pi pi so what will I have printed? lets save it and execute it so I have printed on screen 3.14 means pi pi is not printed 3.14 is printed so what does macro do? however many times in our code pi is used every time instead of pi pi is removed and 3.14 value is inserted so this way our macros and preprocessor directives work",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 0.0,
+            "end": 2.96,
+            "text": " Now next we will talk about 3 important topics"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 2.96,
+            "end": 5.96,
+            "text": " that what is preprocessor directive in our code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 5.96,
+            "end": 10.02,
+            "text": " what is namespace and what is int main"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 10.02,
+            "end": 12.02,
+            "text": " Now all the beginner students"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 12.02,
+            "end": 15.02,
+            "text": " who have never read C, C++ before"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 15.02,
+            "end": 17.42,
+            "text": " or this is your first programming language"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 17.42,
+            "end": 21.42,
+            "text": " for them my advice is that you have to watch these 3 topics twice"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 21.42,
+            "end": 24.02,
+            "text": " first time you have to watch this topic now"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 24.02,
+            "end": 26.82,
+            "text": " and second time when the whole chapter is completed"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 26.82,
+            "end": 29.42,
+            "text": " you have to watch this topic again"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 29.44,
+            "end": 32.440000000000005,
+            "text": " because if you are learning any programming language for the first time"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 32.440000000000005,
+            "end": 34.440000000000005,
+            "text": " even if it is C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 34.440000000000005,
+            "end": 36.440000000000005,
+            "text": " if we read these topics for the first time"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 36.440000000000005,
+            "end": 38.44,
+            "text": " then we will understand these topics 50%"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 38.44,
+            "end": 40.44,
+            "text": " but once we complete the first chapter"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 40.44,
+            "end": 42.44,
+            "text": " and then we will read again"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 42.44,
+            "end": 46.44,
+            "text": " then our understanding will increase to 100%"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 46.44,
+            "end": 48.44,
+            "text": " but those students who have already read C, C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 48.44,
+            "end": 51.44,
+            "text": " or they have a basic idea of C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 51.44,
+            "end": 54.44,
+            "text": " then hopefully they will understand 100% in the first time"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 54.44,
+            "end": 56.44,
+            "text": " but all the beginner students"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 56.44,
+            "end": 58.44,
+            "text": " don't get scared after seeing these topics for the first time"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 58.46,
+            "end": 60.46,
+            "text": " don't think that why I didn't understand the whole topic"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 60.46,
+            "end": 62.46,
+            "text": " you will understand the whole topic"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 62.46,
+            "end": 64.46,
+            "text": " but after completing the first chapter"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 64.46,
+            "end": 66.46,
+            "text": " you will understand the whole topic"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 66.46,
+            "end": 68.46,
+            "text": " but yes, watch it twice"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 68.46,
+            "end": 70.46,
+            "text": " even if you are understanding only 50% in the first time"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 70.46,
+            "end": 72.46,
+            "text": " so first of all let's talk about our preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 72.46,
+            "end": 74.46,
+            "text": " we have already talked"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 74.46,
+            "end": 76.46,
+            "text": " that our first line"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 76.46,
+            "end": 78.46,
+            "text": " hash include iostream"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 78.46,
+            "end": 80.46,
+            "text": " this is called preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 80.46,
+            "end": 82.46,
+            "text": " preprocessor directive is a very strange word"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 82.46,
+            "end": 84.46,
+            "text": " it is a very difficult word"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 84.46,
+            "end": 86.46,
+            "text": " but let's break it into two parts"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 86.47999999999999,
+            "end": 88.47999999999999,
+            "text": " first is what is a directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 88.47999999999999,
+            "end": 90.47999999999999,
+            "text": " directive is basically a statement"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 90.47999999999999,
+            "end": 92.47999999999999,
+            "text": " directive is a statement"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 92.47999999999999,
+            "end": 94.47999999999999,
+            "text": " which is giving some instruction to our compiler"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 94.47999999999999,
+            "end": 96.47999999999999,
+            "text": " it is telling something"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 96.47999999999999,
+            "end": 98.47999999999999,
+            "text": " so directive can also tell"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 98.47999999999999,
+            "end": 100.47999999999999,
+            "text": " that already there was a file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 100.47999999999999,
+            "end": 102.47999999999999,
+            "text": " you can include that"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 102.47999999999999,
+            "end": 104.47999999999999,
+            "text": " directive can also tell"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 104.47999999999999,
+            "end": 106.47999999999999,
+            "text": " that there is a symbol, you can change the meaning of that"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 106.47999999999999,
+            "end": 108.47999999999999,
+            "text": " so directive can be any instruction"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 108.47999999999999,
+            "end": 110.47999999999999,
+            "text": " and second term is preprocessor"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 110.47999999999999,
+            "end": 112.47999999999999,
+            "text": " preprocessor is basically"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 112.47999999999999,
+            "end": 114.47999999999999,
+            "text": " a special type of directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 114.5,
+            "end": 116.5,
+            "text": " which is giving some instruction"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 116.5,
+            "end": 118.5,
+            "text": " to the compiler"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 118.5,
+            "end": 120.5,
+            "text": " which has to be done before the compilation"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 120.5,
+            "end": 122.5,
+            "text": " so in simple words"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 122.5,
+            "end": 124.5,
+            "text": " preprocessor directive means"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 124.5,
+            "end": 126.5,
+            "text": " that our code is giving some instruction"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 126.5,
+            "end": 128.5,
+            "text": " to the compiler"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 128.5,
+            "end": 130.5,
+            "text": " which has to be completed before the compilation"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 130.5,
+            "end": 132.5,
+            "text": " so here what instruction is preprocessor directive trying to give"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 132.5,
+            "end": 134.5,
+            "text": " here preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 134.5,
+            "end": 136.5,
+            "text": " is telling our compiler"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 136.5,
+            "end": 138.5,
+            "text": " to include hash"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 138.5,
+            "end": 140.5,
+            "text": " include means join"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 140.5,
+            "end": 142.5,
+            "text": " or bring the file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 142.52,
+            "end": 144.52,
+            "text": " so this file is called Iostream"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 144.52,
+            "end": 146.52,
+            "text": " Iostream is a header file in C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 146.52,
+            "end": 148.52,
+            "text": " header file is nothing"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 148.52,
+            "end": 150.52,
+            "text": " it is a C++ file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 150.52,
+            "end": 152.52,
+            "text": " in which someone else has written some other code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 152.52,
+            "end": 154.52,
+            "text": " we will read it in detail later"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 154.52,
+            "end": 156.52,
+            "text": " but to show the output in C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 156.52,
+            "end": 158.52,
+            "text": " we use cout"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 158.52,
+            "end": 160.52,
+            "text": " and to take input we use cin"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 160.52,
+            "end": 162.52,
+            "text": " both are objects"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 162.52,
+            "end": 164.52,
+            "text": " but someone must have made this object in C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 164.52,
+            "end": 166.52,
+            "text": " someone must have written their code first"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 166.52,
+            "end": 168.52,
+            "text": " so that code is written in"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 168.52,
+            "end": 170.52,
+            "text": " this file called Iostream"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 170.54000000000002,
+            "end": 172.54000000000002,
+            "text": " so if I want to use cout and cin"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 172.54000000000002,
+            "end": 174.54000000000002,
+            "text": " in my code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 174.54000000000002,
+            "end": 176.54000000000002,
+            "text": " then I have to include this Iostream file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 176.54000000000002,
+            "end": 178.54000000000002,
+            "text": " and to include it"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 178.54000000000002,
+            "end": 180.54000000000002,
+            "text": " I have to write a preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 180.54000000000002,
+            "end": 182.54000000000002,
+            "text": " preprocessor directive is nothing"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 182.54000000000002,
+            "end": 184.54000000000002,
+            "text": " I have given a command to my compiler"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 184.54000000000002,
+            "end": 186.54000000000002,
+            "text": " that because I want to use cout and cin"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 186.54000000000002,
+            "end": 188.54000000000002,
+            "text": " then you bring this file in which their code is written"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 188.54000000000002,
+            "end": 190.54000000000002,
+            "text": " so all our preprocessor"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 190.54000000000002,
+            "end": 192.54000000000002,
+            "text": " directives all start"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 192.54000000000002,
+            "end": 194.54000000000002,
+            "text": " with this hash symbol"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 194.54000000000002,
+            "end": 196.54000000000002,
+            "text": " so wherever you see hash"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 196.54000000000002,
+            "end": 198.54000000000002,
+            "text": " most probably there is some preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 198.56,
+            "end": 200.56,
+            "text": " which is being used in C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 200.56,
+            "end": 202.56,
+            "text": " infact I have written a definition here"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 202.56,
+            "end": 204.56,
+            "text": " header files include pre-written code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 204.56,
+            "end": 206.56,
+            "text": " that is required to execute our program"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 206.56,
+            "end": 208.56,
+            "text": " for example here the Iostream"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 208.56,
+            "end": 210.56,
+            "text": " we are using is a header file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 210.56,
+            "end": 212.56,
+            "text": " later when we will learn data structures and algorithms"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 212.56,
+            "end": 214.56,
+            "text": " then we will use many header files"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 214.56,
+            "end": 216.56,
+            "text": " like vectors"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 216.56,
+            "end": 218.56,
+            "text": " so for vectors we use vector header file"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 218.56,
+            "end": 220.56,
+            "text": " other than that there are stack"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 220.56,
+            "end": 222.56,
+            "text": " and queues so their header files are"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 222.56,
+            "end": 224.56,
+            "text": " created separately"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 224.56,
+            "end": 226.56,
+            "text": " so these are all header files which we will"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 226.58,
+            "end": 228.58,
+            "text": " start including in our code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 228.58,
+            "end": 230.58,
+            "text": " as we move forward in our chapters"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 230.58,
+            "end": 232.58,
+            "text": " so preprocessor directive"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 232.58,
+            "end": 234.58,
+            "text": " has a very important role"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 234.58,
+            "end": 236.58,
+            "text": " that we can include other people's"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 236.58,
+            "end": 238.58,
+            "text": " written code in our code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 238.58,
+            "end": 240.58,
+            "text": " other than that"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 240.58,
+            "end": 242.58,
+            "text": " preprocessor directive has another important"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 242.58,
+            "end": 244.58,
+            "text": " role that we can create"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 244.58,
+            "end": 246.58,
+            "text": " macros in our code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 246.58,
+            "end": 248.58,
+            "text": " if you have already studied C++ then you already"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 248.58,
+            "end": 250.58,
+            "text": " know about macros but if you don't know"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 250.58,
+            "end": 252.58,
+            "text": " then there is nothing to worry"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 252.58,
+            "end": 254.58,
+            "text": " macros are basically symbolic"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 254.60000000000002,
+            "end": 256.6,
+            "text": " constants"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 256.6,
+            "end": 258.6,
+            "text": " symbolic constants means"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 258.6,
+            "end": 260.6,
+            "text": " that I have written"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 260.6,
+            "end": 262.6,
+            "text": " hash define"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 262.6,
+            "end": 264.6,
+            "text": " so preprocessor directive will start with hash"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 264.6,
+            "end": 266.6,
+            "text": " and define means I am defining"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 266.6,
+            "end": 268.6,
+            "text": " something like word meaning"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 268.6,
+            "end": 270.6,
+            "text": " so here I have written"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 270.6,
+            "end": 272.6,
+            "text": " basically that pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 272.6,
+            "end": 274.6,
+            "text": " this word pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 274.6,
+            "end": 276.6,
+            "text": " its value in code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 276.6,
+            "end": 278.6,
+            "text": " wherever I write pi there it should be 3.14"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 278.6,
+            "end": 280.6,
+            "text": " in math we have pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 280.6,
+            "end": 282.6,
+            "text": " value of pi is 3.14"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 282.62,
+            "end": 284.62,
+            "text": " so similarly"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 284.62,
+            "end": 286.62,
+            "text": " whenever I write pi word"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 286.62,
+            "end": 288.62,
+            "text": " replace it with 3.14"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 288.62,
+            "end": 290.62,
+            "text": " so this thing"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 290.62,
+            "end": 292.62,
+            "text": " this constant"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 292.62,
+            "end": 294.62,
+            "text": " I have made pi a constant and this is symbolic"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 294.62,
+            "end": 296.62,
+            "text": " constant and this in C++"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 296.62,
+            "end": 298.62,
+            "text": " we call it macros"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 298.62,
+            "end": 300.62,
+            "text": " so now we are not defining any macros"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 300.62,
+            "end": 302.62,
+            "text": " in our code but if ever"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 302.62,
+            "end": 304.62,
+            "text": " we have to define macros"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 304.62,
+            "end": 306.62,
+            "text": " then we can remember that macros"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 306.62,
+            "end": 308.62,
+            "text": " are also preprocessor directives"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 308.62,
+            "end": 310.62,
+            "text": " infact I will show you a basic code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 310.64,
+            "end": 312.64,
+            "text": " here I have"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 312.64,
+            "end": 314.64,
+            "text": " hash defined pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 314.64,
+            "end": 316.64,
+            "text": " I have given value to pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 316.64,
+            "end": 318.64,
+            "text": " 3.14 so my pi is defined"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 318.64,
+            "end": 320.64,
+            "text": " now if I try to"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 320.64,
+            "end": 322.64,
+            "text": " cout pi pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 322.64,
+            "end": 324.64,
+            "text": " so what will I have"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 324.64,
+            "end": 326.64,
+            "text": " printed? lets save it"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 326.64,
+            "end": 328.64,
+            "text": " and execute it"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 328.64,
+            "end": 330.64,
+            "text": " so I have printed on screen"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 330.64,
+            "end": 332.64,
+            "text": " 3.14 means"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 332.64,
+            "end": 334.64,
+            "text": " pi pi is not printed 3.14"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 334.64,
+            "end": 336.64,
+            "text": " is printed so what does macro do?"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 336.64,
+            "end": 338.64,
+            "text": " however many times in our code"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 338.65999999999997,
+            "end": 340.65999999999997,
+            "text": " pi is used"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 340.65999999999997,
+            "end": 342.65999999999997,
+            "text": " every time instead of pi"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 342.65999999999997,
+            "end": 344.65999999999997,
+            "text": " pi is removed and 3.14 value"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 344.65999999999997,
+            "end": 346.65999999999997,
+            "text": " is inserted so this way our"
+        },
+        {
+            "number": "",
+            "title": "Preprocessor Directive",
+            "start": 346.65999999999997,
+            "end": 348.65999999999997,
+            "text": " macros and preprocessor directives work"
+        }
+    ]
+}

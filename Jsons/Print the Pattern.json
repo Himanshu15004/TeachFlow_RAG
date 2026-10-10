@@ -1,0 +1,281 @@
+{
+    "file": "Print the Pattern.mp3",
+    "title": "Print the Pattern",
+    "number": "",
+    "text": " Next, we are going to do a simple activity in which we will print our output using Cout So, we can see 4 stars in this output which means 4 asterisks There is no space between these asterisks First, our first star will be printed, then second star, third star and fourth star So, we have to print 4 stars on the first line, 3 on the second line, 2 on the third line and 1 single star on the fourth line So, we have to print this using Cout If you have understood Cout properly, you can pause the video and try to solve it on your own or if you want to solve it with me, then let's start the solution So, basically, I can print this entire pattern using a single statement Let's clear this Single statement means that here First, I have written 4 stars After that, I want the next 3 stars to come in the next line So, we can insert the next line here After that, 3 stars, then next line, then 2 stars, then next line and finally a single star and at the end, we are giving the next line character If we write this much line and compile this code once and run it then we will get the same pattern printed So, we have got the pattern printed as it is So, we can do this with a single Cout statement and if we want, we can use multiple Cout statements For example, here I want to use one more Cout statement in which we are printing this much part This is going to be my third line in which this much part will come and this is going to be the final last line Let's save this as well and let's try to Ok See, if we miss a statement terminator or make any mistake then we will have the same kind of errors which our compiler will generate So, let's save it and we will compile it again dot slash a dot out So, this way our output will be printed",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 0.0,
+            "end": 4.88,
+            "text": " Next, we are going to do a simple activity in which we will print our output using Cout"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 4.88,
+            "end": 8.08,
+            "text": " So, we can see 4 stars in this output"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 8.08,
+            "end": 10.08,
+            "text": " which means 4 asterisks"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 10.08,
+            "end": 12.64,
+            "text": " There is no space between these asterisks"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 12.64,
+            "end": 17.68,
+            "text": " First, our first star will be printed, then second star, third star and fourth star"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 17.68,
+            "end": 24.16,
+            "text": " So, we have to print 4 stars on the first line, 3 on the second line, 2 on the third line and 1 single star on the fourth line"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 24.16,
+            "end": 26.72,
+            "text": " So, we have to print this using Cout"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 26.959999999999997,
+            "end": 32.8,
+            "text": " If you have understood Cout properly, you can pause the video and try to solve it on your own"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 32.8,
+            "end": 36.08,
+            "text": " or if you want to solve it with me, then let's start the solution"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 36.08,
+            "end": 42.08,
+            "text": " So, basically, I can print this entire pattern using a single statement"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 42.08,
+            "end": 44.08,
+            "text": " Let's clear this"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 44.08,
+            "end": 46.08,
+            "text": " Single statement means"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 46.08,
+            "end": 48.08,
+            "text": " that here"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 48.08,
+            "end": 50.879999999999995,
+            "text": " First, I have written 4 stars"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 50.879999999999995,
+            "end": 54.32,
+            "text": " After that, I want the next 3 stars to come in the next line"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 54.32,
+            "end": 56.32,
+            "text": " So, we can insert the next line here"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 56.4,
+            "end": 62.08,
+            "text": " After that, 3 stars, then next line, then 2 stars, then next line and finally a single star"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 62.08,
+            "end": 64.08,
+            "text": " and at the end, we are giving the next line character"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 64.08,
+            "end": 66.08,
+            "text": " If we write this much line"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 66.08,
+            "end": 70.32,
+            "text": " and compile this code once and run it"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 70.32,
+            "end": 73.36,
+            "text": " then we will get the same pattern printed"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 73.36,
+            "end": 75.76,
+            "text": " So, we have got the pattern printed as it is"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 75.76,
+            "end": 78.4,
+            "text": " So, we can do this with a single Cout statement"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 78.4,
+            "end": 80.96000000000001,
+            "text": " and if we want, we can use multiple Cout statements"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 80.96000000000001,
+            "end": 84.96000000000001,
+            "text": " For example, here I want to use one more Cout statement"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 86.72,
+            "end": 89.03999999999999,
+            "text": " in which we are printing this much part"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 89.03999999999999,
+            "end": 91.75999999999999,
+            "text": " This is going to be my third line"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 91.75999999999999,
+            "end": 94.55999999999999,
+            "text": " in which this much part will come"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 94.55999999999999,
+            "end": 98.96,
+            "text": " and this is going to be the final last line"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 98.96,
+            "end": 102.08,
+            "text": " Let's save this as well"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 102.08,
+            "end": 104.08,
+            "text": " and let's try to"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 104.08,
+            "end": 106.56,
+            "text": " Ok"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 106.56,
+            "end": 109.75999999999999,
+            "text": " See, if we miss a statement terminator or make any mistake"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 109.75999999999999,
+            "end": 112.16,
+            "text": " then we will have the same kind of errors"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 112.16,
+            "end": 114.16,
+            "text": " which our compiler will generate"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 114.16,
+            "end": 115.35999999999999,
+            "text": " So, let's save it"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 115.6,
+            "end": 119.2,
+            "text": " and we will compile it again"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 121.2,
+            "end": 124.0,
+            "text": " dot slash a dot out"
+        },
+        {
+            "number": "",
+            "title": "Print the Pattern",
+            "start": 124.0,
+            "end": 127.2,
+            "text": " So, this way our output will be printed"
+        }
+    ]
+}

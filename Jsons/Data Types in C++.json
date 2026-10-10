@@ -1,0 +1,2549 @@
+{
+    "file": "Data Types in C++.mp3",
+    "title": "Data Types in C++",
+    "number": "",
+    "text": " Next we will study about data types Data types are also very important Whenever we have to define a variable in C++ we have to tell its type that variable is going to store an integer value or floating value point something something decimal type values or it is going to store a character or true false like boolean value So what type of variable will it store? That is defined by data types Programming languages are of different types Some programming languages are such that we don't have to tell the type of variable like Python or JavaScript we don't have to tell the type of variable in these languages But C++, Java these are the languages where we have to tell the type of variable Whenever we talk about data types that is what type of data is it we have two specific types One is primitive types which we call simple types and one is non-primitive types which are in the complex types category or these are also user defined types like strings and arrays Now non-primitive types we will study later when we will cover the basics of programming in C++ after that we will study non-primitive types Now our main focus for the next coming few chapters will be on primitive types which are our simple types Now in primitive types the most used primitive types are there are few more types like void but we will study that in the functions chapter but most frequently whenever we have to define a variable of primitive type it will be of one of these types Now we will cover these types one by one First type is our integer type In integer type we can store negative integer value, positive integer value anything and for this we use the keyword like if I want to make any variable of integer type for example I want to make a variable int age so I can make it like this age is equal to 25 or I can write int marks is equal to 200 like this I have made my integer type variables If I wanted I could have made my values negative or I could have made value 0 Now integer type which takes size in memory that is equal to 4 bytes Now what is the meaning of byte in programming one byte is equal to 8 bits means in one byte there are 8 bits so 4 bytes means my integer size is equal to 32 bits and bit means 0 or 1 so if I keep 32 empty spaces and in every empty space either 0 or 1 will come so like this there can be many combinations so many different integers can be stored in my int data type so 32 bits means 1 bit means 0 or 1 so from there all data types size comes so we can remember this or it's a very general and simple thing that our integer is 32 bits means 4 bytes we can verify this how to verify if we want to print any data type size so I can print cout size of int is equal to and here we have a function we call it sizeof function so inside sizeof we can write int and then we can print what is the size of our integer let's open our terminal compile and run so we have print size of int is equal to 4 this is actually equal to 4 bytes second data type we have that is character in characters we can store single values means single character like if I want to store simple a, I want to store capital B or if I want to store a symbol like at the rate or dollar so we can store any symbol in character type and to store our characters we use single quote we don't use double quote we use single quote like I can create any character for example I can write char let's suppose I want to store grades of school and our grade is equal to a so like this we can make a variable of char data type grade in which I have stored value single a and like we have printed size of integer we can print size of character so size of char is equal to this value let's clear compile and run so this time size of char is equal to 1 byte means our character has only 8 bits in it like this 8 bits means this is combination of 8 zeros and ones which can store all our possible characters next next data type we will talk about that is our boolean data type we represent boolean with bool in boolean data type variables we store true or false values like for example our age is equal to 25 so are we an adult answer will be yes so we can make a variable we can call it bool is adult let me clear the screen and here also we give a space so I have written bool adult is equal to true so what is this I have made a boolean type variable and in the same way if we want we can print size of bool size of bool is equal to this value let's execute and run so size of bool is also 1 byte with this one more interesting thing if we want we can print our variables also if I want I can print age after age I tried to print with a space our marks and after this also with a space we try to print our grade and with a space we try to print our boolean variable is adult and here also we give an end of the line let's save it and run it so what we have printed we have this value here first we had to print age so we have age 25 then we had to print marks we have marks of magnitude 200 then we had to print grade but in this adult I have made true store so I have 1 print and if we would have made false store then we would have 0 print so whenever we have boolean variable in boolean variables the true value whenever we use true it amounts to the number 1 and false amounts to the number 0 whenever we have boolean variable in memory so in this way 8 spaces are reserved for us if there is 1 in last then it means true and when we print it will be 1 or if we have 0 in last then it means false return means value that is equal to false so these are the 3 different types apart from that our 4th type of variable is floating point floating point means if we have to store something like 99.99 with decimal values then we can use float float occupies 4 bytes of space in memory like if I want to create float variable in fact we remove these values and we remove this also so here we will write float let's suppose we want to store CGP CGP is equal to 8.9 so here size of float we will print it together so we have created floating variable by using float and we will print the size of float size of float is equal to 4 bytes next we have double floating point which we name double so in float there is a limit that till which limit with which precision precision means after point how many total numbers you can print or store in memory but it is possible that the number we want to store is a very big number so for those cases we use big data type which is double what does float do? float has only 4 bytes space it is actually similar to saying that one flat has 2 rooms and second flat has 4 rooms so in this flat there are 4 rooms and above that there is another flat which has 8 rooms so in 8 rooms if there is more space then more people can stay similarly 8 bytes space is more so more data can be stored in it so if we want we can make our CGPA or some other variable double we can store in it let's suppose the price of any item is 99.99 so in this way we can use double data type to store our floating point values now in float and double if we want to understand a difference clearly so to understand this difference we will take an example let's suppose I create 2 variables one is float variable and other is double variable in one I will store my pi value and in other also I will store my pi value I want to say this as pi2 now pi value will be 3.14265359 and by copying this same value we store it in our double now float precision is 7 numbers so float will print correct value till 7 and double precision is almost double which is 15 numbers so if float can store till 7 means 1,2,3,4,5,6,7 so what will double do double will be able to store till 15 numbers now I am going to print both this is going to be my pi1 let's say it as pi we will store pi value in it and next we will cout our pi2 this is going to be pi2 now our cout default precision means after point means after decimal how many numbers it can print that is 5 means it can print 5 numbers after decimal so if I run my code or run simply so basically my pi and pi2 values will be same so in this case float and double I am not able to see any difference but if I increase my precision means if I increase the digits after decimal how can we use that for that I have to include an extra header file which is called IOMANIP and in IOMANIP there is a function which is called set precision with this we can increase cout precision so here we will set precision let's suppose to 10 or 12 so by default cout precision is 5 we have increased it to 12 so now we can print up to 12 digits now if we save and run this same code so this time what happened pi2 as it is our entire value is printed because there was space in memory so entire value was saved but in pi1 value is a little bit wrong means value is not printed properly some initial decimal is correct means 141592 is correct and after that values are kind of approximation or incorrect value is printed so basically in float there was only this much space so according to that space numbers were saved but in double there was double space so it saved all the numbers with correct precision so difference between float and double we don't see it on small values whenever we are dealing with big data which has more decimal points then we can understand the difference between both so generally because we are on initial stages now we are on beginner stages so we don't need to take so much care as it was a little advanced thing but yes difference between both we should know that one's size is small and one's size is big so more data can be stored",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 0.0,
+            "end": 2.72,
+            "text": " Next we will study about data types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 2.72,
+            "end": 5.36,
+            "text": " Data types are also very important"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 5.36,
+            "end": 8.56,
+            "text": " Whenever we have to define a variable in C++"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 8.56,
+            "end": 11.200000000000001,
+            "text": " we have to tell its type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 11.200000000000001,
+            "end": 14.48,
+            "text": " that variable is going to store an integer value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 14.48,
+            "end": 16.48,
+            "text": " or floating value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 16.48,
+            "end": 18.080000000000002,
+            "text": " point something something"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 18.080000000000002,
+            "end": 21.6,
+            "text": " decimal type values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 21.6,
+            "end": 23.6,
+            "text": " or it is going to store a character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 23.6,
+            "end": 26.560000000000002,
+            "text": " or true false like boolean value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 26.639999999999997,
+            "end": 28.64,
+            "text": " So what type of variable will it store?"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 28.64,
+            "end": 30.64,
+            "text": " That is defined by data types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 30.64,
+            "end": 33.44,
+            "text": " Programming languages are of different types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 33.44,
+            "end": 35.44,
+            "text": " Some programming languages are such that"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 35.44,
+            "end": 37.44,
+            "text": " we don't have to tell the type of variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 37.44,
+            "end": 39.44,
+            "text": " like Python or JavaScript"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 39.44,
+            "end": 42.32,
+            "text": " we don't have to tell the type of variable in these languages"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 42.32,
+            "end": 44.32,
+            "text": " But C++, Java"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 44.32,
+            "end": 48.08,
+            "text": " these are the languages where we have to tell the type of variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 48.08,
+            "end": 50.08,
+            "text": " Whenever we talk about data types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 50.08,
+            "end": 52.08,
+            "text": " that is what type of data is it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 52.08,
+            "end": 54.08,
+            "text": " we have two specific types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 54.08,
+            "end": 56.08,
+            "text": " One is primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 56.08,
+            "end": 58.08,
+            "text": " which we call simple types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 58.08,
+            "end": 60.08,
+            "text": " and one is non-primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 60.08,
+            "end": 62.08,
+            "text": " which are in the complex types category"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 62.08,
+            "end": 64.08,
+            "text": " or these are also user defined types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 64.08,
+            "end": 66.08,
+            "text": " like strings and arrays"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 66.08,
+            "end": 68.08,
+            "text": " Now non-primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 68.08,
+            "end": 70.08,
+            "text": " we will study later"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 70.08,
+            "end": 72.08,
+            "text": " when we will cover the basics of programming in C++"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 72.08,
+            "end": 74.08,
+            "text": " after that we will study non-primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 74.08,
+            "end": 76.08,
+            "text": " Now our main focus"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 76.08,
+            "end": 78.08,
+            "text": " for the next coming few chapters"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 78.08,
+            "end": 80.08,
+            "text": " will be on primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 80.08,
+            "end": 82.08,
+            "text": " which are our simple types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 82.08,
+            "end": 84.08,
+            "text": " Now in primitive types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 84.08,
+            "end": 86.08,
+            "text": " the most used primitive types are"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 86.08,
+            "end": 88.08,
+            "text": " there are few more types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 88.08,
+            "end": 90.08,
+            "text": " like void"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 90.08,
+            "end": 92.08,
+            "text": " but we will study that in the functions chapter"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 92.08,
+            "end": 94.08,
+            "text": " but most frequently whenever we have to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 94.08,
+            "end": 96.08,
+            "text": " define a variable of primitive type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 96.08,
+            "end": 98.08,
+            "text": " it will be of one of these types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 98.08,
+            "end": 100.08,
+            "text": " Now we will cover these types one by one"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 100.08,
+            "end": 102.08,
+            "text": " First type is"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 102.08,
+            "end": 104.08,
+            "text": " our integer type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 104.08,
+            "end": 106.08,
+            "text": " In integer type we can store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 106.08,
+            "end": 108.08,
+            "text": " negative integer value, positive integer value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 108.08,
+            "end": 110.08,
+            "text": " anything"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 110.08,
+            "end": 112.08,
+            "text": " and for this we use the keyword"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 112.08,
+            "end": 114.08,
+            "text": " like if I want to make"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 114.08,
+            "end": 116.08,
+            "text": " any variable of integer type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 116.08,
+            "end": 118.08,
+            "text": " for example I want to make a variable int age"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 118.08,
+            "end": 120.08,
+            "text": " so I can make it like this"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 120.08,
+            "end": 122.08,
+            "text": " age is equal to 25"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 122.08,
+            "end": 124.08,
+            "text": " or I can write int marks"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 124.08,
+            "end": 126.08,
+            "text": " is equal to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 126.08,
+            "end": 128.07999999999998,
+            "text": " 200"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 128.07999999999998,
+            "end": 130.07999999999998,
+            "text": " like this I have made my integer type variables"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 130.07999999999998,
+            "end": 132.07999999999998,
+            "text": " If I wanted I could have"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 132.07999999999998,
+            "end": 134.07999999999998,
+            "text": " made my values negative"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 134.07999999999998,
+            "end": 136.07999999999998,
+            "text": " or I could have made value 0"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 136.07999999999998,
+            "end": 138.07999999999998,
+            "text": " Now integer type which takes size in memory"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 138.07999999999998,
+            "end": 140.07999999999998,
+            "text": " that is equal to 4 bytes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 140.08,
+            "end": 142.08,
+            "text": " Now what is the meaning of byte"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 142.08,
+            "end": 144.08,
+            "text": " in programming"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 144.08,
+            "end": 146.08,
+            "text": " one byte is equal to 8 bits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 146.08,
+            "end": 148.08,
+            "text": " means in one byte"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 148.08,
+            "end": 150.08,
+            "text": " there are 8 bits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 150.08,
+            "end": 152.08,
+            "text": " so 4 bytes means"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 152.08,
+            "end": 154.08,
+            "text": " my integer size is"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 154.08,
+            "end": 156.08,
+            "text": " equal to 32 bits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 156.08,
+            "end": 158.08,
+            "text": " and bit means 0 or 1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 158.08,
+            "end": 160.08,
+            "text": " so if I"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 160.08,
+            "end": 162.08,
+            "text": " keep 32 empty spaces"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 162.08,
+            "end": 164.08,
+            "text": " and in every empty space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 164.08,
+            "end": 166.08,
+            "text": " either 0 or 1 will come"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 166.08,
+            "end": 168.08,
+            "text": " so like this there can be many"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 168.08,
+            "end": 170.08,
+            "text": " combinations"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 170.08,
+            "end": 172.08,
+            "text": " so many different integers"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 172.08,
+            "end": 174.08,
+            "text": " can be stored in my int data type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 174.08,
+            "end": 176.08,
+            "text": " so 32 bits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 176.08,
+            "end": 178.08,
+            "text": " means 1 bit"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 178.08,
+            "end": 180.08,
+            "text": " means 0 or 1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 180.08,
+            "end": 182.08,
+            "text": " so from there all data types size comes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 182.08,
+            "end": 184.08,
+            "text": " so we can remember this"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 184.08,
+            "end": 186.08,
+            "text": " or it's a very general and simple thing"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 186.08,
+            "end": 188.08,
+            "text": " that our integer is"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 188.08,
+            "end": 190.08,
+            "text": " 32 bits means 4 bytes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 190.08,
+            "end": 192.08,
+            "text": " we can verify this"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 192.08,
+            "end": 194.08,
+            "text": " how to verify"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 194.08,
+            "end": 196.08,
+            "text": " if we want to print any data type size"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 196.08,
+            "end": 198.08,
+            "text": " so I can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 198.08,
+            "end": 200.08,
+            "text": " cout size of int"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 200.08,
+            "end": 202.08,
+            "text": " is equal to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 202.08,
+            "end": 204.08,
+            "text": " and here we have a function"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 204.08,
+            "end": 206.08,
+            "text": " we call it sizeof function"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 206.08,
+            "end": 208.08,
+            "text": " so inside sizeof"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 208.08,
+            "end": 210.08,
+            "text": " we can write int"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 210.08,
+            "end": 212.08,
+            "text": " and then we can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 212.08,
+            "end": 214.08,
+            "text": " what is the size of our integer"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 214.08,
+            "end": 216.08,
+            "text": " let's open our terminal"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 218.08,
+            "end": 220.08,
+            "text": " compile and run"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 220.08,
+            "end": 222.08,
+            "text": " so we have print size of int"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 222.08,
+            "end": 224.08,
+            "text": " is equal to 4"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 224.08,
+            "end": 226.08,
+            "text": " this is actually equal to 4 bytes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 226.08,
+            "end": 228.08,
+            "text": " second data type we have"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 228.08,
+            "end": 230.08,
+            "text": " that is character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 230.08,
+            "end": 232.08,
+            "text": " in characters we can store single values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 232.08,
+            "end": 234.08,
+            "text": " means single character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 234.08,
+            "end": 236.08,
+            "text": " like if I want to store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 236.08,
+            "end": 238.08,
+            "text": " simple a, I want to store capital B"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 238.08,
+            "end": 240.08,
+            "text": " or if I want to store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 240.08,
+            "end": 242.08,
+            "text": " a symbol like at the rate"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 242.08,
+            "end": 244.08,
+            "text": " or dollar"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 244.08,
+            "end": 246.08,
+            "text": " so we can store any symbol"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 246.08,
+            "end": 248.08,
+            "text": " in character type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 248.08,
+            "end": 250.08,
+            "text": " and to store our characters"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 250.08,
+            "end": 252.08,
+            "text": " we use single quote"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 252.08,
+            "end": 254.08,
+            "text": " we don't use double quote"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 254.08,
+            "end": 256.08000000000004,
+            "text": " we use single quote"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 256.08000000000004,
+            "end": 258.08000000000004,
+            "text": " like I can create any character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 258.08000000000004,
+            "end": 260.08000000000004,
+            "text": " for example"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 260.08000000000004,
+            "end": 262.08000000000004,
+            "text": " I can write char"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 262.08000000000004,
+            "end": 264.08000000000004,
+            "text": " let's suppose"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 264.08000000000004,
+            "end": 266.08000000000004,
+            "text": " I want to store grades of school"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 266.08000000000004,
+            "end": 268.08000000000004,
+            "text": " and our grade is equal to a"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 268.08000000000004,
+            "end": 270.08000000000004,
+            "text": " so like this we can make"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 270.08000000000004,
+            "end": 272.08000000000004,
+            "text": " a variable of char data type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 272.08000000000004,
+            "end": 274.08000000000004,
+            "text": " grade in which I have stored value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 274.08000000000004,
+            "end": 276.08000000000004,
+            "text": " single a and like we"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 276.08000000000004,
+            "end": 278.08000000000004,
+            "text": " have printed size of integer"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 278.08000000000004,
+            "end": 280.08000000000004,
+            "text": " we can print size of character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 280.08,
+            "end": 282.08,
+            "text": " so size of char is equal to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 282.08,
+            "end": 284.08,
+            "text": " this value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 284.08,
+            "end": 286.08,
+            "text": " let's clear"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 286.08,
+            "end": 288.08,
+            "text": " compile"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 288.08,
+            "end": 290.08,
+            "text": " and run"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 290.08,
+            "end": 292.08,
+            "text": " so this time size of char is equal to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 292.08,
+            "end": 294.08,
+            "text": " 1 byte means our character"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 294.08,
+            "end": 296.08,
+            "text": " has only 8 bits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 296.08,
+            "end": 298.08,
+            "text": " in it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 298.08,
+            "end": 300.08,
+            "text": " like this"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 300.08,
+            "end": 302.08,
+            "text": " 8 bits means"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 302.08,
+            "end": 304.08,
+            "text": " this is combination of 8 zeros and ones"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 304.08,
+            "end": 306.08,
+            "text": " which can store all our possible characters"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 306.08,
+            "end": 308.08,
+            "text": " next"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 308.08,
+            "end": 310.08,
+            "text": " next data type we will talk about"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 310.08,
+            "end": 312.08,
+            "text": " that is our boolean data type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 312.08,
+            "end": 314.08,
+            "text": " we represent boolean with bool"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 314.08,
+            "end": 316.08,
+            "text": " in boolean data type variables"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 316.08,
+            "end": 318.08,
+            "text": " we store true or false values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 318.08,
+            "end": 320.08,
+            "text": " like for example"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 320.08,
+            "end": 322.08,
+            "text": " our age is equal to 25"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 322.08,
+            "end": 324.08,
+            "text": " so are we an adult"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 324.08,
+            "end": 326.08,
+            "text": " answer will be yes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 326.08,
+            "end": 328.08,
+            "text": " so we can make a variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 328.08,
+            "end": 330.08,
+            "text": " we can call it bool is adult"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 330.08,
+            "end": 332.08,
+            "text": " let me clear the screen"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 332.08,
+            "end": 334.08,
+            "text": " and here also"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 334.08,
+            "end": 336.08,
+            "text": " we give a space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 336.08,
+            "end": 338.08,
+            "text": " so I have written bool adult"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 338.08,
+            "end": 340.08,
+            "text": " is equal to true"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 340.08,
+            "end": 342.08,
+            "text": " so what is this I have made a boolean type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 342.08,
+            "end": 344.08,
+            "text": " variable and in the same way"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 344.08,
+            "end": 346.08,
+            "text": " if we want we can"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 346.08,
+            "end": 348.08,
+            "text": " print size of bool"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 348.08,
+            "end": 350.08,
+            "text": " size of bool"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 350.08,
+            "end": 352.08,
+            "text": " is equal to this value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 352.08,
+            "end": 354.08,
+            "text": " let's"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 354.08,
+            "end": 356.08,
+            "text": " execute and run"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 356.08,
+            "end": 358.08,
+            "text": " so size of bool is also 1 byte"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 358.08,
+            "end": 360.08,
+            "text": " with this one more interesting thing"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 360.08,
+            "end": 362.08,
+            "text": " if we want we can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 362.08,
+            "end": 364.08,
+            "text": " our variables also"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 364.08,
+            "end": 366.08,
+            "text": " if I want I can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 366.08,
+            "end": 368.08,
+            "text": " age"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 368.08,
+            "end": 370.08,
+            "text": " after age"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 370.08,
+            "end": 372.08,
+            "text": " I tried to print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 372.08,
+            "end": 374.08,
+            "text": " with a space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 374.08,
+            "end": 376.08,
+            "text": " our marks"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 376.08,
+            "end": 378.08,
+            "text": " and after this also with a space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 378.08,
+            "end": 380.08,
+            "text": " we try to print our grade"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 380.08,
+            "end": 382.08,
+            "text": " and with a space we try to print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 382.08,
+            "end": 384.08,
+            "text": " our boolean variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 384.08,
+            "end": 386.08,
+            "text": " is adult"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 386.08,
+            "end": 388.08,
+            "text": " and here also we"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 388.08,
+            "end": 390.08,
+            "text": " give an end of the line"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 390.08,
+            "end": 392.08,
+            "text": " let's save it and run it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 394.08,
+            "end": 396.08,
+            "text": " so"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 396.08,
+            "end": 398.08,
+            "text": " what we have printed"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 398.08,
+            "end": 400.08,
+            "text": " we have this value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 400.08,
+            "end": 402.08,
+            "text": " here first we had to print age"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 402.08,
+            "end": 404.08,
+            "text": " so we have age 25"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 404.08,
+            "end": 406.08,
+            "text": " then we had to print marks"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 406.08,
+            "end": 408.08,
+            "text": " we have marks of magnitude 200"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 408.08,
+            "end": 410.08,
+            "text": " then we had to print grade"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 410.08,
+            "end": 412.08,
+            "text": " but in this adult I have made"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 412.08,
+            "end": 414.08,
+            "text": " true store so I have 1 print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 414.08,
+            "end": 416.08,
+            "text": " and if we would have made false store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 416.08,
+            "end": 418.08,
+            "text": " then we would have 0 print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 418.08,
+            "end": 420.08,
+            "text": " so whenever we have boolean variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 420.08,
+            "end": 422.08,
+            "text": " in boolean variables the true value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 422.08,
+            "end": 424.08,
+            "text": " whenever we use true"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 424.08,
+            "end": 426.08,
+            "text": " it amounts to the number 1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 426.08,
+            "end": 428.08,
+            "text": " and false amounts to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 428.08,
+            "end": 430.08,
+            "text": " the number 0"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 430.08,
+            "end": 432.08,
+            "text": " whenever we have boolean variable in memory"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 432.08,
+            "end": 434.08,
+            "text": " so in this way"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 434.08,
+            "end": 436.08,
+            "text": " 8 spaces are reserved for us"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 436.08,
+            "end": 438.08,
+            "text": " if there is 1 in last"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 438.08,
+            "end": 440.08,
+            "text": " then it means true"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 440.08,
+            "end": 442.08,
+            "text": " and when we print it will be 1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 442.08,
+            "end": 444.08,
+            "text": " or if we have 0 in last"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 444.08,
+            "end": 446.08,
+            "text": " then it means false"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 446.08,
+            "end": 448.08,
+            "text": " return means value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 448.08,
+            "end": 450.08,
+            "text": " that is equal to false"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 450.08,
+            "end": 452.08,
+            "text": " so these are the 3 different types"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 452.08,
+            "end": 454.08,
+            "text": " apart from that our 4th type of variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 454.08,
+            "end": 456.08,
+            "text": " is floating point"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 456.08,
+            "end": 458.08,
+            "text": " floating point means if we"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 458.08,
+            "end": 460.08,
+            "text": " have to store something like"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 460.08,
+            "end": 462.08,
+            "text": " 99.99 with decimal values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 462.08,
+            "end": 464.08,
+            "text": " then we can use float"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 464.08,
+            "end": 466.08,
+            "text": " float occupies"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 466.08,
+            "end": 468.08,
+            "text": " 4 bytes of space in memory"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 468.08,
+            "end": 470.08,
+            "text": " like if I want to create"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 470.08,
+            "end": 472.08,
+            "text": " float variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 472.08,
+            "end": 474.08,
+            "text": " in fact we remove"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 474.08,
+            "end": 476.08,
+            "text": " these values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 476.08,
+            "end": 478.08,
+            "text": " and we remove this also"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 478.08,
+            "end": 480.08,
+            "text": " so here we will write float"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 480.08,
+            "end": 482.08,
+            "text": " let's suppose we want to store CGP"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 482.08,
+            "end": 484.08,
+            "text": " CGP is equal to 8.9"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 484.08,
+            "end": 486.08,
+            "text": " so here size of float"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 486.08,
+            "end": 488.08,
+            "text": " we will print it together"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 488.08,
+            "end": 490.08,
+            "text": " so we have created floating variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 490.08,
+            "end": 492.08,
+            "text": " by using float"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 492.08,
+            "end": 494.08,
+            "text": " and we will print the size of float"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 494.08,
+            "end": 496.08,
+            "text": " size of float is"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 496.08,
+            "end": 498.08,
+            "text": " equal to 4 bytes"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 498.08,
+            "end": 500.08,
+            "text": " next we have double floating point"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 500.08,
+            "end": 502.08,
+            "text": " which we name double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 502.08,
+            "end": 504.08,
+            "text": " so in float there is a limit"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 504.08,
+            "end": 506.08,
+            "text": " that till which limit with which precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 506.08,
+            "end": 508.08,
+            "text": " precision means"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 508.08,
+            "end": 510.08,
+            "text": " after point"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 510.08,
+            "end": 512.0799999999999,
+            "text": " how many total numbers you can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 512.0799999999999,
+            "end": 514.0799999999999,
+            "text": " or store in memory"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 514.0799999999999,
+            "end": 516.0799999999999,
+            "text": " but it is possible that the number we want to store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 516.0799999999999,
+            "end": 518.0799999999999,
+            "text": " is a very big number"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 518.0799999999999,
+            "end": 520.0799999999999,
+            "text": " so for those cases"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 520.0799999999999,
+            "end": 522.0799999999999,
+            "text": " we use big data type which is double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 522.0799999999999,
+            "end": 524.0799999999999,
+            "text": " what does float do?"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 524.0799999999999,
+            "end": 526.0799999999999,
+            "text": " float has only 4 bytes space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 526.0799999999999,
+            "end": 528.0799999999999,
+            "text": " it is actually similar to saying that"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 528.0799999999999,
+            "end": 530.0799999999999,
+            "text": " one flat has 2 rooms and second flat has 4 rooms"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 530.0799999999999,
+            "end": 532.0799999999999,
+            "text": " so in this flat there are 4 rooms"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 532.0799999999999,
+            "end": 534.0799999999999,
+            "text": " and above that there is another"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 534.08,
+            "end": 536.08,
+            "text": " flat which has 8 rooms"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 536.08,
+            "end": 538.08,
+            "text": " so in 8 rooms if there is more space then more people can stay"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 538.08,
+            "end": 540.08,
+            "text": " similarly 8 bytes space is more"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 540.08,
+            "end": 542.08,
+            "text": " so more data can be stored in it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 542.08,
+            "end": 544.08,
+            "text": " so if we want"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 544.08,
+            "end": 546.08,
+            "text": " we can make our CGPA"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 546.08,
+            "end": 548.08,
+            "text": " or some other variable double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 548.08,
+            "end": 550.08,
+            "text": " we can store in it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 550.08,
+            "end": 552.08,
+            "text": " let's suppose the price of any item is 99.99"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 552.08,
+            "end": 554.08,
+            "text": " so in this way"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 554.08,
+            "end": 556.08,
+            "text": " we can use double data type"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 556.08,
+            "end": 558.08,
+            "text": " to store our floating point values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 558.08,
+            "end": 560.08,
+            "text": " now in float and double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 560.08,
+            "end": 562.08,
+            "text": " if we want to understand a difference clearly"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 562.08,
+            "end": 564.08,
+            "text": " so to understand this difference"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 564.08,
+            "end": 566.08,
+            "text": " we will take an example"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 566.08,
+            "end": 568.08,
+            "text": " let's suppose I create 2 variables"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 568.08,
+            "end": 570.08,
+            "text": " one is float variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 570.08,
+            "end": 572.08,
+            "text": " and other is double variable"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 572.08,
+            "end": 574.08,
+            "text": " in one I will store my pi value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 574.08,
+            "end": 576.08,
+            "text": " and in other also I will store my pi value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 576.08,
+            "end": 578.08,
+            "text": " I want to say this as pi2"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 578.08,
+            "end": 580.08,
+            "text": " now pi value will be"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 580.08,
+            "end": 582.08,
+            "text": " 3.14265359"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 586.08,
+            "end": 588.08,
+            "text": " and by copying this same value"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 588.08,
+            "end": 590.08,
+            "text": " we store it in our double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 590.08,
+            "end": 592.08,
+            "text": " now float precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 592.08,
+            "end": 594.08,
+            "text": " is 7 numbers"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 594.08,
+            "end": 596.08,
+            "text": " so float will print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 596.08,
+            "end": 598.08,
+            "text": " correct value till 7"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 598.08,
+            "end": 600.08,
+            "text": " and double precision is almost double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 600.08,
+            "end": 602.08,
+            "text": " which is 15 numbers"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 602.08,
+            "end": 604.08,
+            "text": " so if float can store till 7"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 604.08,
+            "end": 606.08,
+            "text": " means 1,2,3,4,5,6,7"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 606.08,
+            "end": 608.08,
+            "text": " so what will double do"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 608.08,
+            "end": 610.08,
+            "text": " double will be able to store"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 610.08,
+            "end": 612.08,
+            "text": " till 15 numbers"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 612.08,
+            "end": 614.08,
+            "text": " now I am going to print both"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 614.08,
+            "end": 616.08,
+            "text": " this is going to be my pi1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 616.08,
+            "end": 618.08,
+            "text": " let's say it as pi"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 618.08,
+            "end": 620.08,
+            "text": " we will store pi value in it"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 622.08,
+            "end": 624.08,
+            "text": " and next we will cout"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 624.08,
+            "end": 626.08,
+            "text": " our pi2"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 626.08,
+            "end": 628.08,
+            "text": " this is going to be pi2"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 630.08,
+            "end": 632.08,
+            "text": " now our cout default precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 632.08,
+            "end": 634.08,
+            "text": " means after point"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 634.08,
+            "end": 636.08,
+            "text": " means after decimal how many numbers it can print"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 636.08,
+            "end": 638.08,
+            "text": " that is 5"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 638.08,
+            "end": 640.08,
+            "text": " means it can print 5 numbers after decimal"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 640.08,
+            "end": 642.08,
+            "text": " so if I run my code"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 642.08,
+            "end": 644.08,
+            "text": " or run simply"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 644.08,
+            "end": 646.08,
+            "text": " so basically my pi and pi2"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 646.08,
+            "end": 648.08,
+            "text": " values will be same"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 648.08,
+            "end": 650.08,
+            "text": " so in this case float and double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 650.08,
+            "end": 652.08,
+            "text": " I am not able to see any difference"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 652.08,
+            "end": 654.08,
+            "text": " but if I increase my precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 654.08,
+            "end": 656.08,
+            "text": " means if I increase the digits after decimal"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 656.08,
+            "end": 658.08,
+            "text": " how can we use that"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 658.08,
+            "end": 660.08,
+            "text": " for that I have to"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 660.08,
+            "end": 662.08,
+            "text": " include an extra header file"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 662.08,
+            "end": 664.08,
+            "text": " which is called IOMANIP"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 666.08,
+            "end": 668.08,
+            "text": " and in IOMANIP there is a function"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 668.08,
+            "end": 670.08,
+            "text": " which is called set precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 670.08,
+            "end": 672.08,
+            "text": " with this we can increase cout precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 672.08,
+            "end": 674.08,
+            "text": " so here we will set precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 674.08,
+            "end": 676.08,
+            "text": " let's suppose to 10"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 676.08,
+            "end": 678.08,
+            "text": " or 12"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 682.08,
+            "end": 684.08,
+            "text": " so by default cout precision is 5"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 684.08,
+            "end": 686.08,
+            "text": " we have increased it to 12"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 686.08,
+            "end": 688.08,
+            "text": " so now we can print up to 12 digits"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 688.08,
+            "end": 690.08,
+            "text": " now if we save"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 690.08,
+            "end": 692.08,
+            "text": " and run this same code"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 692.08,
+            "end": 694.08,
+            "text": " so this time what happened"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 694.08,
+            "end": 696.08,
+            "text": " pi2 as it is"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 696.08,
+            "end": 698.08,
+            "text": " our entire value is printed"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 698.08,
+            "end": 700.08,
+            "text": " because there was space in memory"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 700.08,
+            "end": 702.08,
+            "text": " so entire value was saved"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 702.08,
+            "end": 704.08,
+            "text": " but in pi1"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 704.08,
+            "end": 706.08,
+            "text": " value is a little bit wrong"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 706.08,
+            "end": 708.08,
+            "text": " means value is not printed properly"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 708.08,
+            "end": 710.08,
+            "text": " some initial decimal is correct"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 710.08,
+            "end": 712.08,
+            "text": " means 141592"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 712.08,
+            "end": 714.08,
+            "text": " is correct"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 714.08,
+            "end": 716.08,
+            "text": " and after that values are"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 716.08,
+            "end": 718.08,
+            "text": " kind of approximation"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 718.08,
+            "end": 720.08,
+            "text": " or incorrect value is printed"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 720.08,
+            "end": 722.08,
+            "text": " so basically in float there was only this much space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 722.08,
+            "end": 724.08,
+            "text": " so according to that space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 724.08,
+            "end": 726.08,
+            "text": " numbers were saved"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 726.08,
+            "end": 728.08,
+            "text": " but in double there was double space"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 728.08,
+            "end": 730.08,
+            "text": " so it saved all the numbers with correct precision"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 730.08,
+            "end": 732.08,
+            "text": " so difference between float and double"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 732.08,
+            "end": 734.08,
+            "text": " we don't see it on small values"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 734.08,
+            "end": 736.08,
+            "text": " whenever we are dealing with big data"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 736.08,
+            "end": 738.08,
+            "text": " which has more decimal points"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 738.08,
+            "end": 740.08,
+            "text": " then we can understand the difference between both"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 740.08,
+            "end": 742.08,
+            "text": " so generally because we are on initial stages"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 742.08,
+            "end": 744.08,
+            "text": " now we are on beginner stages"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 744.08,
+            "end": 746.08,
+            "text": " so we don't need to take so much care"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 746.08,
+            "end": 748.08,
+            "text": " as it was a little advanced thing"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 748.08,
+            "end": 750.08,
+            "text": " but yes difference between both"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 750.08,
+            "end": 752.08,
+            "text": " we should know that one's size is small"
+        },
+        {
+            "number": "",
+            "title": "Data Types in C++",
+            "start": 752.08,
+            "end": 754.08,
+            "text": " and one's size is big so more data can be stored"
+        }
+    ]
+}

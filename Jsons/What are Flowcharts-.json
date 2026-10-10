@@ -1,0 +1,610 @@
+{
+    "file": "What are Flowcharts-.mp3",
+    "title": "What are Flowcharts-",
+    "number": "",
+    "text": " Hi everyone, we are finally going to start our first chapter with flowchart and pseudocode flowchart and pseudocode is going to be a very simple chapter for us also this is an optional chapter for all those students who have already read about variables, data types, conditional statements, if-else and loops in some programming language in fact, these chapters are so simple that flowchart will not ask you any questions in 99.99% of cases sometimes in college exams where C++ is asked to you, flowchart questions can be asked in midsums or intsums so this chapter is going to be very easy and we will not do any coding in this chapter we will be learning how to make the logic behind coding in this chapter flowchart and pseudocode are the logical building blocks of coding that we will be learning in this chapter now to read this chapter we do not need any laptop or computer, we simply need a paper pen on which we will be practicing our flowchart and pseudocode by writing or drawing now before the chapter starts, one more very important tip whenever in any chapter, not only this, in any chapter in the future if there is a practice question or we are practicing something else about which we have already discussed a little, which we have read, we are just practicing its questions so always pause the lecture there and try to solve the practice questions yourself because when we learn to solve the practice questions ourselves or try to do it ourselves, then only the actual logic building happens so do not get scared by any question, try to solve it once whether it is solved by us or not so let's start with our chapter, first we will talk about flowcharts what are flowcharts? flowcharts are basically diagrams to represent solution of a problem now what is coding? coding is basically that we get a lot of problems in real life, we have a lot of questions so we find the solution of those problems with the help of code so that's why logically we should understand that if any problem comes to us in the world then what is the logical process of finding the solution of that problem once we have seen that simple logical process, then we will apply that logical process in coding now all these are theoretical things, we are not able to understand what we are talking about questions and solutions but slowly with every chapter, we will be learning to find the solutions of questions now flowchart is a way to find solutions through diagrams so we will be drawing such diagrams and solving different problems so first of all, if we are given a problem, then how do we find the solution of any problem generally what is the logical way? suppose if we are given a big problem, which we are not able to understand the solution of suddenly so what we do is, we break our problem into small parts for example, we have a problem that we have to make Maggi, now we don't know how to make Maggi so what we do is, we break down the problem of making Maggi into small parts like for Maggi, we need a pot, for that we need fire, for that we need to put water in it so we will break it down into small parts like this and then we will arrange these parts logically to arrange logically means, if we have to make Maggi, then first water will go inside the pot and then we will put Maggi we don't take out dry Maggi and put it in a simple pot without water so logically what we did is, first came the pot, then water, then Maggi so things should work logically like this if someone wants to make tea, then first tea leaves go inside the tea pot first water goes inside the pot, then tea leaves go inside the pot, and then we put other ingredients so everything has a logical way of what will come first and what will come later in political language, we have to understand the chronology of things that which thing will come first and which thing will come later now let's try to find a solution to a very simple real life problem now let's suppose we are given a big problem that we have to make Maggi now there are very small steps to make Maggi like we have to turn on the gas stove, we have to take a bowl in which we will be putting water we have to put Maggi, we have to add Maggi masala so this is how the whole process of making noodles is done so there are small steps to it now how will we arrange these steps logically? generally we can arrange it like this, first we will take a bowl in which we will have water where will we keep the bowl? we will keep it on the gas and turn on the gas stove after that what will we do? generally after that we add Maggi in it along with it if we have some masala and finally we leave the things to boil and once our Maggi is ready then we will exit from here exit means we have stopped so what we did is we arranged things in the form of a flow chart this diagram that we have made we can call it a flow chart in basic language flow means how things are flowing logically which thing came first and which came later we arranged it so we solved this small and basic problem similarly we solve problems in coding and the problems of coding will look like mathematics in the beginning because we have already studied so much math in school so the small examples like sum of two numbers like product of two numbers A multiplied by B, A minus B so after seeing these small problems we start learning coding and after that we will solve big problems so in coding in the beginning if we see a little math then we don't have to worry generally all that math we have learned in very small classes in school so first of all let's talk about some building blocks of flow chart which we call components of a flow chart",
+    "chunks": [
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 0.0,
+            "end": 12.0,
+            "text": " Hi everyone, we are finally going to start our first chapter with flowchart and pseudocode"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 12.0,
+            "end": 16.0,
+            "text": " flowchart and pseudocode is going to be a very simple chapter for us"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 16.0,
+            "end": 26.0,
+            "text": " also this is an optional chapter for all those students who have already read about variables, data types, conditional statements, if-else and loops in some programming language"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 26.0,
+            "end": 34.0,
+            "text": " in fact, these chapters are so simple that flowchart will not ask you any questions in 99.99% of cases"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 34.0,
+            "end": 42.0,
+            "text": " sometimes in college exams where C++ is asked to you, flowchart questions can be asked in midsums or intsums"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 42.0,
+            "end": 47.0,
+            "text": " so this chapter is going to be very easy and we will not do any coding in this chapter"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 47.0,
+            "end": 52.0,
+            "text": " we will be learning how to make the logic behind coding in this chapter"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 52.0,
+            "end": 58.0,
+            "text": " flowchart and pseudocode are the logical building blocks of coding that we will be learning in this chapter"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 58.0,
+            "end": 64.0,
+            "text": " now to read this chapter we do not need any laptop or computer, we simply need a paper pen"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 64.0,
+            "end": 69.0,
+            "text": " on which we will be practicing our flowchart and pseudocode by writing or drawing"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 69.0,
+            "end": 72.0,
+            "text": " now before the chapter starts, one more very important tip"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 72.0,
+            "end": 79.0,
+            "text": " whenever in any chapter, not only this, in any chapter in the future if there is a practice question or we are practicing something else"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 79.0,
+            "end": 84.0,
+            "text": " about which we have already discussed a little, which we have read, we are just practicing its questions"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 84.0,
+            "end": 90.0,
+            "text": " so always pause the lecture there and try to solve the practice questions yourself"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 90.0,
+            "end": 97.0,
+            "text": " because when we learn to solve the practice questions ourselves or try to do it ourselves, then only the actual logic building happens"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 98.0,
+            "end": 105.0,
+            "text": " so do not get scared by any question, try to solve it once whether it is solved by us or not"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 105.0,
+            "end": 109.0,
+            "text": " so let's start with our chapter, first we will talk about flowcharts"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 109.0,
+            "end": 115.0,
+            "text": " what are flowcharts? flowcharts are basically diagrams to represent solution of a problem"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 115.0,
+            "end": 122.0,
+            "text": " now what is coding? coding is basically that we get a lot of problems in real life, we have a lot of questions"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 122.0,
+            "end": 125.0,
+            "text": " so we find the solution of those problems with the help of code"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 125.0,
+            "end": 130.0,
+            "text": " so that's why logically we should understand that if any problem comes to us in the world"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 130.0,
+            "end": 134.0,
+            "text": " then what is the logical process of finding the solution of that problem"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 134.0,
+            "end": 140.0,
+            "text": " once we have seen that simple logical process, then we will apply that logical process in coding"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 140.0,
+            "end": 146.0,
+            "text": " now all these are theoretical things, we are not able to understand what we are talking about questions and solutions"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 146.0,
+            "end": 151.0,
+            "text": " but slowly with every chapter, we will be learning to find the solutions of questions"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 151.0,
+            "end": 155.0,
+            "text": " now flowchart is a way to find solutions through diagrams"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 155.0,
+            "end": 161.0,
+            "text": " so we will be drawing such diagrams and solving different problems"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 161.0,
+            "end": 168.0,
+            "text": " so first of all, if we are given a problem, then how do we find the solution of any problem"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 168.0,
+            "end": 170.0,
+            "text": " generally what is the logical way?"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 170.0,
+            "end": 175.0,
+            "text": " suppose if we are given a big problem, which we are not able to understand the solution of suddenly"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 175.0,
+            "end": 179.0,
+            "text": " so what we do is, we break our problem into small parts"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 180.0,
+            "end": 185.0,
+            "text": " for example, we have a problem that we have to make Maggi, now we don't know how to make Maggi"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 185.0,
+            "end": 190.0,
+            "text": " so what we do is, we break down the problem of making Maggi into small parts"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 190.0,
+            "end": 195.0,
+            "text": " like for Maggi, we need a pot, for that we need fire, for that we need to put water in it"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 195.0,
+            "end": 199.0,
+            "text": " so we will break it down into small parts like this"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 199.0,
+            "end": 204.0,
+            "text": " and then we will arrange these parts logically"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 204.0,
+            "end": 209.0,
+            "text": " to arrange logically means, if we have to make Maggi, then first water will go inside the pot"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 209.0,
+            "end": 211.0,
+            "text": " and then we will put Maggi"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 211.0,
+            "end": 216.0,
+            "text": " we don't take out dry Maggi and put it in a simple pot without water"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 216.0,
+            "end": 220.0,
+            "text": " so logically what we did is, first came the pot, then water, then Maggi"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 220.0,
+            "end": 222.0,
+            "text": " so things should work logically like this"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 222.0,
+            "end": 226.0,
+            "text": " if someone wants to make tea, then first tea leaves go inside the tea pot"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 226.0,
+            "end": 231.0,
+            "text": " first water goes inside the pot, then tea leaves go inside the pot, and then we put other ingredients"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 231.0,
+            "end": 235.0,
+            "text": " so everything has a logical way of what will come first and what will come later"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 235.0,
+            "end": 238.0,
+            "text": " in political language, we have to understand the chronology of things"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 238.0,
+            "end": 241.0,
+            "text": " that which thing will come first and which thing will come later"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 241.0,
+            "end": 245.0,
+            "text": " now let's try to find a solution to a very simple real life problem"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 245.0,
+            "end": 248.0,
+            "text": " now let's suppose we are given a big problem that we have to make Maggi"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 248.0,
+            "end": 251.0,
+            "text": " now there are very small steps to make Maggi"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 251.0,
+            "end": 256.0,
+            "text": " like we have to turn on the gas stove, we have to take a bowl in which we will be putting water"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 256.0,
+            "end": 259.0,
+            "text": " we have to put Maggi, we have to add Maggi masala"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 259.0,
+            "end": 262.0,
+            "text": " so this is how the whole process of making noodles is done"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 262.0,
+            "end": 263.0,
+            "text": " so there are small steps to it"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 263.0,
+            "end": 266.0,
+            "text": " now how will we arrange these steps logically?"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 266.0,
+            "end": 270.0,
+            "text": " generally we can arrange it like this, first we will take a bowl"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 270.0,
+            "end": 273.0,
+            "text": " in which we will have water"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 273.0,
+            "end": 275.0,
+            "text": " where will we keep the bowl?"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 275.0,
+            "end": 279.0,
+            "text": " we will keep it on the gas and turn on the gas stove"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 279.0,
+            "end": 281.0,
+            "text": " after that what will we do?"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 281.0,
+            "end": 285.0,
+            "text": " generally after that we add Maggi in it"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 285.0,
+            "end": 288.0,
+            "text": " along with it if we have some masala"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 288.0,
+            "end": 291.0,
+            "text": " and finally we leave the things to boil"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 291.0,
+            "end": 294.0,
+            "text": " and once our Maggi is ready"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " then we will exit from here"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 296.0,
+            "end": 298.0,
+            "text": " exit means we have stopped"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 298.0,
+            "end": 302.0,
+            "text": " so what we did is we arranged things in the form of a flow chart"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 302.0,
+            "end": 305.0,
+            "text": " this diagram that we have made"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 305.0,
+            "end": 308.0,
+            "text": " we can call it a flow chart in basic language"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " flow means how things are flowing"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 310.0,
+            "end": 313.0,
+            "text": " logically which thing came first and which came later"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 313.0,
+            "end": 315.0,
+            "text": " we arranged it"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 315.0,
+            "end": 318.0,
+            "text": " so we solved this small and basic problem"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 318.0,
+            "end": 321.0,
+            "text": " similarly we solve problems in coding"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 321.0,
+            "end": 326.0,
+            "text": " and the problems of coding will look like mathematics in the beginning"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 326.0,
+            "end": 329.0,
+            "text": " because we have already studied so much math in school"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 329.0,
+            "end": 332.0,
+            "text": " so the small examples like sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " like product of two numbers"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " A multiplied by B, A minus B"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 336.0,
+            "end": 339.0,
+            "text": " so after seeing these small problems"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " we start learning coding"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 341.0,
+            "end": 343.0,
+            "text": " and after that we will solve big problems"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 343.0,
+            "end": 345.0,
+            "text": " so in coding in the beginning"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 345.0,
+            "end": 347.0,
+            "text": " if we see a little math then we don't have to worry"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 347.0,
+            "end": 352.0,
+            "text": " generally all that math we have learned in very small classes in school"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 352.0,
+            "end": 357.0,
+            "text": " so first of all let's talk about some building blocks of flow chart"
+        },
+        {
+            "number": "",
+            "title": "What are Flowcharts-",
+            "start": 357.0,
+            "end": 359.0,
+            "text": " which we call components of a flow chart"
+        }
+    ]
+}

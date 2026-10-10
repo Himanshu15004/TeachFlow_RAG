@@ -1,0 +1,1359 @@
+{
+    "file": "What is Namespace-.mp3",
+    "title": "What is Namespace-",
+    "number": "",
+    "text": " Now we are going to talk about namespace Namespace basically helps us in naming conflicts What does it mean? Whenever we are writing a C++ code then it is possible that in a single code or a single program we are using multiple libraries So it is possible that in this code, one library is A second library is B third library is C and by including all these libraries we are going to create a good code Now in every library there can be some functions there can be some objects there is a separate code written in each library Now it is possible that in this A library there is a function called draw which draws a circle for me Similarly, in this library B there is another function called draw which draws a square for me So here I will have a square draw and here I will have a circle draw Now if I include both these libraries in my code and I try to use my draw function anywhere then my code will get confused my compiler will get confused that should I use the A draw or should I use the B draw means compiler will not understand that it has to draw a circle or it has to draw a rectangle or a square So this is a confusing state which leads to a conflict conflict means that two people have a conflict that whose words should be believed So to avoid these conflicts we use namespaces So in C++ our standard namespace is called STD STD means standard means C++ standard namespace Now we can understand namespace in this way For example, you went to buy a plot or a flat Now a flat or a plot on the ground that is a physical entity In actual, in real life any plot exists but government doesn't know whose flat is which whose plot is which So what does the government do? It maintains a separate registry means government has a registry that this plot belongs to this person this flat belongs to this person this farmhouse belongs to this person Now this physical thing it exists in actual but where is their registry? Their registry is here with the government So in the same way our Cout from which we were getting the output printed or there are other functions like Cin this Cout function this Cin function these functions are created in this header file named Iostream but where are their names registered? Their names are registered in this namespace named STD I will repeat this example Like actual plot is separate but we have to get its registry done separately to the government So in the same way functions like Cout and Cin are actually written in our header file in Iostream but the registry of their names we have to do it separately in our STD namespace So if I have to use Cout anywhere then to tell which namespace is Cout I have to write STD colon colon Cout So in this way I will use my Cout Now what is Cout? We did not read it in detail but we would have got this basic idea that by using Cout we are printing things on the screen things are coming with output So whenever I have to use this Cout I have to use STD colon colon Like if I talk about my code So in my code we will remove these old things Here I can write STD colon colon Cout and after that I can print anything For example I have printed my college here saved it and will run it so my whole code will run well my college will be printed and there will be no error So what is the meaning of STD colon colon? So here I am telling you that Cout's registry exists in the namespace STD So if tomorrow in this program I use any other library in which another Cout exists then my code will know that I don't want to use another Cout I want to use this Cout which comes in my STD namespace So in the same way in C++ all the standard classes, objects, functions or other things, variables even they are all registered in the standard namespace of C++ whose name is STD If tomorrow I start using any other namespace like ABC So if I want to use ABC's Cout then I can write ABC But because we will always use C++ namespace to learn DSA then we need to write STD And now comes your most important question that if we needed to write STD then even after removing it why is our whole code running successfully? Even after removing it our whole code is executing successfully So there is no error in this There is no error in this because we have written this line using namespace STD So instead of writing STD colon colon in front of everything what we can do we can write a single line on our code using namespace STD which will tell the compiler that all the functions, classes, objects and all the things that are being used which namespace are they registered in are coming from STD So we don't need to write STD again and again We can tell our whole code in one single line which namespace we want to use in our whole code We can use multiple namespaces If we bring an external library in which our namespace name is ABC then we can use two namespaces But in our whole course because while doing DSA we needed namespaces other than STD then we are going to use this standard namespace There are two words with this which we will see in programming One word is define and one word is declare Declare means just to tell and define means how things are working in detail and how to define its layout So basically how does Cout work exactly The definition of it which we have defined we have defined it in Iostream So the definition of Cout or the work of defining it is in our header file But the declaration of Cout Declaration means to tell that Cout also exists Where is it? It is in our namespace It is in our STD It is basically like where does a plot physically exist That is its definition But its registry i.e. telling the government about that plot that will be its declaration that we have declared that this plot exists and it is ours or this flat exists and it is ours So these are the two keywords which we will see in programming We should know the difference between them Define means actual thing and declare means just to tell about that thing",
+    "chunks": [
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 0.0,
+            "end": 2.5,
+            "text": " Now we are going to talk about namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 2.5,
+            "end": 5.8,
+            "text": " Namespace basically helps us in naming conflicts"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 5.8,
+            "end": 7.140000000000001,
+            "text": " What does it mean?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 7.140000000000001,
+            "end": 9.700000000000001,
+            "text": " Whenever we are writing a C++ code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 9.700000000000001,
+            "end": 13.200000000000001,
+            "text": " then it is possible that in a single code or a single program"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 13.200000000000001,
+            "end": 15.200000000000001,
+            "text": " we are using multiple libraries"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 15.200000000000001,
+            "end": 19.8,
+            "text": " So it is possible that in this code, one library is A"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 19.8,
+            "end": 22.5,
+            "text": " second library is B"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 22.5,
+            "end": 24.900000000000002,
+            "text": " third library is C"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 24.900000000000002,
+            "end": 29.400000000000002,
+            "text": " and by including all these libraries we are going to create a good code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 29.599999999999998,
+            "end": 32.9,
+            "text": " Now in every library there can be some functions"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 32.9,
+            "end": 34.199999999999996,
+            "text": " there can be some objects"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 34.199999999999996,
+            "end": 36.699999999999996,
+            "text": " there is a separate code written in each library"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 36.699999999999996,
+            "end": 39.4,
+            "text": " Now it is possible that in this A library"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 39.4,
+            "end": 42.1,
+            "text": " there is a function called draw"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 42.1,
+            "end": 45.3,
+            "text": " which draws a circle for me"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 45.3,
+            "end": 47.099999999999994,
+            "text": " Similarly, in this library B"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 47.099999999999994,
+            "end": 49.4,
+            "text": " there is another function called draw"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 49.4,
+            "end": 51.4,
+            "text": " which draws a square for me"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 51.4,
+            "end": 54.0,
+            "text": " So here I will have a square draw"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 54.0,
+            "end": 56.0,
+            "text": " and here I will have a circle draw"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 56.0,
+            "end": 59.0,
+            "text": " Now if I include both these libraries in my code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 59.0,
+            "end": 62.3,
+            "text": " and I try to use my draw function anywhere"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 62.3,
+            "end": 63.9,
+            "text": " then my code will get confused"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 63.9,
+            "end": 65.4,
+            "text": " my compiler will get confused"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 65.4,
+            "end": 69.1,
+            "text": " that should I use the A draw or should I use the B draw"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 69.1,
+            "end": 71.0,
+            "text": " means compiler will not understand"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 71.0,
+            "end": 74.5,
+            "text": " that it has to draw a circle or it has to draw a rectangle or a square"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 74.5,
+            "end": 76.7,
+            "text": " So this is a confusing state"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 76.7,
+            "end": 78.7,
+            "text": " which leads to a conflict"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 78.7,
+            "end": 80.7,
+            "text": " conflict means that two people have a conflict"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 80.7,
+            "end": 82.1,
+            "text": " that whose words should be believed"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 82.1,
+            "end": 85.4,
+            "text": " So to avoid these conflicts we use namespaces"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 85.60000000000001,
+            "end": 87.30000000000001,
+            "text": " So in C++"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 87.30000000000001,
+            "end": 89.60000000000001,
+            "text": " our standard namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 89.60000000000001,
+            "end": 91.10000000000001,
+            "text": " is called STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 91.10000000000001,
+            "end": 92.7,
+            "text": " STD means standard"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 92.7,
+            "end": 94.7,
+            "text": " means C++ standard namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 94.7,
+            "end": 97.4,
+            "text": " Now we can understand namespace in this way"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 97.4,
+            "end": 101.10000000000001,
+            "text": " For example, you went to buy a plot or a flat"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 101.10000000000001,
+            "end": 104.4,
+            "text": " Now a flat or a plot on the ground"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 104.4,
+            "end": 106.7,
+            "text": " that is a physical entity"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 106.7,
+            "end": 110.10000000000001,
+            "text": " In actual, in real life any plot exists"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 110.10000000000001,
+            "end": 112.4,
+            "text": " but government doesn't know whose flat is which"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 112.4,
+            "end": 113.60000000000001,
+            "text": " whose plot is which"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 113.69999999999999,
+            "end": 114.89999999999999,
+            "text": " So what does the government do?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 114.89999999999999,
+            "end": 117.39999999999999,
+            "text": " It maintains a separate registry"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 117.39999999999999,
+            "end": 119.89999999999999,
+            "text": " means government has a registry"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 119.89999999999999,
+            "end": 121.89999999999999,
+            "text": " that this plot belongs to this person"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 121.89999999999999,
+            "end": 123.6,
+            "text": " this flat belongs to this person"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 123.6,
+            "end": 125.6,
+            "text": " this farmhouse belongs to this person"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 125.6,
+            "end": 127.6,
+            "text": " Now this physical thing"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 127.6,
+            "end": 129.2,
+            "text": " it exists in actual"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 129.2,
+            "end": 131.79999999999998,
+            "text": " but where is their registry?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 131.79999999999998,
+            "end": 133.79999999999998,
+            "text": " Their registry is here"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 133.79999999999998,
+            "end": 135.2,
+            "text": " with the government"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 135.2,
+            "end": 136.29999999999998,
+            "text": " So in the same way"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 136.29999999999998,
+            "end": 138.2,
+            "text": " our Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 138.2,
+            "end": 140.2,
+            "text": " from which we were getting the output printed"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 140.2,
+            "end": 142.6,
+            "text": " or there are other functions like Cin"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 142.6,
+            "end": 143.9,
+            "text": " this Cout function"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 143.9,
+            "end": 145.4,
+            "text": " this Cin function"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 145.4,
+            "end": 146.6,
+            "text": " these functions"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 146.6,
+            "end": 149.6,
+            "text": " are created in this header file named Iostream"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 149.6,
+            "end": 151.9,
+            "text": " but where are their names registered?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 151.9,
+            "end": 153.5,
+            "text": " Their names are registered"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 153.5,
+            "end": 156.29999999999998,
+            "text": " in this namespace named STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 156.29999999999998,
+            "end": 158.9,
+            "text": " I will repeat this example"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 158.9,
+            "end": 160.9,
+            "text": " Like actual plot is separate"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 160.9,
+            "end": 162.4,
+            "text": " but we have to get its registry"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 162.4,
+            "end": 164.29999999999998,
+            "text": " done separately to the government"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 164.29999999999998,
+            "end": 165.29999999999998,
+            "text": " So in the same way"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 165.29999999999998,
+            "end": 167.29999999999998,
+            "text": " functions like Cout and Cin"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 167.29999999999998,
+            "end": 169.79999999999998,
+            "text": " are actually written in our header file"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 169.79999999999998,
+            "end": 170.79999999999998,
+            "text": " in Iostream"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 170.8,
+            "end": 172.8,
+            "text": " but the registry of their names"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 172.8,
+            "end": 173.8,
+            "text": " we have to do it separately"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 173.8,
+            "end": 175.8,
+            "text": " in our STD namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 175.8,
+            "end": 178.60000000000002,
+            "text": " So if I have to use Cout anywhere"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 178.60000000000002,
+            "end": 181.4,
+            "text": " then to tell which namespace is Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 181.4,
+            "end": 186.4,
+            "text": " I have to write STD colon colon Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 186.4,
+            "end": 187.60000000000002,
+            "text": " So in this way"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 187.60000000000002,
+            "end": 189.0,
+            "text": " I will use my Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 189.0,
+            "end": 189.8,
+            "text": " Now what is Cout?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 189.8,
+            "end": 190.9,
+            "text": " We did not read it in detail"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 190.9,
+            "end": 192.5,
+            "text": " but we would have got this basic idea"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 192.5,
+            "end": 193.8,
+            "text": " that by using Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 193.8,
+            "end": 195.60000000000002,
+            "text": " we are printing things on the screen"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 195.60000000000002,
+            "end": 197.0,
+            "text": " things are coming with output"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 197.0,
+            "end": 199.0,
+            "text": " So whenever I have to use this Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 199.2,
+            "end": 202.6,
+            "text": " I have to use STD colon colon"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 202.6,
+            "end": 204.8,
+            "text": " Like if I talk about my code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 204.8,
+            "end": 206.0,
+            "text": " So in my code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 206.0,
+            "end": 208.6,
+            "text": " we will remove these old things"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 208.6,
+            "end": 213.4,
+            "text": " Here I can write STD colon colon Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 213.4,
+            "end": 215.8,
+            "text": " and after that I can print anything"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 215.8,
+            "end": 216.8,
+            "text": " For example"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 216.8,
+            "end": 218.8,
+            "text": " I have printed my college here"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 218.8,
+            "end": 221.0,
+            "text": " saved it and will run it"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 221.0,
+            "end": 222.8,
+            "text": " so my whole code will run well"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 222.8,
+            "end": 224.4,
+            "text": " my college will be printed"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 224.4,
+            "end": 225.4,
+            "text": " and there will be no error"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 225.4,
+            "end": 227.8,
+            "text": " So what is the meaning of STD colon colon?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 227.8,
+            "end": 228.8,
+            "text": " So here I am telling you"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 228.8,
+            "end": 232.60000000000002,
+            "text": " that Cout's registry exists in the namespace STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 232.60000000000002,
+            "end": 234.0,
+            "text": " So if tomorrow in this program"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 234.0,
+            "end": 235.8,
+            "text": " I use any other library"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 235.8,
+            "end": 238.0,
+            "text": " in which another Cout exists"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 238.0,
+            "end": 239.20000000000002,
+            "text": " then my code will know"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 239.20000000000002,
+            "end": 240.8,
+            "text": " that I don't want to use another Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 240.8,
+            "end": 242.8,
+            "text": " I want to use this Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 242.8,
+            "end": 244.8,
+            "text": " which comes in my STD namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 244.8,
+            "end": 246.4,
+            "text": " So in the same way in C++"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 246.4,
+            "end": 248.8,
+            "text": " all the standard classes, objects, functions"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 248.8,
+            "end": 250.60000000000002,
+            "text": " or other things, variables even"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 250.60000000000002,
+            "end": 254.20000000000002,
+            "text": " they are all registered in the standard namespace of C++"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 254.20000000000002,
+            "end": 255.60000000000002,
+            "text": " whose name is STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 255.6,
+            "end": 258.2,
+            "text": " If tomorrow I start using any other namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 258.2,
+            "end": 259.2,
+            "text": " like ABC"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 259.2,
+            "end": 261.2,
+            "text": " So if I want to use ABC's Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 261.2,
+            "end": 262.4,
+            "text": " then I can write ABC"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 262.4,
+            "end": 264.8,
+            "text": " But because we will always use C++ namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 264.8,
+            "end": 266.6,
+            "text": " to learn DSA"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 266.6,
+            "end": 268.6,
+            "text": " then we need to write STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 268.6,
+            "end": 271.4,
+            "text": " And now comes your most important question"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 271.4,
+            "end": 274.0,
+            "text": " that if we needed to write STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 274.0,
+            "end": 275.8,
+            "text": " then even after removing it"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 275.8,
+            "end": 277.6,
+            "text": " why is our whole code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 277.6,
+            "end": 279.2,
+            "text": " running successfully?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 280.8,
+            "end": 282.0,
+            "text": " Even after removing it"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 282.0,
+            "end": 283.6,
+            "text": " our whole code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 283.6,
+            "end": 285.0,
+            "text": " is executing successfully"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 285.0,
+            "end": 286.4,
+            "text": " So there is no error in this"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 286.4,
+            "end": 288.2,
+            "text": " There is no error in this"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 288.2,
+            "end": 290.2,
+            "text": " because we have written this line"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 290.2,
+            "end": 292.2,
+            "text": " using namespace STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 292.2,
+            "end": 295.2,
+            "text": " So instead of writing STD colon colon"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 295.2,
+            "end": 297.0,
+            "text": " in front of everything"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 297.0,
+            "end": 298.0,
+            "text": " what we can do"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 298.0,
+            "end": 300.2,
+            "text": " we can write a single line on our code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 300.2,
+            "end": 302.2,
+            "text": " using namespace STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 302.2,
+            "end": 304.2,
+            "text": " which will tell the compiler"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 304.2,
+            "end": 307.2,
+            "text": " that all the functions, classes, objects"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 307.2,
+            "end": 308.8,
+            "text": " and all the things that are being used"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 308.8,
+            "end": 310.8,
+            "text": " which namespace are they registered in"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 310.8,
+            "end": 312.0,
+            "text": " are coming from STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 312.0,
+            "end": 314.4,
+            "text": " So we don't need to write STD again and again"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 314.4,
+            "end": 317.4,
+            "text": " We can tell our whole code in one single line"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 317.4,
+            "end": 319.4,
+            "text": " which namespace we want to use"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 319.4,
+            "end": 321.4,
+            "text": " in our whole code"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 321.4,
+            "end": 323.4,
+            "text": " We can use multiple namespaces"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 323.4,
+            "end": 325.4,
+            "text": " If we bring an external library"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 325.4,
+            "end": 328.4,
+            "text": " in which our namespace name is ABC"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 328.4,
+            "end": 330.4,
+            "text": " then we can use two namespaces"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 330.4,
+            "end": 332.4,
+            "text": " But in our whole course"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 332.4,
+            "end": 333.4,
+            "text": " because while doing DSA"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 333.4,
+            "end": 335.4,
+            "text": " we needed namespaces other than STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 335.4,
+            "end": 338.4,
+            "text": " then we are going to use this standard namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 338.4,
+            "end": 339.4,
+            "text": " There are two words with this"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 339.4,
+            "end": 341.4,
+            "text": " which we will see in programming"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 342.4,
+            "end": 344.4,
+            "text": " One word is define"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 344.4,
+            "end": 347.4,
+            "text": " and one word is declare"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 347.4,
+            "end": 349.4,
+            "text": " Declare means just to tell"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 349.4,
+            "end": 351.4,
+            "text": " and define means"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 351.4,
+            "end": 354.4,
+            "text": " how things are working in detail"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 354.4,
+            "end": 356.4,
+            "text": " and how to define its layout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 356.4,
+            "end": 359.4,
+            "text": " So basically how does Cout work exactly"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 359.4,
+            "end": 360.4,
+            "text": " The definition of it"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 360.4,
+            "end": 362.4,
+            "text": " which we have defined"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 362.4,
+            "end": 365.4,
+            "text": " we have defined it in Iostream"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 365.4,
+            "end": 367.4,
+            "text": " So the definition of Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 367.4,
+            "end": 368.4,
+            "text": " or the work of defining it"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 368.4,
+            "end": 370.4,
+            "text": " is in our header file"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 370.4,
+            "end": 372.4,
+            "text": " But the declaration of Cout"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 372.4,
+            "end": 374.4,
+            "text": " Declaration means to tell"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 374.4,
+            "end": 376.4,
+            "text": " that Cout also exists"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 376.4,
+            "end": 377.4,
+            "text": " Where is it?"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 377.4,
+            "end": 379.4,
+            "text": " It is in our namespace"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 379.4,
+            "end": 381.4,
+            "text": " It is in our STD"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 381.4,
+            "end": 382.4,
+            "text": " It is basically like"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 382.4,
+            "end": 384.4,
+            "text": " where does a plot physically exist"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 384.4,
+            "end": 386.4,
+            "text": " That is its definition"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 386.4,
+            "end": 387.4,
+            "text": " But its registry"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 387.4,
+            "end": 389.4,
+            "text": " i.e. telling the government about that plot"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 389.4,
+            "end": 391.4,
+            "text": " that will be its declaration"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 391.4,
+            "end": 392.4,
+            "text": " that we have declared"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 392.4,
+            "end": 394.4,
+            "text": " that this plot exists and it is ours"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 394.4,
+            "end": 396.4,
+            "text": " or this flat exists and it is ours"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 396.4,
+            "end": 397.4,
+            "text": " So these are the two keywords"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 397.4,
+            "end": 399.4,
+            "text": " which we will see in programming"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 399.4,
+            "end": 401.4,
+            "text": " We should know the difference between them"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 401.4,
+            "end": 403.4,
+            "text": " Define means actual thing"
+        },
+        {
+            "number": "",
+            "title": "What is Namespace-",
+            "start": 403.4,
+            "end": 406.4,
+            "text": " and declare means just to tell about that thing"
+        }
+    ]
+}

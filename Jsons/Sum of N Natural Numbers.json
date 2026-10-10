@@ -1,0 +1,1562 @@
+{
+    "file": "Sum of N Natural Numbers.mp3",
+    "title": "Sum of N Natural Numbers",
+    "number": "",
+    "text": " Now the next question is, what is the sum of first n natural numbers? What does it mean to say sum of first n natural numbers? If n is given as 5, then we have to calculate sum of 1, 2, 3, 4, 5 and print it. For example, if the sum is 15, then we have to print 15. If n is given as 4, then we have to print 10. So this way we have to print sum of first n natural numbers. Now if we think carefully, this problem is like an old problem. In old problem, we had to print these numbers. This time we have to add these numbers again and again to calculate sum. So flowchart will look like we made in last question. But there will be some changes in it. This time we will get an extra variable which will be the sum variable. So let's start the flowchart. For flowchart, we will always start with our start block. So let me start with the start block. After starting with the start block, we can either take input n or initialize i. Let's take input n this time. So we will make our input block in the shape of a parallelogram. In which we will write, take input n. After that, the first thing to do in the process is to initialize i with 1. After that our loop will start. What we have to do again and again? i has value 1. So first of all, we have to take another sum variable. We will initialize sum with 0. Let's make some changes in the process block. Here we will take two variables. One will be i is equal to 1 and other one will be sum is equal to 0. So every time we will add i to sum. If sum value is 0, then 1 will be added to 0. If sum value is 1, then i will be increased. i is equal to i plus 1. So i will have value 2. After that, we will add i to sum again. We will increase i again. We will add i to sum again. So first, i will be 1. Then i will be 2. Then i will be 3. Then i will be 4. Then i will be 10. So in this way, we have to increase i in sum again and again. This is our work. I think that my work is going in loop. I have to repeat this work again and again. How long should I repeat this work? Till the time i value is less than or equal to n. Till the time i value is yes, I have to repeat my work. So first of all, let's take a decision. Till when should I repeat my work? Is i less than or equal to n? Till when should I repeat my work? Till the time i value is less than or equal to n. Now let's write the work. In fact, this is my yes block. I will show you the work here. Work is basically a big process block. In which we will write both the work. First, add i to sum. Then increase i by 1. i will be added in sum and i will be increased by 1. As soon as this work is over, check again. Is this new i greater than or equal to n? If not, i is less than or equal to n. This value is giving me yes. So repeat your work. So what happened is that my work is in loop. This loop will continue till the time this condition is true. As soon as this condition is no, I have to exit. Before exiting, I have to print my sum. I have to print sum somewhere. So with capital P, print sum. This is another output block. Finally, I will write a small exit. In fact, let me try to minimize this. I will write my exit here. This will be my oval. So this way, we have drawn our flow chart. Now let's try to dry run this flow chart. For n is equal to 4. For n is equal to 4, our answer should be equal to 10. Let's see if the answer is 10 or not. Let's start from here. If we input n, then n value is 4. We will initialize i with 1. i is 1 now. What is sum? Sum is 0. So sum value is 0. Now let's check if i is less than or equal to n. Yes, i is less than or equal to n. 1 is less than or equal to 4. So first, add i to sum. I added 1 to sum, so sum is 1. Now increase i by 1. i increased by 1, so i is 2. Check again. Is 2 less than or equal to 4? Yes. So again, add i to sum. So, 2 is added to 1, so total is 3. Increase i by 1, so total is 3. Check again. Is 3 less than or equal to 4? Yes. So again, add i to sum. 3 is added to 3, so total is 6. Increase i by 1, so total is 4. Basically, I have performed these two steps. Check again. Is 4 less than or equal to 4? Yes. So again, add i to sum. 4 is added to 6, so total is 10. i increased by 1, so total is 10. Check again. Is 5 less than or equal to n? No. So, here we have no. As soon as we get no, print the sum. We printed the sum, which means we have 10 printed in the answer. 10 should be the final answer. We predicted the same. And finally, we will exit from here. So, in this way, the flow of problem solving will work for this question. If we have to solve this problem with the flowchart at this stage, then we need to understand the problem in a way that we don't understand the problem. So, there is nothing to worry. We will solve many such questions in our chapter named loops. This is just a trailer of the type of problems we solve in coding. So that we can make a logical mind and approach coding. Because many times we don't know that we are going to learn coding, but we are going to do it. Basically, we are going to solve simple problems in the beginning and then we will solve more difficult problems. Let's write the pseudocode of this problem. Let's try to write the pseudocode for our problem. In pseudocode, the first step is to input n. So, we took n as input. The second step is to initialize i with 1 and to initialize sum with 0. Initialize means these are the starting values. In the third step, we have a loop. We already know how to write a loop. While i is less than or equal to n. This means that until this condition is true, the loop will run. So, we will write while in the loop. We can write while with capital W or with small w. While until i is less than or equal to n. Until then, we have to do these two things. We will give space to both the things. I have to do one thing. I have to add sum to i. I have to increase i with 1. As soon as the loop ends, this loop is over. As soon as the loop ends, print sum. This is our fourth step. Fifth step is basically to exit. This is how the pseudocode for my problem will look like. In this way, we can logically convert the code into pseudocode. There are many basic components. Either we have to take some input in the pseudocode. Or we have to print something. Or we have to exit. Or we have to initialize something. Or we have to calculate something. Or we have to do some assignment. There are only two steps. Either we have to do the f else step which is of a single decision block. Or if you are finding a loop, then we will write while writing the condition. Maximum pseudocodes look like this. This way, we don't see any additional type in the pseudocode. The pseudocode is not as important as the actual coding process which we are going to start in the next class. So this was all in flowcharts and pseudocodes. We have discussed some questions. You might be getting many questions in the assignment questions. So you have to solve the assignment questions. They are really important. Before the next class, you have to solve the assignment questions of every chapter. So that our mindset is logically prepared to learn the next thing out there. I hope you enjoyed reading flowchart and pseudocodes. We can understand this chapter as a trailer of coding. The real picture is yet to come. We will start this picture with the next chapter. See you in the next lecture. Till then keep learning and keep practicing.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 0.0,
+            "end": 5.2,
+            "text": " Now the next question is, what is the sum of first n natural numbers?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 5.2,
+            "end": 8.700000000000001,
+            "text": " What does it mean to say sum of first n natural numbers?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 8.700000000000001,
+            "end": 19.3,
+            "text": " If n is given as 5, then we have to calculate sum of 1, 2, 3, 4, 5 and print it."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 19.8,
+            "end": 24.3,
+            "text": " For example, if the sum is 15, then we have to print 15."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 24.3,
+            "end": 32.6,
+            "text": " If n is given as 4, then we have to print 10."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 32.6,
+            "end": 36.6,
+            "text": " So this way we have to print sum of first n natural numbers."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 36.6,
+            "end": 41.3,
+            "text": " Now if we think carefully, this problem is like an old problem."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 41.3,
+            "end": 44.3,
+            "text": " In old problem, we had to print these numbers."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 44.3,
+            "end": 49.3,
+            "text": " This time we have to add these numbers again and again to calculate sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 49.3,
+            "end": 53.3,
+            "text": " So flowchart will look like we made in last question."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 53.3,
+            "end": 55.3,
+            "text": " But there will be some changes in it."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 55.3,
+            "end": 58.8,
+            "text": " This time we will get an extra variable which will be the sum variable."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 58.8,
+            "end": 61.8,
+            "text": " So let's start the flowchart."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 61.8,
+            "end": 65.8,
+            "text": " For flowchart, we will always start with our start block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 65.8,
+            "end": 68.8,
+            "text": " So let me start with the start block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 68.8,
+            "end": 74.8,
+            "text": " After starting with the start block, we can either take input n or initialize i."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 74.8,
+            "end": 76.8,
+            "text": " Let's take input n this time."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 76.8,
+            "end": 80.8,
+            "text": " So we will make our input block in the shape of a parallelogram."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 80.8,
+            "end": 85.8,
+            "text": " In which we will write, take input n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 85.8,
+            "end": 93.8,
+            "text": " After that, the first thing to do in the process is to initialize i with 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 93.8,
+            "end": 95.8,
+            "text": " After that our loop will start."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 95.8,
+            "end": 97.8,
+            "text": " What we have to do again and again?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 97.8,
+            "end": 99.8,
+            "text": " i has value 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 99.8,
+            "end": 102.8,
+            "text": " So first of all, we have to take another sum variable."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 102.8,
+            "end": 105.8,
+            "text": " We will initialize sum with 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 105.8,
+            "end": 108.8,
+            "text": " Let's make some changes in the process block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 108.8,
+            "end": 110.8,
+            "text": " Here we will take two variables."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 110.8,
+            "end": 115.8,
+            "text": " One will be i is equal to 1 and other one will be sum is equal to 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 115.8,
+            "end": 122.8,
+            "text": " So every time we will add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 122.8,
+            "end": 125.8,
+            "text": " If sum value is 0, then 1 will be added to 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 125.8,
+            "end": 128.8,
+            "text": " If sum value is 1, then i will be increased."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 128.8,
+            "end": 130.8,
+            "text": " i is equal to i plus 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 130.8,
+            "end": 132.8,
+            "text": " So i will have value 2."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 132.8,
+            "end": 134.8,
+            "text": " After that, we will add i to sum again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 134.8,
+            "end": 136.8,
+            "text": " We will increase i again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 136.8,
+            "end": 138.8,
+            "text": " We will add i to sum again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 138.8,
+            "end": 140.8,
+            "text": " So first, i will be 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 140.8,
+            "end": 142.8,
+            "text": " Then i will be 2."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 142.8,
+            "end": 144.8,
+            "text": " Then i will be 3."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 144.8,
+            "end": 146.8,
+            "text": " Then i will be 4."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 146.8,
+            "end": 148.8,
+            "text": " Then i will be 10."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 148.8,
+            "end": 153.8,
+            "text": " So in this way, we have to increase i in sum again and again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 153.8,
+            "end": 155.8,
+            "text": " This is our work."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 155.8,
+            "end": 157.8,
+            "text": " I think that my work is going in loop."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 157.8,
+            "end": 159.8,
+            "text": " I have to repeat this work again and again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 159.8,
+            "end": 161.8,
+            "text": " How long should I repeat this work?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 161.8,
+            "end": 164.8,
+            "text": " Till the time i value is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 164.8,
+            "end": 168.8,
+            "text": " Till the time i value is yes, I have to repeat my work."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 168.8,
+            "end": 171.8,
+            "text": " So first of all, let's take a decision."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 171.8,
+            "end": 173.8,
+            "text": " Till when should I repeat my work?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 173.8,
+            "end": 178.8,
+            "text": " Is i less than or equal to n?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 179.8,
+            "end": 181.8,
+            "text": " Till when should I repeat my work?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 181.8,
+            "end": 183.8,
+            "text": " Till the time i value is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 183.8,
+            "end": 185.8,
+            "text": " Now let's write the work."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 185.8,
+            "end": 188.8,
+            "text": " In fact, this is my yes block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 188.8,
+            "end": 190.8,
+            "text": " I will show you the work here."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 190.8,
+            "end": 194.8,
+            "text": " Work is basically a big process block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 194.8,
+            "end": 196.8,
+            "text": " In which we will write both the work."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 196.8,
+            "end": 201.8,
+            "text": " First, add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 201.8,
+            "end": 204.8,
+            "text": " Then increase i by 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 204.8,
+            "end": 208.8,
+            "text": " i will be added in sum and i will be increased by 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 208.8,
+            "end": 211.8,
+            "text": " As soon as this work is over, check again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 211.8,
+            "end": 216.8,
+            "text": " Is this new i greater than or equal to n?"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 216.8,
+            "end": 219.8,
+            "text": " If not, i is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 219.8,
+            "end": 221.8,
+            "text": " This value is giving me yes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 221.8,
+            "end": 223.8,
+            "text": " So repeat your work."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 223.8,
+            "end": 225.8,
+            "text": " So what happened is that my work is in loop."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 225.8,
+            "end": 228.8,
+            "text": " This loop will continue till the time this condition is true."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 228.8,
+            "end": 231.8,
+            "text": " As soon as this condition is no, I have to exit."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 231.8,
+            "end": 236.8,
+            "text": " Before exiting, I have to print my sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 236.8,
+            "end": 238.8,
+            "text": " I have to print sum somewhere."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 238.8,
+            "end": 243.8,
+            "text": " So with capital P, print sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 243.8,
+            "end": 246.8,
+            "text": " This is another output block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 246.8,
+            "end": 250.8,
+            "text": " Finally, I will write a small exit."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 250.8,
+            "end": 255.8,
+            "text": " In fact, let me try to minimize this."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 255.8,
+            "end": 257.8,
+            "text": " I will write my exit here."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 257.8,
+            "end": 260.8,
+            "text": " This will be my oval."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 260.8,
+            "end": 264.8,
+            "text": " So this way, we have drawn our flow chart."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 264.8,
+            "end": 267.8,
+            "text": " Now let's try to dry run this flow chart."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 267.8,
+            "end": 269.8,
+            "text": " For n is equal to 4."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 269.8,
+            "end": 273.8,
+            "text": " For n is equal to 4, our answer should be equal to 10."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 273.8,
+            "end": 275.8,
+            "text": " Let's see if the answer is 10 or not."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 275.8,
+            "end": 277.8,
+            "text": " Let's start from here."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 277.8,
+            "end": 279.8,
+            "text": " If we input n, then n value is 4."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 279.8,
+            "end": 281.8,
+            "text": " We will initialize i with 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 281.8,
+            "end": 283.8,
+            "text": " i is 1 now."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 283.8,
+            "end": 285.8,
+            "text": " What is sum? Sum is 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 286.8,
+            "end": 290.8,
+            "text": " So sum value is 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 290.8,
+            "end": 293.8,
+            "text": " Now let's check if i is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 293.8,
+            "end": 295.8,
+            "text": " Yes, i is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 295.8,
+            "end": 297.8,
+            "text": " 1 is less than or equal to 4."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 297.8,
+            "end": 299.8,
+            "text": " So first, add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 299.8,
+            "end": 301.8,
+            "text": " I added 1 to sum, so sum is 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 301.8,
+            "end": 304.8,
+            "text": " Now increase i by 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 304.8,
+            "end": 306.8,
+            "text": " i increased by 1, so i is 2."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 306.8,
+            "end": 308.8,
+            "text": " Check again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 308.8,
+            "end": 310.8,
+            "text": " Is 2 less than or equal to 4? Yes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 310.8,
+            "end": 312.8,
+            "text": " So again, add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 313.8,
+            "end": 315.8,
+            "text": " So, 2 is added to 1, so total is 3."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 315.8,
+            "end": 317.8,
+            "text": " Increase i by 1, so total is 3."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 317.8,
+            "end": 319.8,
+            "text": " Check again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 319.8,
+            "end": 321.8,
+            "text": " Is 3 less than or equal to 4? Yes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 321.8,
+            "end": 323.8,
+            "text": " So again, add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 323.8,
+            "end": 325.8,
+            "text": " 3 is added to 3, so total is 6."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 325.8,
+            "end": 327.8,
+            "text": " Increase i by 1, so total is 4."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 327.8,
+            "end": 329.8,
+            "text": " Basically, I have performed these two steps."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 329.8,
+            "end": 331.8,
+            "text": " Check again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 331.8,
+            "end": 333.8,
+            "text": " Is 4 less than or equal to 4? Yes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 333.8,
+            "end": 335.8,
+            "text": " So again, add i to sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 335.8,
+            "end": 337.8,
+            "text": " 4 is added to 6, so total is 10."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 337.8,
+            "end": 339.8,
+            "text": " i increased by 1, so total is 10."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 339.8,
+            "end": 341.8,
+            "text": " Check again."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 341.8,
+            "end": 343.8,
+            "text": " Is 5 less than or equal to n? No."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 343.8,
+            "end": 345.8,
+            "text": " So, here we have no."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 345.8,
+            "end": 347.8,
+            "text": " As soon as we get no, print the sum."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 347.8,
+            "end": 349.8,
+            "text": " We printed the sum, which means"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 349.8,
+            "end": 351.8,
+            "text": " we have 10 printed in the answer."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 351.8,
+            "end": 353.8,
+            "text": " 10 should be the final answer."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 353.8,
+            "end": 355.8,
+            "text": " We predicted the same."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 355.8,
+            "end": 357.8,
+            "text": " And finally, we will exit from here."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 357.8,
+            "end": 359.8,
+            "text": " So, in this way,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 359.8,
+            "end": 361.8,
+            "text": " the flow of problem solving"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 361.8,
+            "end": 363.8,
+            "text": " will work for this question."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 363.8,
+            "end": 365.8,
+            "text": " If we have to solve this problem"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 365.8,
+            "end": 367.8,
+            "text": " with the flowchart at this stage,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 367.8,
+            "end": 369.8,
+            "text": " then we need to understand"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 369.8,
+            "end": 371.8,
+            "text": " the problem in a way that"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 371.8,
+            "end": 373.8,
+            "text": " we don't understand the problem."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 373.8,
+            "end": 375.8,
+            "text": " So, there is nothing to worry."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 375.8,
+            "end": 377.8,
+            "text": " We will solve many such questions"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 377.8,
+            "end": 379.8,
+            "text": " in our chapter named loops."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 379.8,
+            "end": 381.8,
+            "text": " This is just a trailer"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 381.8,
+            "end": 383.8,
+            "text": " of the type of problems"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 383.8,
+            "end": 385.8,
+            "text": " we solve in coding."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 385.8,
+            "end": 387.8,
+            "text": " So that we can"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 387.8,
+            "end": 389.8,
+            "text": " make a logical mind and approach coding."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 389.8,
+            "end": 391.8,
+            "text": " Because many times we don't know"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 391.8,
+            "end": 393.8,
+            "text": " that we are going to learn coding,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 393.8,
+            "end": 395.8,
+            "text": " but we are going to do it."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 395.8,
+            "end": 397.8,
+            "text": " Basically, we are going to solve"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 397.8,
+            "end": 399.8,
+            "text": " simple problems in the beginning"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 399.8,
+            "end": 401.8,
+            "text": " and then we will solve"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 401.8,
+            "end": 403.8,
+            "text": " more difficult problems."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 403.8,
+            "end": 405.8,
+            "text": " Let's write the pseudocode of this problem."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 405.8,
+            "end": 407.8,
+            "text": " Let's try to write the pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 407.8,
+            "end": 409.8,
+            "text": " for our problem."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 409.8,
+            "end": 411.8,
+            "text": " In pseudocode, the first step is"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 411.8,
+            "end": 413.8,
+            "text": " to input n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 413.8,
+            "end": 415.8,
+            "text": " So, we took n as input."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 415.8,
+            "end": 417.8,
+            "text": " The second step is to initialize i"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 417.8,
+            "end": 419.8,
+            "text": " with 1 and"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 419.8,
+            "end": 421.8,
+            "text": " to initialize sum with 0."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 421.8,
+            "end": 423.8,
+            "text": " Initialize means"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 423.8,
+            "end": 425.8,
+            "text": " these are the starting values."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 425.8,
+            "end": 427.8,
+            "text": " In the third step,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 427.8,
+            "end": 429.8,
+            "text": " we have a loop."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 429.8,
+            "end": 431.8,
+            "text": " We already know how to write a loop."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 431.8,
+            "end": 433.8,
+            "text": " While i is less than or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 433.8,
+            "end": 435.8,
+            "text": " This means that until this condition is true,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 435.8,
+            "end": 437.8,
+            "text": " the loop will run."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 437.8,
+            "end": 439.8,
+            "text": " So, we will write while in the loop."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 439.8,
+            "end": 441.8,
+            "text": " We can write while with capital W"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 441.8,
+            "end": 443.8,
+            "text": " or with small w."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 443.8,
+            "end": 445.8,
+            "text": " While until i is less than"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 445.8,
+            "end": 447.8,
+            "text": " or equal to n."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 447.8,
+            "end": 449.8,
+            "text": " Until then, we have to do these two things."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 449.8,
+            "end": 451.8,
+            "text": " We will give space to both the things."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 451.8,
+            "end": 453.8,
+            "text": " I have to do one thing."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 453.8,
+            "end": 455.8,
+            "text": " I have to add sum"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 455.8,
+            "end": 457.8,
+            "text": " to i."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 457.8,
+            "end": 459.8,
+            "text": " I have to increase i"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 459.8,
+            "end": 461.8,
+            "text": " with 1."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 461.8,
+            "end": 463.8,
+            "text": " As soon as the loop ends,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 463.8,
+            "end": 465.8,
+            "text": " this loop is over."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 465.8,
+            "end": 467.8,
+            "text": " As soon as the loop ends,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 467.8,
+            "end": 469.8,
+            "text": " print"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 469.8,
+            "end": 471.8,
+            "text": " sum. This is our fourth step."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 471.8,
+            "end": 473.8,
+            "text": " Fifth step is"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 473.8,
+            "end": 475.8,
+            "text": " basically to exit."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 475.8,
+            "end": 477.8,
+            "text": " This is how the pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 477.8,
+            "end": 479.8,
+            "text": " for my problem will look like."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 479.8,
+            "end": 481.8,
+            "text": " In this way, we can logically"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 481.8,
+            "end": 483.8,
+            "text": " convert the code into pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 483.8,
+            "end": 485.8,
+            "text": " There are many basic components."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 485.8,
+            "end": 487.8,
+            "text": " Either we have to take some input"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 487.8,
+            "end": 489.8,
+            "text": " in the pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 489.8,
+            "end": 491.8,
+            "text": " Or we have to print something."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 491.8,
+            "end": 493.8,
+            "text": " Or we have to exit."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 493.8,
+            "end": 495.8,
+            "text": " Or we have to initialize something."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 495.8,
+            "end": 497.8,
+            "text": " Or we have to calculate something."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 497.8,
+            "end": 499.8,
+            "text": " Or we have to do some assignment."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 499.8,
+            "end": 501.8,
+            "text": " There are only two steps."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 501.8,
+            "end": 503.8,
+            "text": " Either we have to do the f else step"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 503.8,
+            "end": 505.8,
+            "text": " which is of a single decision block."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 505.8,
+            "end": 507.8,
+            "text": " Or if you are finding a loop,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 507.8,
+            "end": 509.8,
+            "text": " then we will write while"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 509.8,
+            "end": 511.8,
+            "text": " writing the condition."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 511.8,
+            "end": 513.8,
+            "text": " Maximum pseudocodes"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 513.8,
+            "end": 515.8,
+            "text": " look like this."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 515.8,
+            "end": 517.8,
+            "text": " This way, we don't see any additional type"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 517.8,
+            "end": 519.8,
+            "text": " in the pseudocode."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 519.8,
+            "end": 521.8,
+            "text": " The pseudocode is not as important"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 521.8,
+            "end": 523.8,
+            "text": " as the actual coding process"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 523.8,
+            "end": 525.8,
+            "text": " which we are going to start in the next class."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 525.8,
+            "end": 527.8,
+            "text": " So this was all"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 527.8,
+            "end": 529.8,
+            "text": " in flowcharts and pseudocodes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 529.8,
+            "end": 531.8,
+            "text": " We have discussed some questions."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 531.8,
+            "end": 533.8,
+            "text": " You might be getting many questions in the assignment questions."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 533.8,
+            "end": 535.8,
+            "text": " So you have to solve the assignment questions."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 535.8,
+            "end": 537.8,
+            "text": " They are really important."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 537.8,
+            "end": 539.8,
+            "text": " Before the next class,"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 539.8,
+            "end": 541.8,
+            "text": " you have to solve the assignment questions"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 541.8,
+            "end": 543.8,
+            "text": " of every chapter."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 543.8,
+            "end": 545.8,
+            "text": " So that our mindset is logically prepared"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 545.8,
+            "end": 547.8,
+            "text": " to learn the next thing out there."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 547.8,
+            "end": 549.8,
+            "text": " I hope you enjoyed reading"
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 549.8,
+            "end": 551.8,
+            "text": " flowchart and pseudocodes."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 551.8,
+            "end": 553.8,
+            "text": " We can understand this chapter as a trailer of coding."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 553.8,
+            "end": 555.8,
+            "text": " The real picture is yet to come."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 555.8,
+            "end": 557.8,
+            "text": " We will start this picture with the next chapter."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 557.8,
+            "end": 559.8,
+            "text": " See you in the next lecture."
+        },
+        {
+            "number": "",
+            "title": "Sum of N Natural Numbers",
+            "start": 559.8,
+            "end": 561.8,
+            "text": " Till then keep learning and keep practicing."
+        }
+    ]
+}

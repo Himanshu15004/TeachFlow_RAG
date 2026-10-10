@@ -1,0 +1,470 @@
+{
+    "file": "Calculate Simple Interest.mp3",
+    "title": "Calculate Simple Interest",
+    "number": "",
+    "text": " In the next question, we are going to create flowchart and pseudocode to calculate the simple interest Simple interest is something that we have learnt in basic math in our 6th to 8th grade How do we calculate simple interest? Basically, we have 3 values in input Principle, Rate and Time which we call PRT and when we multiply these 3 values and divide it by 100 then we get the formula of simple interest Now, there might be students among us who don't know the formula of simple interest because we don't use the formula of simple interest in 11th and 12th grade so we might have forgotten it There is nothing to worry about that In coding, your logic is tested Your math or interest formulas are not tested It is possible that you might be asked compound interest in a question that write a small program which can calculate it Now, it is possible that we don't know the formula of compound interest so there is nothing to worry about that because if any good interviewer is sitting in front of you then you can ask him the formula because your job is not to write the formula, you are not a mathematician you are a programmer If you are given a formula, then your job is to convert it into code This formula is very easy but if you don't know it, then you can ask it to your interviewer So, we have to output this formula The process is simple that we have to start First of all, we will take input of all 3 values So, we will take input of PRT in the parallelogram After that, we have to do calculation How to calculate simple interest in calculation? P x R x T The sign of multiplication is in programming The sign of star is on our keyboard We call it asterisk We call it asterisk We can use asterisk to multiply things We use slash for divide 100 I have written SI for simple interest Similarly, we will print simple interest in my output block Finally, we will exit Now, let's try to write a pseudocode for this As I told you, because we have already seen one pseudocode so you can try this pseudocode by yourself Pause the lecture Try to write a pseudocode by yourself and then come and see the solution So, the first step for pseudocode We can skip the start We will write 3 values P, R, and T The second step will be Calculate simple interest as P x R x T divided by 100 The third step will be Print your simple interest It will be in the output Print means output We are using print because we are going to output on the screen So, we call it as print The fourth step will be exit So, this is the pseudocode to calculate simple interest",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 0.0,
+            "end": 5.5200000000000005,
+            "text": " In the next question, we are going to create flowchart and pseudocode to calculate the simple interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 5.5200000000000005,
+            "end": 11.64,
+            "text": " Simple interest is something that we have learnt in basic math in our 6th to 8th grade"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 11.64,
+            "end": 13.64,
+            "text": " How do we calculate simple interest?"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 13.64,
+            "end": 16.68,
+            "text": " Basically, we have 3 values in input"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 16.68,
+            "end": 20.28,
+            "text": " Principle, Rate and Time which we call PRT"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 20.28,
+            "end": 24.48,
+            "text": " and when we multiply these 3 values and divide it by 100"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 24.48,
+            "end": 26.72,
+            "text": " then we get the formula of simple interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 26.959999999999997,
+            "end": 30.48,
+            "text": " Now, there might be students among us who don't know the formula of simple interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 30.48,
+            "end": 34.0,
+            "text": " because we don't use the formula of simple interest in 11th and 12th grade"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 34.0,
+            "end": 35.0,
+            "text": " so we might have forgotten it"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 35.0,
+            "end": 37.0,
+            "text": " There is nothing to worry about that"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 37.0,
+            "end": 39.84,
+            "text": " In coding, your logic is tested"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 39.84,
+            "end": 44.4,
+            "text": " Your math or interest formulas are not tested"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 44.4,
+            "end": 47.599999999999994,
+            "text": " It is possible that you might be asked compound interest in a question"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 47.599999999999994,
+            "end": 50.480000000000004,
+            "text": " that write a small program which can calculate it"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 50.480000000000004,
+            "end": 53.0,
+            "text": " Now, it is possible that we don't know the formula of compound interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 53.0,
+            "end": 54.68,
+            "text": " so there is nothing to worry about that"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 54.72,
+            "end": 57.72,
+            "text": " because if any good interviewer is sitting in front of you"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 57.72,
+            "end": 59.72,
+            "text": " then you can ask him the formula"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 59.72,
+            "end": 62.72,
+            "text": " because your job is not to write the formula, you are not a mathematician"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 62.72,
+            "end": 63.84,
+            "text": " you are a programmer"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 63.84,
+            "end": 68.16,
+            "text": " If you are given a formula, then your job is to convert it into code"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 68.16,
+            "end": 70.16,
+            "text": " This formula is very easy"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 70.16,
+            "end": 73.64,
+            "text": " but if you don't know it, then you can ask it to your interviewer"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 73.64,
+            "end": 76.48,
+            "text": " So, we have to output this formula"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 76.48,
+            "end": 79.08,
+            "text": " The process is simple that we have to start"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 79.08,
+            "end": 81.6,
+            "text": " First of all, we will take input of all 3 values"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 81.6,
+            "end": 85.0,
+            "text": " So, we will take input of PRT in the parallelogram"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 85.0,
+            "end": 87.0,
+            "text": " After that, we have to do calculation"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 87.0,
+            "end": 90.28,
+            "text": " How to calculate simple interest in calculation?"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 90.28,
+            "end": 92.88,
+            "text": " P x R x T"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 92.88,
+            "end": 94.88,
+            "text": " The sign of multiplication is in programming"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 94.88,
+            "end": 96.88,
+            "text": " The sign of star is on our keyboard"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 96.88,
+            "end": 98.88,
+            "text": " We call it asterisk"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 98.88,
+            "end": 100.88,
+            "text": " We call it asterisk"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 100.88,
+            "end": 105.44,
+            "text": " We can use asterisk to multiply things"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 105.44,
+            "end": 107.44,
+            "text": " We use slash for divide"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 107.44,
+            "end": 109.44,
+            "text": " 100"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 109.44,
+            "end": 112.39999999999999,
+            "text": " I have written SI for simple interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 112.39999999999999,
+            "end": 115.8,
+            "text": " Similarly, we will print simple interest in my output block"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 115.8,
+            "end": 117.8,
+            "text": " Finally, we will exit"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 117.8,
+            "end": 120.8,
+            "text": " Now, let's try to write a pseudocode for this"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 120.8,
+            "end": 122.8,
+            "text": " As I told you,"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 122.8,
+            "end": 126.0,
+            "text": " because we have already seen one pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 126.0,
+            "end": 128.8,
+            "text": " so you can try this pseudocode by yourself"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 128.8,
+            "end": 130.8,
+            "text": " Pause the lecture"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 130.8,
+            "end": 132.8,
+            "text": " Try to write a pseudocode by yourself"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 132.8,
+            "end": 134.8,
+            "text": " and then come and see the solution"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 134.8,
+            "end": 136.8,
+            "text": " So, the first step for pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 136.8,
+            "end": 138.8,
+            "text": " We can skip the start"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 139.16000000000003,
+            "end": 141.16000000000003,
+            "text": " We will write 3 values"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 141.16000000000003,
+            "end": 143.16000000000003,
+            "text": " P, R, and T"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 143.16000000000003,
+            "end": 145.16000000000003,
+            "text": " The second step will be"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 145.16000000000003,
+            "end": 147.16000000000003,
+            "text": " Calculate simple interest as"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 147.16000000000003,
+            "end": 149.16000000000003,
+            "text": " P x R x T"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 149.16000000000003,
+            "end": 151.16000000000003,
+            "text": " divided by 100"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 151.16000000000003,
+            "end": 153.16000000000003,
+            "text": " The third step will be"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 153.16000000000003,
+            "end": 155.16000000000003,
+            "text": " Print your simple interest"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 155.16000000000003,
+            "end": 157.16000000000003,
+            "text": " It will be in the output"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 157.16000000000003,
+            "end": 159.16000000000003,
+            "text": " Print means output"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 159.16000000000003,
+            "end": 161.16000000000003,
+            "text": " We are using print because"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 161.16000000000003,
+            "end": 163.16000000000003,
+            "text": " we are going to output on the screen"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 163.16000000000003,
+            "end": 165.16000000000003,
+            "text": " So, we call it as print"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 165.16000000000003,
+            "end": 167.16000000000003,
+            "text": " The fourth step will be exit"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 167.52,
+            "end": 169.52,
+            "text": " So, this is the pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Calculate Simple Interest",
+            "start": 169.52,
+            "end": 171.52,
+            "text": " to calculate simple interest"
+        }
+    ]
+}

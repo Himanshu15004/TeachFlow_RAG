@@ -1,0 +1,12 @@
+﻿.env
+venv/
+.venv/
+__pycache__/
+.vscode/
+Videos/
+Audios/
+Unused/
+*.mp4
+*.mp3
+*.wav
+whisper-data/

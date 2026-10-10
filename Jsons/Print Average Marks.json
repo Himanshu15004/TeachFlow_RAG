@@ -1,0 +1,477 @@
+{
+    "file": "Print Average Marks.mp3",
+    "title": "Print Average Marks",
+    "number": "",
+    "text": " next we will do one more question in which we are going to print the average marks means we have to take input of 3 subjects one subject can be science one can be english and one can be math we have to take input of 3 subjects and then we have to give average of these 3 subjects now what is the average of 3 values average of 3 values is value 1 plus value 2 plus value 3 all values divided by 3 and in C++ the symbol of divide is equal to slash slash is used to divide the numbers in C++ and to multiply we use the symbol of asterisk so in this way we can calculate the average of 3 values and can print it so first of all we will define our 3 variables let's define our 3 variables first of all will be my english marks second will be science marks and similarly math marks now let's do cout here enter english marks c in will be our english marks let's copy this here we will enter our science marks and here we will enter our math marks when we will have marks of all 3 subjects after that we will take one more int value which we will call average average is going to be in bracket we will add our science marks and math marks in english marks and then we will divide the whole sum with 3 so our average marks are here and finally we will print our average marks average marks equals average with end line so this is our complete code which we have completed this is our entire program in which we will have marks of 3 subjects now let me tell you one more interesting thing related to the divide in C++ in C++ when we divide integer value with integer value so answer always comes as integer what does it mean? it means that if we divide 5 with 2 so answer comes as 2.5 in math but here answer will not come as 2.5, here answer will come as 2 means first 2.5 will be calculated and then the value after point will be cut and only the initial integer will be left if answer would have been 2.999 still answer would have printed only 2 so let's execute it once for example here I compiled my code and run it let's suppose english marks are 95 our science marks are 98 and math marks are 96 so what is the answer? average marks are 96 but answer should have been 96.33 that 0.33 was deducted from here so what we can do is we can make all these marks float type from the beginning because we are already dealing with decimal values so here our average will also be float type so if we run it again english marks are 95 again science marks are 98 and math marks are 96 so what is the answer? we got the correct value in average marks with our decimal digits 96.3333 so if we want our result with precision then we have to use correct data type while doing our calculations",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 0.0,
+            "end": 4.5,
+            "text": " next we will do one more question in which we are going to print the average marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 4.5,
+            "end": 8.22,
+            "text": " means we have to take input of 3 subjects"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 8.22,
+            "end": 11.42,
+            "text": " one subject can be science"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 11.42,
+            "end": 13.82,
+            "text": " one can be english"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 13.82,
+            "end": 16.18,
+            "text": " and one can be math"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 16.18,
+            "end": 19.3,
+            "text": " we have to take input of 3 subjects"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 19.3,
+            "end": 22.400000000000002,
+            "text": " and then we have to give average of these 3 subjects"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 22.400000000000002,
+            "end": 24.52,
+            "text": " now what is the average of 3 values"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 24.52,
+            "end": 29.48,
+            "text": " average of 3 values is value 1 plus value 2 plus value 3"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 29.48,
+            "end": 32.12,
+            "text": " all values divided by 3"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 32.12,
+            "end": 36.32,
+            "text": " and in C++ the symbol of divide is equal to slash"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 36.32,
+            "end": 40.56,
+            "text": " slash is used to divide the numbers in C++"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 40.56,
+            "end": 45.2,
+            "text": " and to multiply we use the symbol of asterisk"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 45.2,
+            "end": 50.6,
+            "text": " so in this way we can calculate the average of 3 values and can print it"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 50.92,
+            "end": 54.68,
+            "text": " so first of all we will define our 3 variables"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 54.68,
+            "end": 57.4,
+            "text": " let's define our 3 variables"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 57.4,
+            "end": 60.88,
+            "text": " first of all will be my english marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 60.88,
+            "end": 65.84,
+            "text": " second will be science marks and similarly math marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 65.84,
+            "end": 68.84,
+            "text": " now let's do cout here"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 68.84,
+            "end": 72.04,
+            "text": " enter english marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 72.04,
+            "end": 77.48,
+            "text": " c in will be our english marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 77.48,
+            "end": 80.2,
+            "text": " let's copy this"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 80.8,
+            "end": 83.8,
+            "text": " here we will enter our science marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 83.8,
+            "end": 87.68,
+            "text": " and here we will enter our math marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 87.68,
+            "end": 90.84,
+            "text": " when we will have marks of all 3 subjects"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 90.84,
+            "end": 94.44,
+            "text": " after that we will take one more int value which we will call average"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 94.44,
+            "end": 97.24000000000001,
+            "text": " average is going to be in bracket"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 97.24000000000001,
+            "end": 101.48,
+            "text": " we will add our science marks and math marks in english marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 101.48,
+            "end": 105.16,
+            "text": " and then we will divide the whole sum with 3"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 105.16,
+            "end": 106.68,
+            "text": " so our average marks are here"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 106.72000000000001,
+            "end": 111.24000000000001,
+            "text": " and finally we will print our average marks"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 111.24000000000001,
+            "end": 114.92,
+            "text": " average marks equals"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 114.92,
+            "end": 118.68,
+            "text": " average with end line"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 118.68,
+            "end": 122.16000000000001,
+            "text": " so this is our complete code which we have completed"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 122.16000000000001,
+            "end": 123.92000000000002,
+            "text": " this is our entire program"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 123.92000000000002,
+            "end": 126.24000000000001,
+            "text": " in which we will have marks of 3 subjects"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 126.24000000000001,
+            "end": 131.76000000000002,
+            "text": " now let me tell you one more interesting thing related to the divide in C++"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 131.76,
+            "end": 136.95999999999998,
+            "text": " in C++ when we divide integer value with integer value"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 136.95999999999998,
+            "end": 140.32,
+            "text": " so answer always comes as integer"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 140.32,
+            "end": 141.76,
+            "text": " what does it mean?"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 141.76,
+            "end": 146.07999999999998,
+            "text": " it means that if we divide 5 with 2"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 146.07999999999998,
+            "end": 148.79999999999998,
+            "text": " so answer comes as 2.5 in math"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 148.79999999999998,
+            "end": 152.48,
+            "text": " but here answer will not come as 2.5, here answer will come as 2"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 152.48,
+            "end": 154.95999999999998,
+            "text": " means first 2.5 will be calculated"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 154.95999999999998,
+            "end": 159.95999999999998,
+            "text": " and then the value after point will be cut and only the initial integer will be left"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 159.96,
+            "end": 162.76000000000002,
+            "text": " if answer would have been 2.999"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 162.76000000000002,
+            "end": 166.12,
+            "text": " still answer would have printed only 2"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 166.12,
+            "end": 168.52,
+            "text": " so let's execute it once"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 168.52,
+            "end": 172.92000000000002,
+            "text": " for example here I compiled my code and run it"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 172.92000000000002,
+            "end": 175.64000000000001,
+            "text": " let's suppose english marks are 95"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 175.64000000000001,
+            "end": 181.16,
+            "text": " our science marks are 98 and math marks are 96"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 181.16,
+            "end": 181.96,
+            "text": " so what is the answer?"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 181.96,
+            "end": 183.64000000000001,
+            "text": " average marks are 96"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 183.64000000000001,
+            "end": 185.96,
+            "text": " but answer should have been 96.33"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 185.96,
+            "end": 188.84,
+            "text": " that 0.33 was deducted from here"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 188.84,
+            "end": 191.32,
+            "text": " so what we can do is"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 191.32,
+            "end": 195.48000000000002,
+            "text": " we can make all these marks float type from the beginning"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 195.48000000000002,
+            "end": 197.88,
+            "text": " because we are already dealing with decimal values"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 197.88,
+            "end": 200.68,
+            "text": " so here our average will also be float type"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 200.68,
+            "end": 203.16,
+            "text": " so if we run it again"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 203.16,
+            "end": 207.16,
+            "text": " english marks are 95 again"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 207.16,
+            "end": 209.64000000000001,
+            "text": " science marks are 98 and math marks are 96"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 209.64000000000001,
+            "end": 210.6,
+            "text": " so what is the answer?"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 210.6,
+            "end": 213.8,
+            "text": " we got the correct value in average marks with our decimal digits"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 213.8,
+            "end": 215.88,
+            "text": " 96.3333"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 215.96,
+            "end": 218.92,
+            "text": " so if we want our result with precision"
+        },
+        {
+            "number": "",
+            "title": "Print Average Marks",
+            "start": 218.92,
+            "end": 223.0,
+            "text": " then we have to use correct data type while doing our calculations"
+        }
+    ]
+}

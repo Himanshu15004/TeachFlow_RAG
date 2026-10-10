@@ -1,0 +1,764 @@
+{
+    "file": "How does code run-.mp3",
+    "title": "How does code run-",
+    "number": "",
+    "text": " After the boilerplate, we will discuss how our code runs exactly I have shown you a sample code and its output So how does the process of writing code and printing it on the output screen look internally in the computer First of all, whatever code we write, the code of C++, that is, the file I have named code.cpp We call it source code And in our computer, we have already installed our compiler Compiler is nothing but a software Just like we have more different software in the computer, the compiler is also a software Which takes our source code and performs some operations on it and gives us an executable file in the output We can imagine this executable file to be our machine code Machine code means that our computer does not understand English In fact, our computers do not even understand C++ Our computer only understands electrical signals, that is, 0 and 1 0 means that no electrical signal has come in the language of the computer And 1 means that we are getting an electrical signal So these 0s and 1s are called bits In their form, the computer performs all the data and calculations So the code of C++ that we have written in actuality, It will be converted later in the form of 0 and 1 Which the computer could understand Now the computer is not even able to understand C++ So what does the compiler do? The compiler converts our source code into an executable file And this is the file that can be executed That is, the file that we can run directly and the output can be produced Now if we are working on a Windows machine So the extension of our executable file is .exe If we are working on a Mac machine, then the extension is .out So in this way, the final executable file can have different extensions Depending upon the machine Then our executable file finally comes out of it Which is printed on our screen Now in Visual Studio Code, we can also call the screen as a terminal That is, it is our terminal or it is our output window We can give it any name So our whole process of running code is a two-step process The first step is to run the code Which we call the compile step Now this compile step is very important Because if we make a mistake in the code That is, if we make a mistake in the syntax of the code What is syntax? It is a rule So C++ has a lot of rules Like there are a lot of rules in English Like after every sentence, there should be a full stop If we have to write a lot of things, then there should be a comma in between Similarly, C++ itself is a full-fledged language Which has a lot of rules If we break those rules That is, if we bring some errors in our syntax So those errors are detected at compile time So we will get an error that you have made a mistake You fix it Only then our code will be successfully compiled And the second step after compilation The second step is basically this step In which our code is finally run Or is executed And after running it, our output is printed on the screen So now we had printed our college in the output If we want, we can write a simple thing instead of our college in the output Which is Hello World Now what does Hello World mean? Basically, there is a convention that if we learn a new programming language So we start with Hello World We can save it and we can run it from here Our code is run This time instead of our college, Hello World is printed on our screen Now whenever we write C++ code We will see semicolons again and again Semicolon is basically this symbol Which we see again and again Semicolon means full stop in C++ We also call it statement terminator Like in English, there is a statement terminator Full stop, where full stop is applied, our sentence is complete In Hindi, there is full break Where full break is applied, our sentence is complete Similarly, in C++, wherever semicolon is applied, our statement is complete So this is our first statement This is our second statement This is another statement So wherever we have to terminate statements We get semicolons there And semicolon is a part of our syntax That is, semicolon is the rule of C++ So if I don't apply this semicolon And after that I saved the code and tried to execute it Usually, Visual Studio Code will show us the error first Like this line below return of red color Expected a semicolon It is expected That is, Visual Studio Code is telling us that you have made a mistake But if I run this code, I will get an error Running and finally an error was generated The error is that in the file code.cpp In line 5, in character 24 An error has been generated That expected semicolon after expression The expression you wrote After this, a semicolon should have come This compiler is telling us So the compiler is telling us through errors What is wrong in your code And you go and fix it That's why compilation stage is also very important And finally to give the output of the code Our running, that is, the state of executing is very important",
+    "chunks": [
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 0.0,
+            "end": 5.2,
+            "text": " After the boilerplate, we will discuss how our code runs exactly"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 5.2,
+            "end": 9.120000000000001,
+            "text": " I have shown you a sample code and its output"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 9.120000000000001,
+            "end": 17.28,
+            "text": " So how does the process of writing code and printing it on the output screen look internally in the computer"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 17.28,
+            "end": 24.72,
+            "text": " First of all, whatever code we write, the code of C++, that is, the file I have named code.cpp"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 24.72,
+            "end": 26.72,
+            "text": " We call it source code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 26.88,
+            "end": 30.96,
+            "text": " And in our computer, we have already installed our compiler"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 30.96,
+            "end": 32.96,
+            "text": " Compiler is nothing but a software"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 32.96,
+            "end": 38.08,
+            "text": " Just like we have more different software in the computer, the compiler is also a software"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 38.08,
+            "end": 45.44,
+            "text": " Which takes our source code and performs some operations on it and gives us an executable file in the output"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 45.44,
+            "end": 50.08,
+            "text": " We can imagine this executable file to be our machine code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 50.08,
+            "end": 55.28,
+            "text": " Machine code means that our computer does not understand English"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 55.36,
+            "end": 58.64,
+            "text": " In fact, our computers do not even understand C++"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 58.64,
+            "end": 63.28,
+            "text": " Our computer only understands electrical signals, that is, 0 and 1"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 63.28,
+            "end": 67.28,
+            "text": " 0 means that no electrical signal has come in the language of the computer"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 67.28,
+            "end": 70.32000000000001,
+            "text": " And 1 means that we are getting an electrical signal"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 70.32000000000001,
+            "end": 73.12,
+            "text": " So these 0s and 1s are called bits"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 73.12,
+            "end": 78.56,
+            "text": " In their form, the computer performs all the data and calculations"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 78.64,
+            "end": 81.68,
+            "text": " So the code of C++ that we have written in actuality,"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 81.68,
+            "end": 85.52,
+            "text": " It will be converted later in the form of 0 and 1"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 85.52,
+            "end": 86.64,
+            "text": " Which the computer could understand"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 86.64,
+            "end": 88.64,
+            "text": " Now the computer is not even able to understand C++"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 88.64,
+            "end": 90.24000000000001,
+            "text": " So what does the compiler do?"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 90.24000000000001,
+            "end": 94.64,
+            "text": " The compiler converts our source code into an executable file"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 94.64,
+            "end": 96.64,
+            "text": " And this is the file that can be executed"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 96.64,
+            "end": 101.44,
+            "text": " That is, the file that we can run directly and the output can be produced"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 101.44,
+            "end": 104.0,
+            "text": " Now if we are working on a Windows machine"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 104.08,
+            "end": 108.72,
+            "text": " So the extension of our executable file is .exe"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 108.72,
+            "end": 112.56,
+            "text": " If we are working on a Mac machine, then the extension is .out"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 112.56,
+            "end": 117.12,
+            "text": " So in this way, the final executable file can have different extensions"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 117.12,
+            "end": 118.64,
+            "text": " Depending upon the machine"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 118.64,
+            "end": 123.36,
+            "text": " Then our executable file finally comes out of it"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 123.36,
+            "end": 125.36,
+            "text": " Which is printed on our screen"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 125.36,
+            "end": 130.32,
+            "text": " Now in Visual Studio Code, we can also call the screen as a terminal"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 130.32,
+            "end": 134.48,
+            "text": " That is, it is our terminal or it is our output window"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 134.48,
+            "end": 136.48,
+            "text": " We can give it any name"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 136.48,
+            "end": 140.56,
+            "text": " So our whole process of running code is a two-step process"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 140.56,
+            "end": 143.51999999999998,
+            "text": " The first step is to run the code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 143.51999999999998,
+            "end": 145.51999999999998,
+            "text": " Which we call the compile step"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 145.51999999999998,
+            "end": 148.07999999999998,
+            "text": " Now this compile step is very important"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 148.07999999999998,
+            "end": 150.07999999999998,
+            "text": " Because if we make a mistake in the code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 150.07999999999998,
+            "end": 153.28,
+            "text": " That is, if we make a mistake in the syntax of the code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 153.28,
+            "end": 155.28,
+            "text": " What is syntax? It is a rule"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 155.28,
+            "end": 157.28,
+            "text": " So C++ has a lot of rules"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 157.28,
+            "end": 159.28,
+            "text": " Like there are a lot of rules in English"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 159.28,
+            "end": 162.24,
+            "text": " Like after every sentence, there should be a full stop"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 162.24,
+            "end": 165.44,
+            "text": " If we have to write a lot of things, then there should be a comma in between"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 165.44,
+            "end": 168.4,
+            "text": " Similarly, C++ itself is a full-fledged language"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 168.4,
+            "end": 169.68,
+            "text": " Which has a lot of rules"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 169.68,
+            "end": 171.36,
+            "text": " If we break those rules"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 171.36,
+            "end": 174.16,
+            "text": " That is, if we bring some errors in our syntax"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 174.16,
+            "end": 177.04,
+            "text": " So those errors are detected at compile time"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 177.04,
+            "end": 179.6,
+            "text": " So we will get an error that you have made a mistake"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 179.6,
+            "end": 180.64,
+            "text": " You fix it"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 180.64,
+            "end": 183.44,
+            "text": " Only then our code will be successfully compiled"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 183.44,
+            "end": 186.16,
+            "text": " And the second step after compilation"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 186.4,
+            "end": 188.4,
+            "text": " The second step is basically this step"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 188.4,
+            "end": 191.52,
+            "text": " In which our code is finally run"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 191.52,
+            "end": 192.88,
+            "text": " Or is executed"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 192.88,
+            "end": 196.88,
+            "text": " And after running it, our output is printed on the screen"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 196.88,
+            "end": 199.44,
+            "text": " So now we had printed our college in the output"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 199.44,
+            "end": 203.44,
+            "text": " If we want, we can write a simple thing instead of our college in the output"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 203.44,
+            "end": 204.4,
+            "text": " Which is Hello World"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 204.4,
+            "end": 206.4,
+            "text": " Now what does Hello World mean?"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 206.4,
+            "end": 209.92,
+            "text": " Basically, there is a convention that if we learn a new programming language"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 209.92,
+            "end": 212.24,
+            "text": " So we start with Hello World"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 212.24,
+            "end": 215.04,
+            "text": " We can save it and we can run it from here"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 215.76,
+            "end": 217.04,
+            "text": " Our code is run"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 217.04,
+            "end": 221.44,
+            "text": " This time instead of our college, Hello World is printed on our screen"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 221.44,
+            "end": 223.44,
+            "text": " Now whenever we write C++ code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 223.44,
+            "end": 225.44,
+            "text": " We will see semicolons again and again"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 225.44,
+            "end": 228.0,
+            "text": " Semicolon is basically this symbol"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 228.0,
+            "end": 229.76,
+            "text": " Which we see again and again"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 229.76,
+            "end": 232.95999999999998,
+            "text": " Semicolon means full stop in C++"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 232.95999999999998,
+            "end": 235.44,
+            "text": " We also call it statement terminator"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 235.44,
+            "end": 237.76,
+            "text": " Like in English, there is a statement terminator"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 237.76,
+            "end": 240.64,
+            "text": " Full stop, where full stop is applied, our sentence is complete"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 240.64,
+            "end": 242.64,
+            "text": " In Hindi, there is full break"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 242.72,
+            "end": 245.67999999999998,
+            "text": " Where full break is applied, our sentence is complete"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 245.67999999999998,
+            "end": 251.27999999999997,
+            "text": " Similarly, in C++, wherever semicolon is applied, our statement is complete"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 251.27999999999997,
+            "end": 253.27999999999997,
+            "text": " So this is our first statement"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 253.27999999999997,
+            "end": 254.79999999999998,
+            "text": " This is our second statement"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 254.79999999999998,
+            "end": 256.8,
+            "text": " This is another statement"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 256.8,
+            "end": 259.12,
+            "text": " So wherever we have to terminate statements"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 259.12,
+            "end": 261.12,
+            "text": " We get semicolons there"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 261.12,
+            "end": 264.08,
+            "text": " And semicolon is a part of our syntax"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 264.08,
+            "end": 266.71999999999997,
+            "text": " That is, semicolon is the rule of C++"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 266.71999999999997,
+            "end": 269.36,
+            "text": " So if I don't apply this semicolon"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 269.68,
+            "end": 273.36,
+            "text": " And after that I saved the code and tried to execute it"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 273.36,
+            "end": 276.32,
+            "text": " Usually, Visual Studio Code will show us the error first"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 276.32,
+            "end": 279.04,
+            "text": " Like this line below return of red color"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 279.04,
+            "end": 281.04,
+            "text": " Expected a semicolon"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 281.04,
+            "end": 282.0,
+            "text": " It is expected"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 282.0,
+            "end": 284.64,
+            "text": " That is, Visual Studio Code is telling us that you have made a mistake"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 284.64,
+            "end": 288.08000000000004,
+            "text": " But if I run this code, I will get an error"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 288.08000000000004,
+            "end": 291.36,
+            "text": " Running and finally an error was generated"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 291.36,
+            "end": 294.48,
+            "text": " The error is that in the file code.cpp"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 294.56,
+            "end": 298.24,
+            "text": " In line 5, in character 24"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 298.24,
+            "end": 300.24,
+            "text": " An error has been generated"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 300.24,
+            "end": 302.24,
+            "text": " That expected semicolon after expression"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 302.24,
+            "end": 304.24,
+            "text": " The expression you wrote"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 304.24,
+            "end": 306.24,
+            "text": " After this, a semicolon should have come"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 306.24,
+            "end": 308.24,
+            "text": " This compiler is telling us"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 308.24,
+            "end": 310.24,
+            "text": " So the compiler is telling us through errors"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 310.24,
+            "end": 312.24,
+            "text": " What is wrong in your code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 312.24,
+            "end": 314.24,
+            "text": " And you go and fix it"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 314.24,
+            "end": 316.24,
+            "text": " That's why compilation stage is also very important"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 316.24,
+            "end": 319.28000000000003,
+            "text": " And finally to give the output of the code"
+        },
+        {
+            "number": "",
+            "title": "How does code run-",
+            "start": 319.28000000000003,
+            "end": 323.28000000000003,
+            "text": " Our running, that is, the state of executing is very important"
+        }
+    ]
+}

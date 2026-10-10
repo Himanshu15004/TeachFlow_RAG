@@ -1,0 +1,337 @@
+{
+    "file": "Main Function in C++.mp3",
+    "title": "Main Function in C++",
+    "number": "",
+    "text": " Now we are going to talk about main function in our code Main function is the starting point of execution from where execution i.e. running of the code will start we call it as main function to create main function we write int main after that always parentheses and curly braces why parentheses for now? because we always put parentheses in front of every function this is syntax of C++ so curly braces will be the starting point of int main and from here it will be the ending point and one more important thing about main function because main function is a special function so in the whole code main function is written only once now main function is the name of this function we will understand functions in detail later for now we have to understand that this is like a black box it is a block of code it is a collection of many instructions which will be executed and in front of main in C++ we write int int main means that this function the value which returns is an integer type value and what value does it return? main function returns 0 0 is an integer to denote this we write int in front of main so in our main function all the instructions which are written are executed and in the end main function returns 0 so it means our code is successfully run but if there is any error in the code then in that case 0 doesn't return in that case there is any error or any other value which returns our code along with this one more special thing now functions have some values which we can also take input but in main function while reading data structures and algorithms we will not take any value input but generally if you use C++ to develop a game or you are making a command line app or you are doing some other work by using C++ which is related to development so in this main function you can also take some values as an input as an argument but because our focus is on learning C++ programming and DSA so we won't need those arguments so this was all about our main function",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 0.0,
+            "end": 3.1,
+            "text": " Now we are going to talk about main function in our code"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 3.1,
+            "end": 7.26,
+            "text": " Main function is the starting point of execution"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 7.26,
+            "end": 12.76,
+            "text": " from where execution i.e. running of the code will start"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 12.76,
+            "end": 14.76,
+            "text": " we call it as main function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 14.76,
+            "end": 18.22,
+            "text": " to create main function we write int main"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 18.22,
+            "end": 22.22,
+            "text": " after that always parentheses and curly braces"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 22.22,
+            "end": 24.22,
+            "text": " why parentheses for now?"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 24.22,
+            "end": 27.22,
+            "text": " because we always put parentheses in front of every function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 27.22,
+            "end": 29.22,
+            "text": " this is syntax of C++"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 29.22,
+            "end": 33.22,
+            "text": " so curly braces will be the starting point of int main"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 33.22,
+            "end": 35.22,
+            "text": " and from here it will be the ending point"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 35.22,
+            "end": 37.22,
+            "text": " and one more important thing about main function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 37.22,
+            "end": 39.22,
+            "text": " because main function is a special function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 39.22,
+            "end": 42.22,
+            "text": " so in the whole code main function is written only once"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 42.22,
+            "end": 45.22,
+            "text": " now main function is the name of this function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 45.22,
+            "end": 47.22,
+            "text": " we will understand functions in detail later"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 47.22,
+            "end": 50.22,
+            "text": " for now we have to understand that this is like a black box"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 50.22,
+            "end": 52.22,
+            "text": " it is a block of code"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 52.22,
+            "end": 55.22,
+            "text": " it is a collection of many instructions which will be executed"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 55.22,
+            "end": 57.22,
+            "text": " and in front of main in C++ we write int"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 57.22,
+            "end": 60.22,
+            "text": " int main means that this function"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 60.22,
+            "end": 64.22,
+            "text": " the value which returns is an integer type value"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 64.22,
+            "end": 66.22,
+            "text": " and what value does it return?"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 66.22,
+            "end": 68.22,
+            "text": " main function returns 0"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 68.22,
+            "end": 70.22,
+            "text": " 0 is an integer"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 70.22,
+            "end": 73.22,
+            "text": " to denote this we write int in front of main"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 73.22,
+            "end": 76.22,
+            "text": " so in our main function all the instructions which are written"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 76.22,
+            "end": 79.22,
+            "text": " are executed and in the end main function returns 0"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 79.22,
+            "end": 82.22,
+            "text": " so it means our code is successfully run"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 82.22,
+            "end": 84.22,
+            "text": " but if there is any error in the code"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 84.22,
+            "end": 86.22,
+            "text": " then in that case 0 doesn't return"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 86.22,
+            "end": 89.22,
+            "text": " in that case there is any error or any other value"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 89.22,
+            "end": 91.22,
+            "text": " which returns our code"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 91.22,
+            "end": 93.22,
+            "text": " along with this one more special thing"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 93.22,
+            "end": 95.22,
+            "text": " now functions have some values"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 95.22,
+            "end": 97.22,
+            "text": " which we can also take input"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 97.22,
+            "end": 99.22,
+            "text": " but in main function while reading data structures"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 99.22,
+            "end": 102.22,
+            "text": " and algorithms we will not take any value input"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 102.22,
+            "end": 105.22,
+            "text": " but generally if you use C++ to develop a game"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 105.22,
+            "end": 108.22,
+            "text": " or you are making a command line app"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 108.22,
+            "end": 110.22,
+            "text": " or you are doing some other work by using C++"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 110.22,
+            "end": 112.22,
+            "text": " which is related to development"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 112.22,
+            "end": 115.22,
+            "text": " so in this main function you can also take some values as an input"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 115.22,
+            "end": 116.22,
+            "text": " as an argument"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 116.22,
+            "end": 119.22,
+            "text": " but because our focus is on learning C++ programming and DSA"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 119.22,
+            "end": 121.22,
+            "text": " so we won't need those arguments"
+        },
+        {
+            "number": "",
+            "title": "Main Function in C++",
+            "start": 121.22,
+            "end": 123.22,
+            "text": " so this was all about our main function"
+        }
+    ]
+}

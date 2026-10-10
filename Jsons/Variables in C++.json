@@ -1,0 +1,2220 @@
+{
+    "file": "Variables in C++.mp3",
+    "title": "Variables in C++",
+    "number": "",
+    "text": " Next we are going to talk about a very important topic which we call variables in programming Now what are variables? Variables are such things which you must have already studied in your Maths In Maths, for example, we are given a rectangle whose one side is equal to A and the other side is equal to B and if I have to calculate the perimeter of this rectangle then we had a formula 2 multiplied by A plus B and similarly if I have to calculate the area of any rectangle then in Maths we used to write A multiplied by B so this used to be our area Now the formula which we have written what difference does it make to us what is the value of A or what is the value of B In A, it is possible that A's value is 10 in today's date and B's value is 5 in today's date Similarly, in the future, it is possible that A's value gets updated to 20 and B's value gets updated to 15 So A and B are such things whose value can change but we have given a name to those values A and B So we call this A and B in the language of programming or Maths as variables Variables means the thing which can change So variables are such things whose value can be changed but we have given a name to it We are saying it It can have a value of 10, 20 or 50 Similarly, we can create variables in programming Variables are nothing We can imagine a variable as a box or a container Like there are many containers in our kitchen Some have salt in it, some have sugar Similarly, there is a container in which we will write a value This value can be anything This value can be 10 And I have given a name to this container I have given a name to this container A So what is this A? It will be the name of my variable So in the formula of our perimeter A and B will be our variables And this 2, we call it literal in programming Literal are those values which mean literally the same Like 2 means 2 only 2 means 5, 2 means 20 Similarly, if I write a character A So A character means A character only A character means it will be E by changing tomorrow Variables can change their value The value of A and B can be different But the value of 2 will always be 2 The value of 5 will always be 5 So this difference is between variables and literals Now one more important thing In our programming, in C++, all the variables have names Like if I have named the variable A If I have named the variable B If I have named it C, or any other name Whatever are the names of our variables These names are basically called identifiers So what is a variable name? A variable name is also an identifier Identifier basically means It is a way of identifying something We can understand it like this Whether I create a variable in my C++ code Maybe in the next coming chapters I create a function Maybe when we read object-oriented programming in C++ Then we create objects, we create classes We can create a lot of things Right now, we are going to create variables Because we are starting programming But tomorrow we will create a lot of things And everything needs a different name For example, the name of a function is main So every function has different names Every object has a different name Every variable has a different name Every class has a different name So all these names of things We put all these names in the category of identifiers We call them identifiers Because what is the job of a name? The job of a name is to identify any person or anything If I say pencil, then I am talking about the pencil Or if I say mouse, then I am talking about the mouse So in programming, identifier means That we are giving a name to something So the names of variables are also identifiers And here I will give you a pro tip in programming The pro tip is that whenever we are writing a code Always keep the name of the variable, i.e. the name of the identifier We have to keep it meaningful Meaningful means that only by looking at the variable We can understand what value will be stored in it Like x, y, a, b, c Generally, we give all the variables the same name in math But in programming, we have to give a meaningful name If I am storing the age of a person Because we have to store data in the code And we use our variables to store data So if I am storing the age of a person Then I will give the variable the name age If I am storing someone's name Then I will give him the name name If I am storing someone's CGPA Then I will give him the name CGPA You should understand by reading the name of the variable What value is written in this variable This is such a pro tip that you are coding yourself So it will help you understand your code yourself If you are looking at your code again after two months And the second case will help you a lot in interviews Because if the name of your variable is meaningful Then it will impress your interviewer first That this person knows programming He understands that if I am going to a company Then I don't have to understand it alone I have to understand 10 more people of the company Because tomorrow it may be that a junior of mine comes Who is trying to understand that code So the code should be written in such a way That its meaning is understood very clearly So it is a good sign of a programmer So always remember this interview tip Now we have talked about the overview How variables are Now let's talk about how variables exist in memory Now I understood that the job of a variable is To store any data But where is that data being stored? That data is stored in the memory of the computer And specifically speaking It is stored in the RAM of the computer RAM we had read in childhood Random Access Memory Which is volatile That is, once you close your computer Then all the data will disappear in the RAM That's why we will create all the variables in our code If we close the code Then our variables will also disappear from memory They don't stay forever But if we rerun the code again If we re-execute Then they will come back in the RAM Now how do variables work? We can assume the memory of the computer As land What is the memory of the computer? There is a lot of land And what is on the land? There are a lot of plots This is my first plot This is my second plot This is my third plot This is my fourth plot And every plot has a different size It is possible that the size of this plot is 1 acre The size of this plot can be 4 acres The size of this plot can be 8 acres So in this way, every plot has a different size So if I create a variable To create a variable, we have to write a command in C++ For example, I wrote int a is equal to 10 This is my first line And I wrote int b is equal to 5 Here I created my variable 1 Here I created my variable 2 This line is used to create a variable Here a is the name of my variable 10 is its value And int is the type of that variable We will study about types in detail But type basically tells us what value can be added to a variable I know what is 10, it is my integer value So I gave it a type of int Similarly, b also has an integer value So I gave it a type of int So this line is saying that create a variable for me With the name a, in which I have to store the value of 10 Now, there are different plots on the land So what I can do is I can take any plot and create a house on it I can give any name to my house Let's suppose I gave it the name Shraddha Sadan I can give it any name I gave it the name Shraddha Bhavan So that name is actually the name of a variable So there is a place, but what name did I give to that place? If I gave it the name Shraddha Bhavan, it will become the name of my variable Similarly, here a place is taken in the memory And on that place, this value 10 is stored So basically, the person who is living in that house, this value is 10 10 values are living in that house And the name of that house is a So in this way, variables are actually created in the memory Similarly, if I wrote int b is equal to 5 So a plot is taken in the memory Similarly, the actual plots are not that big They are very small in size So that place is taken in the memory And a name is given to that place So what is the name given to the place? The name is given to the place b And who is living in this house? What value is stored in this memory location? The actual value stored in the memory location is 5 Tomorrow, we can change the value of the variable For example, if I wrote b is equal to 50 In this way So 5 will be removed from this memory location And 50 will be stored here Or tomorrow I can make any other variable If I wrote int age is equal to 25 Let's suppose I wrote this line So in my memory, a new variable will be created With the name age What value will be stored in it? The value stored in it will be 25 So in C++, we create our variables in this way And actually in the memory They are stored in this way internally Now let's try to create some variables in our code I can write int a is equal to 10 I can write int b is equal to 5 In this way, I have created two variables Now if I want to print their value Then I can simply write cout Let's suppose I wrote a In this way, I wrote end line here In this way, I wrote cout a end line So what will be printed in this case? As soon as we run this code Let me open my terminal window To open the terminal, we can go to this symbol We will go to terminal First of all, we will compile our code Then we will run it So what is printed? I have a printed But what do I want? I want 10 I want to print this 10 value Which is inside my variable So whenever we want to print the value of a variable We don't write it in double quotes Instead of writing it in double quotes What we will do? We will write it without any quote Here we will write our value without any quote And let's try to compile it And run again So what is printed this time? This time 10 is printed on the screen Similarly, if we want, we can print b as well That is, we write here a is equal to And in the same way We will write b is equal to Let's save it So we have a is equal to 10 Okay, here we had to print the value of b So once again a is equal to 10 And my b is equal to 5 We got it printed Now, one more interesting thing about c++ Actually, this equal to sign Is a special symbol Like how do we use equal to in math? If I write a is equal to b in math It means that the value of a and b are the same But it doesn't mean that in c++ In c++, a is equal to b means That I am putting the value of b in a That is, if I write a is equal to 10 It means that the value of 10 is stored in a So this equal to is actually We call it an assignment operator We will study operators in detail later But it is called an assignment operator Which assigns a value That is, it gives a value to someone So, the value of 10 is stored in a Now, we can create our variables without assignment Like here Let's remove this line Like, let's suppose I didn't write a is equal to 10 I only wrote int a This is also a valid way to create a variable But when we create our variable in this way So, we didn't give any value to a This means that in c++, a doesn't store 0 A stores a garbage value That means, random numbers will be stored in a And no one can predict what that number will be That number can be anything It is possible that in your system, that number is printed differently And in my system, that number is printed differently Like, if I try to compile and run my code So, that number is printed in this way Any number can be in your system This number is a garbage value which is not a valid value But it is possible that if I assign a a good value tomorrow Like, I assigned a a value of 10 Then, the value of a will change tomorrow So, let's save it And let's compile it and run it So, this time, the value of a is 10 So, if we simply create any variable in our code But we don't assign any value to it So, by default, in c++, a garbage value is stored in that variable",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 0.0,
+            "end": 5.28,
+            "text": " Next we are going to talk about a very important topic which we call variables in programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 5.28,
+            "end": 6.88,
+            "text": " Now what are variables?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 6.88,
+            "end": 10.0,
+            "text": " Variables are such things which you must have already studied in your Maths"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 10.0,
+            "end": 12.96,
+            "text": " In Maths, for example, we are given a rectangle"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 12.96,
+            "end": 16.64,
+            "text": " whose one side is equal to A and the other side is equal to B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 16.64,
+            "end": 19.76,
+            "text": " and if I have to calculate the perimeter of this rectangle"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 19.76,
+            "end": 21.2,
+            "text": " then we had a formula"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 21.2,
+            "end": 23.04,
+            "text": " 2 multiplied by A plus B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 23.04,
+            "end": 26.32,
+            "text": " and similarly if I have to calculate the area of any rectangle"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 26.32,
+            "end": 29.44,
+            "text": " then in Maths we used to write A multiplied by B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 29.44,
+            "end": 31.12,
+            "text": " so this used to be our area"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 31.12,
+            "end": 33.2,
+            "text": " Now the formula which we have written"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 33.2,
+            "end": 34.800000000000004,
+            "text": " what difference does it make to us"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 34.800000000000004,
+            "end": 37.6,
+            "text": " what is the value of A or what is the value of B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 37.6,
+            "end": 40.64,
+            "text": " In A, it is possible that A's value is 10 in today's date"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 40.64,
+            "end": 42.72,
+            "text": " and B's value is 5 in today's date"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 42.72,
+            "end": 46.08,
+            "text": " Similarly, in the future, it is possible that A's value gets updated to 20"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 46.08,
+            "end": 48.16,
+            "text": " and B's value gets updated to 15"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 48.16,
+            "end": 51.84,
+            "text": " So A and B are such things whose value can change"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 51.84,
+            "end": 56.16,
+            "text": " but we have given a name to those values A and B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 56.239999999999995,
+            "end": 60.8,
+            "text": " So we call this A and B in the language of programming or Maths"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 60.8,
+            "end": 61.919999999999995,
+            "text": " as variables"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 61.919999999999995,
+            "end": 65.92,
+            "text": " Variables means the thing which can change"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 65.92,
+            "end": 69.67999999999999,
+            "text": " So variables are such things whose value can be changed"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 69.67999999999999,
+            "end": 71.67999999999999,
+            "text": " but we have given a name to it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 71.67999999999999,
+            "end": 73.19999999999999,
+            "text": " We are saying it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 73.19999999999999,
+            "end": 76.24,
+            "text": " It can have a value of 10, 20 or 50"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 76.24,
+            "end": 79.75999999999999,
+            "text": " Similarly, we can create variables in programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 79.75999999999999,
+            "end": 80.96,
+            "text": " Variables are nothing"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 80.96,
+            "end": 84.08,
+            "text": " We can imagine a variable as a box"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 84.08,
+            "end": 85.6,
+            "text": " or a container"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 85.67999999999999,
+            "end": 88.32,
+            "text": " Like there are many containers in our kitchen"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 88.32,
+            "end": 90.55999999999999,
+            "text": " Some have salt in it, some have sugar"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 90.55999999999999,
+            "end": 93.52,
+            "text": " Similarly, there is a container in which we will write a value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 93.52,
+            "end": 94.8,
+            "text": " This value can be anything"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 94.8,
+            "end": 96.0,
+            "text": " This value can be 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 96.0,
+            "end": 98.08,
+            "text": " And I have given a name to this container"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 98.08,
+            "end": 99.91999999999999,
+            "text": " I have given a name to this container A"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 99.91999999999999,
+            "end": 101.03999999999999,
+            "text": " So what is this A?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 101.03999999999999,
+            "end": 104.47999999999999,
+            "text": " It will be the name of my variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 104.47999999999999,
+            "end": 106.56,
+            "text": " So in the formula of our perimeter"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 106.56,
+            "end": 109.11999999999999,
+            "text": " A and B will be our variables"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 109.11999999999999,
+            "end": 112.63999999999999,
+            "text": " And this 2, we call it literal in programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 112.72,
+            "end": 116.08,
+            "text": " Literal are those values which mean literally the same"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 116.08,
+            "end": 117.92,
+            "text": " Like 2 means 2 only"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 117.92,
+            "end": 120.88,
+            "text": " 2 means 5, 2 means 20"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 120.88,
+            "end": 124.16,
+            "text": " Similarly, if I write a character A"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 124.16,
+            "end": 126.72,
+            "text": " So A character means A character only"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 126.72,
+            "end": 130.08,
+            "text": " A character means it will be E by changing tomorrow"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 130.08,
+            "end": 132.32,
+            "text": " Variables can change their value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 132.32,
+            "end": 134.32,
+            "text": " The value of A and B can be different"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 134.32,
+            "end": 136.64,
+            "text": " But the value of 2 will always be 2"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 136.64,
+            "end": 138.88,
+            "text": " The value of 5 will always be 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 138.88,
+            "end": 142.16,
+            "text": " So this difference is between variables and literals"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 142.16,
+            "end": 143.92,
+            "text": " Now one more important thing"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 143.92,
+            "end": 148.64,
+            "text": " In our programming, in C++, all the variables have names"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 148.64,
+            "end": 150.8,
+            "text": " Like if I have named the variable A"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 150.8,
+            "end": 152.64,
+            "text": " If I have named the variable B"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 152.64,
+            "end": 154.72,
+            "text": " If I have named it C, or any other name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 154.72,
+            "end": 157.04,
+            "text": " Whatever are the names of our variables"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 157.04,
+            "end": 160.07999999999998,
+            "text": " These names are basically called identifiers"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 160.07999999999998,
+            "end": 161.28,
+            "text": " So what is a variable name?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 161.28,
+            "end": 163.92,
+            "text": " A variable name is also an identifier"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 163.92,
+            "end": 165.84,
+            "text": " Identifier basically means"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 165.84,
+            "end": 168.07999999999998,
+            "text": " It is a way of identifying something"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 168.16000000000003,
+            "end": 169.76000000000002,
+            "text": " We can understand it like this"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 169.76000000000002,
+            "end": 173.20000000000002,
+            "text": " Whether I create a variable in my C++ code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 173.20000000000002,
+            "end": 175.92000000000002,
+            "text": " Maybe in the next coming chapters"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 175.92000000000002,
+            "end": 177.84,
+            "text": " I create a function"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 177.84,
+            "end": 181.60000000000002,
+            "text": " Maybe when we read object-oriented programming in C++"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 181.60000000000002,
+            "end": 184.96,
+            "text": " Then we create objects, we create classes"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 184.96,
+            "end": 187.12,
+            "text": " We can create a lot of things"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 187.12,
+            "end": 189.84,
+            "text": " Right now, we are going to create variables"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 189.84,
+            "end": 191.60000000000002,
+            "text": " Because we are starting programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 191.60000000000002,
+            "end": 193.84,
+            "text": " But tomorrow we will create a lot of things"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 193.84,
+            "end": 196.0,
+            "text": " And everything needs a different name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 196.08,
+            "end": 199.76,
+            "text": " For example, the name of a function is main"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 199.76,
+            "end": 202.16,
+            "text": " So every function has different names"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 202.16,
+            "end": 203.68,
+            "text": " Every object has a different name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 203.68,
+            "end": 204.96,
+            "text": " Every variable has a different name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 204.96,
+            "end": 206.24,
+            "text": " Every class has a different name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 206.24,
+            "end": 208.8,
+            "text": " So all these names of things"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 208.8,
+            "end": 212.16,
+            "text": " We put all these names in the category of identifiers"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 212.16,
+            "end": 213.92000000000002,
+            "text": " We call them identifiers"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 213.92000000000002,
+            "end": 215.44,
+            "text": " Because what is the job of a name?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 215.44,
+            "end": 219.28,
+            "text": " The job of a name is to identify any person or anything"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 219.28,
+            "end": 222.4,
+            "text": " If I say pencil, then I am talking about the pencil"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 222.4,
+            "end": 225.44,
+            "text": " Or if I say mouse, then I am talking about the mouse"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 225.44,
+            "end": 228.96,
+            "text": " So in programming, identifier means"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 228.96,
+            "end": 231.6,
+            "text": " That we are giving a name to something"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 231.6,
+            "end": 236.0,
+            "text": " So the names of variables are also identifiers"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 236.0,
+            "end": 239.28,
+            "text": " And here I will give you a pro tip in programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 239.28,
+            "end": 242.0,
+            "text": " The pro tip is that whenever we are writing a code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 242.0,
+            "end": 245.92,
+            "text": " Always keep the name of the variable, i.e. the name of the identifier"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 245.92,
+            "end": 248.16,
+            "text": " We have to keep it meaningful"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 248.16,
+            "end": 250.4,
+            "text": " Meaningful means that only by looking at the variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 250.4,
+            "end": 252.96,
+            "text": " We can understand what value will be stored in it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 253.04000000000002,
+            "end": 256.96000000000004,
+            "text": " Like x, y, a, b, c"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 256.96000000000004,
+            "end": 260.48,
+            "text": " Generally, we give all the variables the same name in math"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 260.48,
+            "end": 263.2,
+            "text": " But in programming, we have to give a meaningful name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 263.2,
+            "end": 265.68,
+            "text": " If I am storing the age of a person"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 265.68,
+            "end": 268.08,
+            "text": " Because we have to store data in the code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 268.08,
+            "end": 271.28000000000003,
+            "text": " And we use our variables to store data"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 271.28000000000003,
+            "end": 273.84000000000003,
+            "text": " So if I am storing the age of a person"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 273.84000000000003,
+            "end": 275.92,
+            "text": " Then I will give the variable the name age"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 275.92,
+            "end": 277.76,
+            "text": " If I am storing someone's name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 277.76,
+            "end": 279.28000000000003,
+            "text": " Then I will give him the name name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 279.28000000000003,
+            "end": 281.68,
+            "text": " If I am storing someone's CGPA"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 281.76,
+            "end": 283.44,
+            "text": " Then I will give him the name CGPA"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 283.44,
+            "end": 285.76,
+            "text": " You should understand by reading the name of the variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 285.76,
+            "end": 287.84000000000003,
+            "text": " What value is written in this variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 287.84000000000003,
+            "end": 290.24,
+            "text": " This is such a pro tip that you are coding yourself"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 290.24,
+            "end": 292.56,
+            "text": " So it will help you understand your code yourself"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 292.56,
+            "end": 294.88,
+            "text": " If you are looking at your code again after two months"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 294.88,
+            "end": 298.32,
+            "text": " And the second case will help you a lot in interviews"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 298.32,
+            "end": 300.88,
+            "text": " Because if the name of your variable is meaningful"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 300.88,
+            "end": 303.28000000000003,
+            "text": " Then it will impress your interviewer first"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 303.28000000000003,
+            "end": 305.52,
+            "text": " That this person knows programming"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 305.52,
+            "end": 308.72,
+            "text": " He understands that if I am going to a company"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 308.72,
+            "end": 310.16,
+            "text": " Then I don't have to understand it alone"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 310.24,
+            "end": 312.48,
+            "text": " I have to understand 10 more people of the company"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 312.48,
+            "end": 314.56,
+            "text": " Because tomorrow it may be that a junior of mine comes"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 314.56,
+            "end": 316.40000000000003,
+            "text": " Who is trying to understand that code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 316.40000000000003,
+            "end": 318.08000000000004,
+            "text": " So the code should be written in such a way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 318.08000000000004,
+            "end": 320.8,
+            "text": " That its meaning is understood very clearly"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 320.8,
+            "end": 323.12,
+            "text": " So it is a good sign of a programmer"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 323.12,
+            "end": 325.04,
+            "text": " So always remember this interview tip"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 325.04,
+            "end": 326.8,
+            "text": " Now we have talked about the overview"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 326.8,
+            "end": 328.40000000000003,
+            "text": " How variables are"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 328.40000000000003,
+            "end": 331.36,
+            "text": " Now let's talk about how variables exist in memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 331.36,
+            "end": 333.52000000000004,
+            "text": " Now I understood that the job of a variable is"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 333.52000000000004,
+            "end": 335.04,
+            "text": " To store any data"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 335.04,
+            "end": 337.04,
+            "text": " But where is that data being stored?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 337.12,
+            "end": 340.32,
+            "text": " That data is stored in the memory of the computer"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 340.32,
+            "end": 341.84000000000003,
+            "text": " And specifically speaking"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 341.84000000000003,
+            "end": 344.56,
+            "text": " It is stored in the RAM of the computer"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 344.56,
+            "end": 345.84000000000003,
+            "text": " RAM we had read in childhood"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 345.84000000000003,
+            "end": 347.36,
+            "text": " Random Access Memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 347.36,
+            "end": 348.40000000000003,
+            "text": " Which is volatile"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 348.40000000000003,
+            "end": 350.24,
+            "text": " That is, once you close your computer"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 350.24,
+            "end": 352.32000000000005,
+            "text": " Then all the data will disappear in the RAM"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 352.32000000000005,
+            "end": 355.36,
+            "text": " That's why we will create all the variables in our code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 355.36,
+            "end": 356.88,
+            "text": " If we close the code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 356.88,
+            "end": 358.88,
+            "text": " Then our variables will also disappear from memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 358.88,
+            "end": 360.24,
+            "text": " They don't stay forever"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 360.24,
+            "end": 362.32000000000005,
+            "text": " But if we rerun the code again"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 362.32000000000005,
+            "end": 363.28000000000003,
+            "text": " If we re-execute"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 363.28000000000003,
+            "end": 365.28000000000003,
+            "text": " Then they will come back in the RAM"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 365.35999999999996,
+            "end": 367.35999999999996,
+            "text": " Now how do variables work?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 367.35999999999996,
+            "end": 369.2,
+            "text": " We can assume the memory of the computer"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 369.2,
+            "end": 371.03999999999996,
+            "text": " As land"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 371.03999999999996,
+            "end": 372.4,
+            "text": " What is the memory of the computer?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 372.4,
+            "end": 373.91999999999996,
+            "text": " There is a lot of land"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 373.91999999999996,
+            "end": 375.2,
+            "text": " And what is on the land?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 375.2,
+            "end": 376.4,
+            "text": " There are a lot of plots"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 376.4,
+            "end": 377.44,
+            "text": " This is my first plot"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 377.44,
+            "end": 378.55999999999995,
+            "text": " This is my second plot"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 378.55999999999995,
+            "end": 379.59999999999997,
+            "text": " This is my third plot"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 379.59999999999997,
+            "end": 380.88,
+            "text": " This is my fourth plot"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 380.88,
+            "end": 382.88,
+            "text": " And every plot has a different size"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 382.88,
+            "end": 385.84,
+            "text": " It is possible that the size of this plot is 1 acre"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 385.84,
+            "end": 388.79999999999995,
+            "text": " The size of this plot can be 4 acres"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 388.79999999999995,
+            "end": 392.0,
+            "text": " The size of this plot can be 8 acres"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 392.0,
+            "end": 394.55999999999995,
+            "text": " So in this way, every plot has a different size"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 394.64,
+            "end": 396.64,
+            "text": " So if I create a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 396.64,
+            "end": 400.32,
+            "text": " To create a variable, we have to write a command in C++"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 400.32,
+            "end": 404.32,
+            "text": " For example, I wrote int a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 404.32,
+            "end": 406.32,
+            "text": " This is my first line"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 406.32,
+            "end": 409.44,
+            "text": " And I wrote int b is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 409.44,
+            "end": 412.0,
+            "text": " Here I created my variable 1"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 412.0,
+            "end": 414.24,
+            "text": " Here I created my variable 2"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 414.24,
+            "end": 417.12,
+            "text": " This line is used to create a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 417.12,
+            "end": 419.12,
+            "text": " Here a is the name of my variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 419.12,
+            "end": 421.12,
+            "text": " 10 is its value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 421.12,
+            "end": 423.84000000000003,
+            "text": " And int is the type of that variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 423.91999999999996,
+            "end": 425.91999999999996,
+            "text": " We will study about types in detail"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 425.91999999999996,
+            "end": 429.44,
+            "text": " But type basically tells us what value can be added to a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 429.44,
+            "end": 432.15999999999997,
+            "text": " I know what is 10, it is my integer value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 432.15999999999997,
+            "end": 434.15999999999997,
+            "text": " So I gave it a type of int"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 434.15999999999997,
+            "end": 436.15999999999997,
+            "text": " Similarly, b also has an integer value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 436.15999999999997,
+            "end": 437.44,
+            "text": " So I gave it a type of int"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 437.44,
+            "end": 439.84,
+            "text": " So this line is saying that create a variable for me"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 439.84,
+            "end": 442.47999999999996,
+            "text": " With the name a, in which I have to store the value of 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 442.47999999999996,
+            "end": 445.12,
+            "text": " Now, there are different plots on the land"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 445.12,
+            "end": 446.23999999999995,
+            "text": " So what I can do is"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 446.23999999999995,
+            "end": 449.84,
+            "text": " I can take any plot and create a house on it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 449.84,
+            "end": 452.4,
+            "text": " I can give any name to my house"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 452.47999999999996,
+            "end": 454.47999999999996,
+            "text": " Let's suppose I gave it the name Shraddha Sadan"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 454.47999999999996,
+            "end": 456.47999999999996,
+            "text": " I can give it any name"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 456.47999999999996,
+            "end": 458.47999999999996,
+            "text": " I gave it the name Shraddha Bhavan"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 458.47999999999996,
+            "end": 461.84,
+            "text": " So that name is actually the name of a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 461.84,
+            "end": 464.96,
+            "text": " So there is a place, but what name did I give to that place?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 464.96,
+            "end": 468.64,
+            "text": " If I gave it the name Shraddha Bhavan, it will become the name of my variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 468.64,
+            "end": 471.76,
+            "text": " Similarly, here a place is taken in the memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 471.76,
+            "end": 475.84,
+            "text": " And on that place, this value 10 is stored"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 475.84,
+            "end": 478.96,
+            "text": " So basically, the person who is living in that house, this value is 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 479.52,
+            "end": 481.2,
+            "text": " 10 values are living in that house"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 481.2,
+            "end": 483.2,
+            "text": " And the name of that house is a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 483.2,
+            "end": 486.96,
+            "text": " So in this way, variables are actually created in the memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 486.96,
+            "end": 489.91999999999996,
+            "text": " Similarly, if I wrote int b is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 489.91999999999996,
+            "end": 491.91999999999996,
+            "text": " So a plot is taken in the memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 491.91999999999996,
+            "end": 494.32,
+            "text": " Similarly, the actual plots are not that big"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 494.32,
+            "end": 495.76,
+            "text": " They are very small in size"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 495.76,
+            "end": 497.76,
+            "text": " So that place is taken in the memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 497.76,
+            "end": 499.28,
+            "text": " And a name is given to that place"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 499.28,
+            "end": 500.56,
+            "text": " So what is the name given to the place?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 500.56,
+            "end": 502.0,
+            "text": " The name is given to the place b"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 502.0,
+            "end": 503.67999999999995,
+            "text": " And who is living in this house?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 503.67999999999995,
+            "end": 506.15999999999997,
+            "text": " What value is stored in this memory location?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 506.24,
+            "end": 510.32000000000005,
+            "text": " The actual value stored in the memory location is 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 510.32000000000005,
+            "end": 513.12,
+            "text": " Tomorrow, we can change the value of the variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 513.12,
+            "end": 514.96,
+            "text": " For example, if I wrote"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 514.96,
+            "end": 517.52,
+            "text": " b is equal to 50"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 517.52,
+            "end": 518.5600000000001,
+            "text": " In this way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 518.5600000000001,
+            "end": 521.44,
+            "text": " So 5 will be removed from this memory location"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 521.44,
+            "end": 525.12,
+            "text": " And 50 will be stored here"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 525.12,
+            "end": 527.52,
+            "text": " Or tomorrow I can make any other variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 527.52,
+            "end": 531.52,
+            "text": " If I wrote int age is equal to 25"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 531.52,
+            "end": 533.12,
+            "text": " Let's suppose I wrote this line"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 533.2,
+            "end": 535.92,
+            "text": " So in my memory, a new variable will be created"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 535.92,
+            "end": 536.64,
+            "text": " With the name age"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 536.64,
+            "end": 538.24,
+            "text": " What value will be stored in it?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 538.24,
+            "end": 540.88,
+            "text": " The value stored in it will be 25"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 540.88,
+            "end": 544.32,
+            "text": " So in C++, we create our variables in this way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 544.32,
+            "end": 545.92,
+            "text": " And actually in the memory"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 545.92,
+            "end": 548.88,
+            "text": " They are stored in this way internally"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 548.88,
+            "end": 552.16,
+            "text": " Now let's try to create some variables in our code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 552.16,
+            "end": 555.12,
+            "text": " I can write int a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 555.12,
+            "end": 560.24,
+            "text": " I can write int b is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 560.48,
+            "end": 563.36,
+            "text": " In this way, I have created two variables"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 563.36,
+            "end": 565.84,
+            "text": " Now if I want to print their value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 565.84,
+            "end": 568.16,
+            "text": " Then I can simply write cout"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 568.16,
+            "end": 570.4,
+            "text": " Let's suppose I wrote a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 570.4,
+            "end": 573.52,
+            "text": " In this way, I wrote end line here"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 573.52,
+            "end": 576.24,
+            "text": " In this way, I wrote cout a end line"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 576.24,
+            "end": 578.16,
+            "text": " So what will be printed in this case?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 578.16,
+            "end": 580.24,
+            "text": " As soon as we run this code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 580.24,
+            "end": 581.76,
+            "text": " Let me open my terminal window"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 581.76,
+            "end": 584.32,
+            "text": " To open the terminal, we can go to this symbol"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 584.32,
+            "end": 585.76,
+            "text": " We will go to terminal"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 585.76,
+            "end": 588.0,
+            "text": " First of all, we will compile our code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 588.0,
+            "end": 589.36,
+            "text": " Then we will run it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 589.44,
+            "end": 590.64,
+            "text": " So what is printed?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 590.64,
+            "end": 591.84,
+            "text": " I have a printed"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 591.84,
+            "end": 592.8000000000001,
+            "text": " But what do I want?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 592.8000000000001,
+            "end": 594.0,
+            "text": " I want 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 594.0,
+            "end": 595.84,
+            "text": " I want to print this 10 value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 595.84,
+            "end": 597.2,
+            "text": " Which is inside my variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 597.2,
+            "end": 599.76,
+            "text": " So whenever we want to print the value of a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 599.76,
+            "end": 601.6800000000001,
+            "text": " We don't write it in double quotes"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 601.6800000000001,
+            "end": 603.76,
+            "text": " Instead of writing it in double quotes"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 603.76,
+            "end": 604.72,
+            "text": " What we will do?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 604.72,
+            "end": 607.04,
+            "text": " We will write it without any quote"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 607.04,
+            "end": 610.24,
+            "text": " Here we will write our value without any quote"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 610.24,
+            "end": 613.2,
+            "text": " And let's try to compile it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 613.2,
+            "end": 614.16,
+            "text": " And run again"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 614.16,
+            "end": 615.44,
+            "text": " So what is printed this time?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 615.44,
+            "end": 617.52,
+            "text": " This time 10 is printed on the screen"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 617.84,
+            "end": 621.12,
+            "text": " Similarly, if we want, we can print b as well"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 621.12,
+            "end": 622.64,
+            "text": " That is, we write here"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 622.64,
+            "end": 623.84,
+            "text": " a is equal to"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 625.04,
+            "end": 626.24,
+            "text": " And in the same way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 626.96,
+            "end": 629.1999999999999,
+            "text": " We will write b is equal to"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 629.76,
+            "end": 630.48,
+            "text": " Let's save it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 635.12,
+            "end": 637.04,
+            "text": " So we have a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 637.68,
+            "end": 640.3199999999999,
+            "text": " Okay, here we had to print the value of b"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 641.36,
+            "end": 642.64,
+            "text": " So once again"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 643.76,
+            "end": 644.96,
+            "text": " a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 644.96,
+            "end": 646.5600000000001,
+            "text": " And my b is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 646.5600000000001,
+            "end": 647.84,
+            "text": " We got it printed"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 647.84,
+            "end": 650.32,
+            "text": " Now, one more interesting thing about c++"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 650.88,
+            "end": 653.2800000000001,
+            "text": " Actually, this equal to sign"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 653.2800000000001,
+            "end": 654.88,
+            "text": " Is a special symbol"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 654.88,
+            "end": 657.6800000000001,
+            "text": " Like how do we use equal to in math?"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 658.24,
+            "end": 661.2,
+            "text": " If I write a is equal to b in math"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 661.2,
+            "end": 664.08,
+            "text": " It means that the value of a and b are the same"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 664.08,
+            "end": 666.24,
+            "text": " But it doesn't mean that in c++"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 666.24,
+            "end": 668.8000000000001,
+            "text": " In c++, a is equal to b means"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 668.8000000000001,
+            "end": 670.8000000000001,
+            "text": " That I am putting the value of b in a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 671.36,
+            "end": 673.6,
+            "text": " That is, if I write a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 673.6800000000001,
+            "end": 677.12,
+            "text": " It means that the value of 10 is stored in a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 677.12,
+            "end": 679.12,
+            "text": " So this equal to is actually"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 679.12,
+            "end": 681.76,
+            "text": " We call it an assignment operator"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 681.76,
+            "end": 684.32,
+            "text": " We will study operators in detail later"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 684.32,
+            "end": 686.32,
+            "text": " But it is called an assignment operator"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 686.32,
+            "end": 687.6800000000001,
+            "text": " Which assigns a value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 687.6800000000001,
+            "end": 689.44,
+            "text": " That is, it gives a value to someone"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 689.44,
+            "end": 692.8000000000001,
+            "text": " So, the value of 10 is stored in a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 692.8000000000001,
+            "end": 696.48,
+            "text": " Now, we can create our variables without assignment"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 696.48,
+            "end": 698.0,
+            "text": " Like here"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 698.88,
+            "end": 700.48,
+            "text": " Let's remove this line"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 700.8000000000001,
+            "end": 703.9200000000001,
+            "text": " Like, let's suppose I didn't write a is equal to 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 703.9200000000001,
+            "end": 705.9200000000001,
+            "text": " I only wrote int a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 705.9200000000001,
+            "end": 708.96,
+            "text": " This is also a valid way to create a variable"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 708.96,
+            "end": 712.96,
+            "text": " But when we create our variable in this way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 712.96,
+            "end": 715.36,
+            "text": " So, we didn't give any value to a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 715.36,
+            "end": 719.36,
+            "text": " This means that in c++, a doesn't store 0"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 719.36,
+            "end": 721.9200000000001,
+            "text": " A stores a garbage value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 721.9200000000001,
+            "end": 725.12,
+            "text": " That means, random numbers will be stored in a"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 725.12,
+            "end": 727.6800000000001,
+            "text": " And no one can predict what that number will be"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 727.6800000000001,
+            "end": 728.88,
+            "text": " That number can be anything"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 728.88,
+            "end": 731.68,
+            "text": " It is possible that in your system, that number is printed differently"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 731.68,
+            "end": 734.16,
+            "text": " And in my system, that number is printed differently"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 734.16,
+            "end": 738.0,
+            "text": " Like, if I try to compile and run my code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 738.0,
+            "end": 740.8,
+            "text": " So, that number is printed in this way"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 740.8,
+            "end": 742.8,
+            "text": " Any number can be in your system"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 742.8,
+            "end": 746.0,
+            "text": " This number is a garbage value which is not a valid value"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 746.0,
+            "end": 749.84,
+            "text": " But it is possible that if I assign a a good value tomorrow"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 749.84,
+            "end": 751.84,
+            "text": " Like, I assigned a a value of 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 751.84,
+            "end": 753.84,
+            "text": " Then, the value of a will change tomorrow"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 753.84,
+            "end": 755.44,
+            "text": " So, let's save it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 755.44,
+            "end": 758.0,
+            "text": " And let's compile it and run it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 758.08,
+            "end": 759.84,
+            "text": " So, this time, the value of a is 10"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 759.84,
+            "end": 763.12,
+            "text": " So, if we simply create any variable in our code"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 763.12,
+            "end": 765.12,
+            "text": " But we don't assign any value to it"
+        },
+        {
+            "number": "",
+            "title": "Variables in C++",
+            "start": 765.12,
+            "end": 769.84,
+            "text": " So, by default, in c++, a garbage value is stored in that variable"
+        }
+    ]
+}

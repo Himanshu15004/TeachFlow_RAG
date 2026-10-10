@@ -1,0 +1,701 @@
+{
+    "file": "Sum of 2 Numbers.mp3",
+    "title": "Sum of 2 Numbers",
+    "number": "",
+    "text": " so the question we will solve first is called the sum of two numbers now for a problem, we generally define two things for ourselves one is what input we will get and what output we should produce like in the problem of making Maggi, we know that we will have a packet of Maggi, masala, water, we will have a gas stove and we should get cooked Maggi as output now the process of making it in between becomes our solution similarly, two numbers will come in input, we have to give sum in output the process in between is my flowchart, you can draw it and give it to me, this is your question so the flowchart to solve this question will look like this it will always start with the start block once we start, the first thing that will happen is that I need input let's see again how code works this is our code, in code generally, input is taken first and in the last we give output and exit by giving output and the work of the process in between or the work of decision making also comes in the process that is happening in the middle so we started, after that we will take input A and B if we have to sum two numbers, then we should have two numbers so in the block of parallelogram, i.e. in the input output, we will take input A and B so whatever value we have to take as input, we simply write it in front of it next what we will do, next we will process, i.e. we will do some work what work we will do, it is written in the rectangle we will take sum of A and B so we took the value of A and B and assigned it to our sum variable what are variables, we will study in detail in the next chapter but here sum is another value, another variable, in which that value is stored and then finally we have to print our sum so for print, I wrote print sum and where did it come, it came in my output block and finally, because our work is complete, we will exit so this is the complete ecological flow chart, which we have made and seen now this is the flow chart along with the flow chart, there is also an additional term, which we talked about which we call pseudocode now let's talk about what is pseudocode pseudocode is made up of two words, one is pseudo and one is code pseudo means fake and we know about code so basically pseudocode is not the real code we just try to make a flow like code by writing English in it now why is pseudocode written? pseudocode is a fake code basically and it is written because, for example, you are trying to solve a problem you know its code in C++ but there is another developer in your team, who may be coding on Python who may be coding on Java, who may be coding on JavaScript in some other language now you have to explain your logic to them so how do you explain your logic to them, because they don't know C++ so you can explain your logic to them by writing pseudocode pseudocode is basically, you have written your code in English which anyone can understand, even if they know any programming language so that's why pseudocode becomes important whenever we all, who work on different languages, are talking together because then pseudocode becomes important so in some interviews, it may happen that if there is a big algorithm and the interviewer doesn't have much time so the interviewer can tell you, that don't write the whole code for me just write the pseudocode, which means write the code in English and show it to me on a paper pen so this also happens in a few situations now how do we write pseudocode? writing pseudocode will be easier than writing flowchart, how? don't do anything, just write flowchart in English, that's what pseudocode is like, let's start writing it we write pseudocode stepwise and we don't write start generally in pseudocode we will start from here so the first step will be input a and b first line is done basically, I have told you in English, that we have to solve this problem sum of two numbers, so take input a and b what is the second thing to do? take out sum of a and b so sum is equal to a plus b so I have taken a variable, which has a plus b value so the second step is done the third step is to print sum so don't do anything, just print sum and the fourth step is exit which means pseudocode is done so my pseudocode is done basically, the thing which was written in flowchart we write it stepwise in the form of pseudocode and this is a process which doesn't matter if you are coding in C++, Python, Java or in Golang you can code in any language because this is basic English to take out sum of two numbers so this is what we call pseudocode and pseudocode and flowchart are very easy things in fact, this is your first beginner class so some of you may find it difficult but I can guarantee you as you read the second chapter or as you read the third chapter this thing will look very simple like butter",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 0.0,
+            "end": 4.9,
+            "text": " so the question we will solve first is called the sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 4.9,
+            "end": 8.9,
+            "text": " now for a problem, we generally define two things for ourselves"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 8.9,
+            "end": 14.6,
+            "text": " one is what input we will get and what output we should produce"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 14.6,
+            "end": 19.1,
+            "text": " like in the problem of making Maggi, we know that we will have a packet of Maggi,"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 19.1,
+            "end": 24.900000000000002,
+            "text": " masala, water, we will have a gas stove and we should get cooked Maggi as output"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 24.900000000000002,
+            "end": 28.8,
+            "text": " now the process of making it in between becomes our solution"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 28.8,
+            "end": 31.900000000000002,
+            "text": " similarly, two numbers will come in input, we have to give sum in output"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 31.900000000000002,
+            "end": 35.9,
+            "text": " the process in between is my flowchart, you can draw it and give it to me, this is your question"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 35.9,
+            "end": 39.8,
+            "text": " so the flowchart to solve this question will look like this"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 39.8,
+            "end": 42.4,
+            "text": " it will always start with the start block"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 42.4,
+            "end": 46.6,
+            "text": " once we start, the first thing that will happen is that I need input"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 46.6,
+            "end": 49.1,
+            "text": " let's see again how code works"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 49.1,
+            "end": 55.3,
+            "text": " this is our code, in code generally, input is taken first and in the last we give output"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 55.4,
+            "end": 56.9,
+            "text": " and exit by giving output"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 56.9,
+            "end": 62.4,
+            "text": " and the work of the process in between or the work of decision making also comes in the process"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 62.4,
+            "end": 63.599999999999994,
+            "text": " that is happening in the middle"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 63.599999999999994,
+            "end": 67.6,
+            "text": " so we started, after that we will take input A and B"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 67.6,
+            "end": 70.8,
+            "text": " if we have to sum two numbers, then we should have two numbers"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 70.8,
+            "end": 77.2,
+            "text": " so in the block of parallelogram, i.e. in the input output, we will take input A and B"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 77.2,
+            "end": 81.2,
+            "text": " so whatever value we have to take as input, we simply write it in front of it"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 81.3,
+            "end": 85.0,
+            "text": " next what we will do, next we will process, i.e. we will do some work"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 85.0,
+            "end": 87.5,
+            "text": " what work we will do, it is written in the rectangle"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 87.5,
+            "end": 89.5,
+            "text": " we will take sum of A and B"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 89.5,
+            "end": 94.5,
+            "text": " so we took the value of A and B and assigned it to our sum variable"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 94.5,
+            "end": 97.10000000000001,
+            "text": " what are variables, we will study in detail in the next chapter"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 97.10000000000001,
+            "end": 102.0,
+            "text": " but here sum is another value, another variable, in which that value is stored"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 102.0,
+            "end": 105.30000000000001,
+            "text": " and then finally we have to print our sum"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 105.30000000000001,
+            "end": 110.30000000000001,
+            "text": " so for print, I wrote print sum and where did it come, it came in my output block"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 110.39999999999999,
+            "end": 113.89999999999999,
+            "text": " and finally, because our work is complete, we will exit"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 113.89999999999999,
+            "end": 117.89999999999999,
+            "text": " so this is the complete ecological flow chart, which we have made and seen"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 117.89999999999999,
+            "end": 119.89999999999999,
+            "text": " now this is the flow chart"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 119.89999999999999,
+            "end": 123.89999999999999,
+            "text": " along with the flow chart, there is also an additional term, which we talked about"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 123.89999999999999,
+            "end": 125.6,
+            "text": " which we call pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 125.6,
+            "end": 128.3,
+            "text": " now let's talk about what is pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 128.3,
+            "end": 132.3,
+            "text": " pseudocode is made up of two words, one is pseudo and one is code"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 132.3,
+            "end": 135.7,
+            "text": " pseudo means fake and we know about code"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 135.7,
+            "end": 138.3,
+            "text": " so basically pseudocode is not the real code"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 138.3,
+            "end": 143.9,
+            "text": " we just try to make a flow like code by writing English in it"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 143.9,
+            "end": 145.9,
+            "text": " now why is pseudocode written?"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 145.9,
+            "end": 147.9,
+            "text": " pseudocode is a fake code basically"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 147.9,
+            "end": 152.5,
+            "text": " and it is written because, for example, you are trying to solve a problem"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 152.5,
+            "end": 154.9,
+            "text": " you know its code in C++"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 154.9,
+            "end": 158.9,
+            "text": " but there is another developer in your team, who may be coding on Python"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 158.9,
+            "end": 162.5,
+            "text": " who may be coding on Java, who may be coding on JavaScript in some other language"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 162.5,
+            "end": 164.9,
+            "text": " now you have to explain your logic to them"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 165.1,
+            "end": 168.5,
+            "text": " so how do you explain your logic to them, because they don't know C++"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 168.5,
+            "end": 171.70000000000002,
+            "text": " so you can explain your logic to them by writing pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 171.70000000000002,
+            "end": 175.70000000000002,
+            "text": " pseudocode is basically, you have written your code in English"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 175.70000000000002,
+            "end": 179.5,
+            "text": " which anyone can understand, even if they know any programming language"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 179.5,
+            "end": 182.5,
+            "text": " so that's why pseudocode becomes important"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 182.5,
+            "end": 187.5,
+            "text": " whenever we all, who work on different languages, are talking together"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 187.5,
+            "end": 189.5,
+            "text": " because then pseudocode becomes important"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 189.5,
+            "end": 191.5,
+            "text": " so in some interviews, it may happen"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 191.5,
+            "end": 194.9,
+            "text": " that if there is a big algorithm and the interviewer doesn't have much time"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 194.9,
+            "end": 198.5,
+            "text": " so the interviewer can tell you, that don't write the whole code for me"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 198.5,
+            "end": 202.5,
+            "text": " just write the pseudocode, which means write the code in English and show it to me"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 202.5,
+            "end": 203.5,
+            "text": " on a paper pen"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 203.5,
+            "end": 206.1,
+            "text": " so this also happens in a few situations"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 206.1,
+            "end": 208.1,
+            "text": " now how do we write pseudocode?"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 208.1,
+            "end": 211.1,
+            "text": " writing pseudocode will be easier than writing flowchart, how?"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 211.1,
+            "end": 216.1,
+            "text": " don't do anything, just write flowchart in English, that's what pseudocode is"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 216.1,
+            "end": 218.1,
+            "text": " like, let's start writing it"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 218.7,
+            "end": 220.7,
+            "text": " we write pseudocode stepwise"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 220.7,
+            "end": 222.7,
+            "text": " and we don't write start generally in pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 222.7,
+            "end": 224.7,
+            "text": " we will start from here"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 224.7,
+            "end": 226.7,
+            "text": " so the first step will be"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 226.7,
+            "end": 228.7,
+            "text": " input"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 228.7,
+            "end": 230.7,
+            "text": " a and b"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 230.7,
+            "end": 232.7,
+            "text": " first line is done"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 232.7,
+            "end": 234.7,
+            "text": " basically, I have told you in English, that we have to solve this problem"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 234.7,
+            "end": 237.7,
+            "text": " sum of two numbers, so take input a and b"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 237.7,
+            "end": 239.7,
+            "text": " what is the second thing to do?"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 239.7,
+            "end": 241.7,
+            "text": " take out sum of a and b"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 241.7,
+            "end": 245.7,
+            "text": " so sum is equal to a plus b"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 246.29999999999998,
+            "end": 250.29999999999998,
+            "text": " so I have taken a variable, which has a plus b value"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 250.29999999999998,
+            "end": 252.29999999999998,
+            "text": " so the second step is done"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 252.29999999999998,
+            "end": 254.29999999999998,
+            "text": " the third step is to print sum"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 254.29999999999998,
+            "end": 256.3,
+            "text": " so don't do anything, just print sum"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 256.3,
+            "end": 258.3,
+            "text": " and the fourth step is exit"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 258.3,
+            "end": 260.3,
+            "text": " which means pseudocode is done"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 260.3,
+            "end": 262.3,
+            "text": " so my pseudocode is done"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 262.3,
+            "end": 264.3,
+            "text": " basically, the thing which was written in flowchart"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 264.3,
+            "end": 266.3,
+            "text": " we write it stepwise"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 266.3,
+            "end": 268.3,
+            "text": " in the form of pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 268.3,
+            "end": 270.3,
+            "text": " and this is a process"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 270.3,
+            "end": 274.3,
+            "text": " which doesn't matter if you are coding in C++, Python, Java"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 274.90000000000003,
+            "end": 276.90000000000003,
+            "text": " or in Golang"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 276.90000000000003,
+            "end": 278.90000000000003,
+            "text": " you can code in any language"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 278.90000000000003,
+            "end": 280.90000000000003,
+            "text": " because this is basic English"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 280.90000000000003,
+            "end": 282.90000000000003,
+            "text": " to take out sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 282.90000000000003,
+            "end": 284.90000000000003,
+            "text": " so this is what we call pseudocode"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 284.90000000000003,
+            "end": 286.90000000000003,
+            "text": " and pseudocode and flowchart are very easy things"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 286.90000000000003,
+            "end": 288.90000000000003,
+            "text": " in fact, this is your first beginner class"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 288.90000000000003,
+            "end": 290.90000000000003,
+            "text": " so some of you may find it difficult"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 290.90000000000003,
+            "end": 292.90000000000003,
+            "text": " but I can guarantee you"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 292.90000000000003,
+            "end": 294.90000000000003,
+            "text": " as you read the second chapter"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 294.90000000000003,
+            "end": 296.90000000000003,
+            "text": " or as you read the third chapter"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 296.90000000000003,
+            "end": 298.90000000000003,
+            "text": " this thing will look very simple"
+        },
+        {
+            "number": "",
+            "title": "Sum of 2 Numbers",
+            "start": 298.90000000000003,
+            "end": 300.90000000000003,
+            "text": " like butter"
+        }
+    ]
+}

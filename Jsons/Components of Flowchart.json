@@ -1,0 +1,981 @@
+{
+    "file": "Components of Flowchart.mp3",
+    "title": "Components of Flowchart",
+    "number": "",
+    "text": " In the books of science and maths, we have seen diagrams Similarly, we make a diagram which shows the solutions of a problem There are some components in the diagram which have fixed meanings For example, whenever we draw a flowchart, it will start with a start block We call it a block And we will end it with an exit block This block is an oval shaped egg-shaped block In which I have written a start So, my solution starts from here and ends at the exit Apart from this, we have a parallelogram shape Which is used for input or output What does input and output mean? For example, we all must have used Google Chrome on our phones You must be using Google Chrome or Safari If you have a Mac or Apple device Or there must be some students who use Microsoft Edge Or browsers must be used to search for things So, how does a browser work? A browser works by typing any word in it For example, I have typed the word, my college So, the browser gives me the meaning of any word Or it gives me related links Or it gives me many other things Now, what is the job of a browser? Whatever input is given in it, like whatever we write on it On the basis of that, we have to give some output So, input is anything that is taken After that, Google Chrome must have written some code of millions of lines It will run that code and on the basis of that, it will produce some output It will show us some websites and some meanings Similarly, all the C++ codes that we have There will be some input and some output Input and output can be anything For example, if I have to calculate the sum of two numbers If I want to do something like this Sum is equal to A plus B So, I have to take A and B in the input So, these are my variables In math, these are called variables I have to take the value of these variables from the input block If I have to print this sum Then I have to give the statement of this also in the output block By writing print sum So, in this way, we use our parallelogram shape for input and output One more important thing Whenever we have to input or output a variable We will only write the name of the variable If I have to input the value of any x variable We will write input x It will not be understood now I completely understand But as we solve one equation We will understand it better For now, we have to focus on the theory Similarly, if I have to print x Then instead of input, I will write print x But if we have to print a fixed value Like this or like our college When we are printing such strings Then we generally write them with double quotes After that comes our process block Process block is basically a rectangle Process means any work Once the input is there, how does the code work? Code has a basic flow of working Let's suppose this is my box in which my code is written Code always takes some input Some process performs on it That means it does some work It can be a calculation It can be applying a math formula It can be any work After that, code always gives some output So all the work in between We consider them in the process So basically, our rectangle will be a process block Now what is happening here? Here in a variable named name We are storing Tony Stark This is a string This is a value This is a name Which we are storing in it In programming language, it is called assignment Assignment means Whenever you see equal to It means assignment in C++ Assigning things means Giving a value to someone So this value is Stored in a variable named name So here, assignment is being done For example, if we have to calculate the sum of two numbers Then A and B will come in the input We should have sum in the output But where will the value of this sum come? The value of this sum will be given by the process When we do the work of sum is equal to A plus B That means we have assigned this in the sum variable Which we will finally present in the output Apart from this, we have another important block Decision block The work of decision block is To tell for any question That it is yes or no Means is it true or false In decision block, generally we write like this Is means if we have to check anything Then we will check in decision block Decision means we will check in this diamond shape Like I have written here Is age greater than equal to 18? So there can be only two answers Either decision block will give me yes Or it will give no So generally what we do with decision block We draw arrows like this If yes, then do this work If no, then do the work ahead of this So in this way, our decision block works For example, we have a problem That we have to design a software for traffic police In which anyone can apply for their license So we have to check before the license application That whether that person's age is greater than equal to 18 If yes, then only he will be able to apply for the license If no, then he will not be able to apply for the license So in this way, there are many real life decisions Which we convert into coding form And finally we have arrows To connect all these blocks Because flow comes in flow chart So our logic flows from one place to another So to connect all the components We have arrows in between Which work as a connector Now this is the end of many theories Now next we will see a small problem After seeing this, all these theories will be clear in our mind",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 0.0,
+            "end": 4.26,
+            "text": " In the books of science and maths, we have seen diagrams"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 4.26,
+            "end": 8.5,
+            "text": " Similarly, we make a diagram which shows the solutions of a problem"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 8.5,
+            "end": 12.38,
+            "text": " There are some components in the diagram which have fixed meanings"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 12.38,
+            "end": 18.86,
+            "text": " For example, whenever we draw a flowchart, it will start with a start block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 18.86,
+            "end": 20.02,
+            "text": " We call it a block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 20.02,
+            "end": 23.26,
+            "text": " And we will end it with an exit block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 23.26,
+            "end": 27.94,
+            "text": " This block is an oval shaped egg-shaped block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 27.94,
+            "end": 29.84,
+            "text": " In which I have written a start"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 29.84,
+            "end": 34.160000000000004,
+            "text": " So, my solution starts from here and ends at the exit"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 34.160000000000004,
+            "end": 37.2,
+            "text": " Apart from this, we have a parallelogram shape"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 37.2,
+            "end": 40.52,
+            "text": " Which is used for input or output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 40.52,
+            "end": 42.92,
+            "text": " What does input and output mean?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 42.92,
+            "end": 48.2,
+            "text": " For example, we all must have used Google Chrome on our phones"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 48.2,
+            "end": 51.44,
+            "text": " You must be using Google Chrome or Safari"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 51.44,
+            "end": 53.44,
+            "text": " If you have a Mac or Apple device"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 53.44,
+            "end": 57.32,
+            "text": " Or there must be some students who use Microsoft Edge"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 57.32,
+            "end": 59.8,
+            "text": " Or browsers must be used to search for things"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 59.8,
+            "end": 61.480000000000004,
+            "text": " So, how does a browser work?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 61.480000000000004,
+            "end": 65.64,
+            "text": " A browser works by typing any word in it"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 65.64,
+            "end": 68.68,
+            "text": " For example, I have typed the word, my college"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 68.68,
+            "end": 73.16,
+            "text": " So, the browser gives me the meaning of any word"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 73.16,
+            "end": 75.4,
+            "text": " Or it gives me related links"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 75.4,
+            "end": 77.88,
+            "text": " Or it gives me many other things"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 77.88,
+            "end": 79.88,
+            "text": " Now, what is the job of a browser?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 79.88,
+            "end": 83.16,
+            "text": " Whatever input is given in it, like whatever we write on it"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 83.16,
+            "end": 85.96000000000001,
+            "text": " On the basis of that, we have to give some output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 86.6,
+            "end": 89.47999999999999,
+            "text": " So, input is anything that is taken"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 89.47999999999999,
+            "end": 96.28,
+            "text": " After that, Google Chrome must have written some code of millions of lines"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 96.28,
+            "end": 99.72,
+            "text": " It will run that code and on the basis of that, it will produce some output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 99.72,
+            "end": 102.44,
+            "text": " It will show us some websites and some meanings"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 102.44,
+            "end": 105.47999999999999,
+            "text": " Similarly, all the C++ codes that we have"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 105.47999999999999,
+            "end": 108.52,
+            "text": " There will be some input and some output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 108.52,
+            "end": 110.28,
+            "text": " Input and output can be anything"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 110.28,
+            "end": 112.52,
+            "text": " For example, if I have to calculate the sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 112.52,
+            "end": 114.28,
+            "text": " If I want to do something like this"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 114.36,
+            "end": 115.88,
+            "text": " Sum is equal to A plus B"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 115.88,
+            "end": 118.92,
+            "text": " So, I have to take A and B in the input"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 118.92,
+            "end": 120.28,
+            "text": " So, these are my variables"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 120.28,
+            "end": 121.96000000000001,
+            "text": " In math, these are called variables"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 121.96000000000001,
+            "end": 124.6,
+            "text": " I have to take the value of these variables from the input block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 124.6,
+            "end": 126.44,
+            "text": " If I have to print this sum"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 126.44,
+            "end": 129.32,
+            "text": " Then I have to give the statement of this also in the output block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 129.32,
+            "end": 130.44,
+            "text": " By writing print sum"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 130.44,
+            "end": 134.76,
+            "text": " So, in this way, we use our parallelogram shape for input and output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 134.76,
+            "end": 136.36,
+            "text": " One more important thing"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 136.36,
+            "end": 140.2,
+            "text": " Whenever we have to input or output a variable"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 140.2,
+            "end": 141.88,
+            "text": " We will only write the name of the variable"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 142.12,
+            "end": 144.68,
+            "text": " If I have to input the value of any x variable"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 144.68,
+            "end": 146.12,
+            "text": " We will write input x"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 146.12,
+            "end": 147.64,
+            "text": " It will not be understood now"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 147.64,
+            "end": 148.76,
+            "text": " I completely understand"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 148.76,
+            "end": 150.68,
+            "text": " But as we solve one equation"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 150.68,
+            "end": 152.28,
+            "text": " We will understand it better"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 152.28,
+            "end": 154.68,
+            "text": " For now, we have to focus on the theory"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 154.68,
+            "end": 156.84,
+            "text": " Similarly, if I have to print x"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 156.84,
+            "end": 159.88,
+            "text": " Then instead of input, I will write print x"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 159.88,
+            "end": 162.04,
+            "text": " But if we have to print a fixed value"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 162.04,
+            "end": 165.32,
+            "text": " Like this or like our college"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 165.32,
+            "end": 167.96,
+            "text": " When we are printing such strings"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 167.96,
+            "end": 170.76,
+            "text": " Then we generally write them with double quotes"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 170.84,
+            "end": 173.0,
+            "text": " After that comes our process block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 173.0,
+            "end": 175.88,
+            "text": " Process block is basically a rectangle"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 175.88,
+            "end": 177.88,
+            "text": " Process means any work"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 177.88,
+            "end": 180.35999999999999,
+            "text": " Once the input is there, how does the code work?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 180.35999999999999,
+            "end": 183.72,
+            "text": " Code has a basic flow of working"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 183.72,
+            "end": 186.76,
+            "text": " Let's suppose this is my box in which my code is written"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 186.76,
+            "end": 189.48,
+            "text": " Code always takes some input"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 189.48,
+            "end": 192.28,
+            "text": " Some process performs on it"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 192.28,
+            "end": 193.48,
+            "text": " That means it does some work"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 193.48,
+            "end": 195.07999999999998,
+            "text": " It can be a calculation"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 195.07999999999998,
+            "end": 197.48,
+            "text": " It can be applying a math formula"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 197.48,
+            "end": 198.92,
+            "text": " It can be any work"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 199.0,
+            "end": 201.39999999999998,
+            "text": " After that, code always gives some output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 201.39999999999998,
+            "end": 203.07999999999998,
+            "text": " So all the work in between"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 203.07999999999998,
+            "end": 204.92,
+            "text": " We consider them in the process"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 204.92,
+            "end": 207.64,
+            "text": " So basically, our rectangle will be a process block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 207.64,
+            "end": 209.16,
+            "text": " Now what is happening here?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 209.16,
+            "end": 211.56,
+            "text": " Here in a variable named name"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 211.56,
+            "end": 212.67999999999998,
+            "text": " We are storing Tony Stark"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 212.67999999999998,
+            "end": 213.64,
+            "text": " This is a string"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 213.64,
+            "end": 214.67999999999998,
+            "text": " This is a value"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 214.67999999999998,
+            "end": 215.56,
+            "text": " This is a name"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 215.56,
+            "end": 217.79999999999998,
+            "text": " Which we are storing in it"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 217.79999999999998,
+            "end": 220.92,
+            "text": " In programming language, it is called assignment"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 221.48,
+            "end": 222.67999999999998,
+            "text": " Assignment means"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 222.67999999999998,
+            "end": 224.2,
+            "text": " Whenever you see equal to"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 224.2,
+            "end": 226.76,
+            "text": " It means assignment in C++"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 226.76,
+            "end": 228.11999999999998,
+            "text": " Assigning things means"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 228.12,
+            "end": 229.56,
+            "text": " Giving a value to someone"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 229.56,
+            "end": 230.84,
+            "text": " So this value is"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 230.84,
+            "end": 233.56,
+            "text": " Stored in a variable named name"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 233.56,
+            "end": 235.48000000000002,
+            "text": " So here, assignment is being done"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 235.48000000000002,
+            "end": 237.72,
+            "text": " For example, if we have to calculate the sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 237.72,
+            "end": 239.4,
+            "text": " Then A and B will come in the input"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 239.4,
+            "end": 241.24,
+            "text": " We should have sum in the output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 241.24,
+            "end": 242.84,
+            "text": " But where will the value of this sum come?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 242.84,
+            "end": 244.76,
+            "text": " The value of this sum will be given by the process"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 244.76,
+            "end": 247.56,
+            "text": " When we do the work of sum is equal to A plus B"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 247.56,
+            "end": 250.52,
+            "text": " That means we have assigned this in the sum variable"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 250.52,
+            "end": 253.16,
+            "text": " Which we will finally present in the output"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 253.16,
+            "end": 255.64000000000001,
+            "text": " Apart from this, we have another important block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 255.64000000000001,
+            "end": 256.92,
+            "text": " Decision block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 257.24,
+            "end": 258.76,
+            "text": " The work of decision block is"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 258.76,
+            "end": 260.36,
+            "text": " To tell for any question"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 260.36,
+            "end": 261.56,
+            "text": " That it is yes or no"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 261.56,
+            "end": 263.48,
+            "text": " Means is it true or false"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 263.48,
+            "end": 265.96000000000004,
+            "text": " In decision block, generally we write like this"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 265.96000000000004,
+            "end": 267.72,
+            "text": " Is means if we have to check anything"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 267.72,
+            "end": 269.32,
+            "text": " Then we will check in decision block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 269.32,
+            "end": 272.28000000000003,
+            "text": " Decision means we will check in this diamond shape"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 272.28000000000003,
+            "end": 273.40000000000003,
+            "text": " Like I have written here"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 273.40000000000003,
+            "end": 276.20000000000005,
+            "text": " Is age greater than equal to 18?"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 276.20000000000005,
+            "end": 277.8,
+            "text": " So there can be only two answers"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 277.8,
+            "end": 279.64,
+            "text": " Either decision block will give me yes"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 279.64,
+            "end": 281.24,
+            "text": " Or it will give no"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 281.24,
+            "end": 283.40000000000003,
+            "text": " So generally what we do with decision block"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 283.40000000000003,
+            "end": 285.16,
+            "text": " We draw arrows like this"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 285.24,
+            "end": 287.16,
+            "text": " If yes, then do this work"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 287.16,
+            "end": 290.12,
+            "text": " If no, then do the work ahead of this"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 290.12,
+            "end": 292.68,
+            "text": " So in this way, our decision block works"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 292.68,
+            "end": 294.44,
+            "text": " For example, we have a problem"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 294.44,
+            "end": 296.76000000000005,
+            "text": " That we have to design a software for traffic police"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 296.76000000000005,
+            "end": 299.40000000000003,
+            "text": " In which anyone can apply for their license"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 299.40000000000003,
+            "end": 301.96000000000004,
+            "text": " So we have to check before the license application"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 301.96000000000004,
+            "end": 304.84000000000003,
+            "text": " That whether that person's age is greater than equal to 18"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 304.84000000000003,
+            "end": 307.72,
+            "text": " If yes, then only he will be able to apply for the license"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 307.72,
+            "end": 310.76000000000005,
+            "text": " If no, then he will not be able to apply for the license"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 310.76000000000005,
+            "end": 313.40000000000003,
+            "text": " So in this way, there are many real life decisions"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 313.47999999999996,
+            "end": 315.47999999999996,
+            "text": " Which we convert into coding form"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 315.47999999999996,
+            "end": 317.88,
+            "text": " And finally we have arrows"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 317.88,
+            "end": 320.76,
+            "text": " To connect all these blocks"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 320.76,
+            "end": 322.91999999999996,
+            "text": " Because flow comes in flow chart"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 322.91999999999996,
+            "end": 326.03999999999996,
+            "text": " So our logic flows from one place to another"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 326.03999999999996,
+            "end": 328.44,
+            "text": " So to connect all the components"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 328.44,
+            "end": 330.2,
+            "text": " We have arrows in between"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 330.2,
+            "end": 331.56,
+            "text": " Which work as a connector"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 331.56,
+            "end": 333.23999999999995,
+            "text": " Now this is the end of many theories"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 333.23999999999995,
+            "end": 335.4,
+            "text": " Now next we will see a small problem"
+        },
+        {
+            "number": "",
+            "title": "Components of Flowchart",
+            "start": 335.4,
+            "end": 338.91999999999996,
+            "text": " After seeing this, all these theories will be clear in our mind"
+        }
+    ]
+}

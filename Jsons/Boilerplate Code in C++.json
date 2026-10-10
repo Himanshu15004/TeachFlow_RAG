@@ -1,0 +1,659 @@
+{
+    "file": "Boilerplate Code in C++.mp3",
+    "title": "Boilerplate Code in C++",
+    "number": "",
+    "text": " Hi everyone, now we are finally going to start with our C++ programming. Now before understanding C++ programming, I will show you a small sample code and with that we will get a clear idea that how this code exactly is, how it looks, how it is executed. So to write the code, first of all I am on Visual Studio Code. On Visual Studio Code, we can go to this icon which is basically our explorer icon. Or if we want, we can go to the files above and open any folder or create a new file. But I will go to this icon and I have to click on open folder. After clicking on open folder, we will get options that which folder we want to create our file in. So I am going to create a new folder in my desktop which I will name as CPP codes. I have created my new folder and now I am going to open this folder. If you are on Windows system or Linux system, then you can open any folder in the same way or you can create a new folder and open it. Now in this folder, using this icon which is my new file icon, I will create a new file which I will name as code.cpp. Now this code is basically the name of my file and .cpp is its extension. All the C++ files that we create will end with .cpp. If I was making a java file, then I would have written .java. If I was making a html file, then I would have written .html. So in this way, there are many extensions. We will use CPP extension. I have entered this and I have my code.cpp, that is, my first C++ file has opened in Visual Studio Code. We will cross this and click on this icon again, then our bar will close for us. Now in code.cpp, I am going to write a small basic C++ code. What is the meaning of that code? How does that code run or execute? We don't have to worry about that because the first time you see this code, you will not understand what is written here. Now I am going to write my code quickly. Iostream using name space std int main and this is done. Return 0. So basically I have written a small sample code of C++, whose job is that it does nothing. It will only run, that is, it will execute, but it will not do anything. If I have to bring some output in this code, then I will write here cout, our college and let's do it. So I have written so much code, now we must not be understanding its meaning at all. I am going to run this code once and what will happen by running it? It's running and finally the thing I wrote here in double quotes, our college, it came to me printed on the screen. Here I can see how much time the code took to execute. So basically in our entire course, when we are talking about C++ codes, then we will make some such files and write some such code. And when we are talking about running this code, then we will run it in this way and try to print our output on a screen. This output is coming from the output screen now. If we want, we can generate the same output from our terminal. Now what is this terminal? We will be talking about it in a little while. First of all, we are going to focus on this code. We are going to focus on understanding this code. Now the code we saw on our screen, we call it boilerplate code. Boilerplate code is template code. Means this is such a code that you will have to write every time. Whether you are writing any program in C++, whenever we are reading data structures and algorithms. Now this is our boilerplate code. Now whenever we understand any code, we always understand the code in the direction from top to bottom. And whenever we are writing the code ourselves, then how does our logic work? Like we saw in flowcharts, our logic always works from top to bottom. That is, first this line will be executed, then this line will be executed. So in this way, we are executing our code sequentially. Now there are many different parts in our boilerplate code. At the top, the hash include iostream we have written, we call it preprocessor directive. Preprocessor directive is that already someone else must have written a code in C++. If we want to use it in our program, then we can include it. Or if you have already read a little bit of C++, then you must have heard the name of macros. Macros are also a type of preprocessor directive. Now what are preprocessor directives in detail? We are going to understand them in a while. In the second line, we are talking about some namespaces. We are going to understand that in detail now. And then finally we have written our main function. Functions are some blocks of code that do some work for us. Now functions are not a small thing. We will read a whole dedicated chapter on functions later. So do not expect that we will understand what functions are in today's class. In today's class, we will be starting our C++ programming. So when we talk about main, main is our main function. And it is also the starting point of execution. Execution means when our code runs, when the output produces, then the whole process starts with our main function. So all the logic that we write as a programmer to do DSA, we generally start writing from our main function. And in the main function, we see a lot of things like return 0. Along with this, you must be seeing one more interesting thing in boilerplate code, which are these curly braces. Curly braces show a block of code. Curly braces show that the main function starts from here and ends here. So curly braces are basically pairs. And they show that one main function or one function is from here to here. Later we will talk about loops and conditional statements. Then we will also know where our block of code starts and ends. Now along with this, we must be seeing a statement called return 0. Return 0 means wherever it is, our code ends here. It is the last point. The start of the loop, the curly braces, is the starting point. And return 0 is the last point. So all the logic that we have, we will write it here in our code. So boilerplate code is our template. And we can fit any extra logic in it. So you don't need to remember what boilerplate code means. We are going to write this code in every single class. We will write this code so many times that it will be printed in our mind after a point. So you don't need to worry if you find these words a little scary at first look. Because we will be writing this code so many times, we will talk about it so many times, we will practice it so many times that we will find these words like ABCD in C++.",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 0.0,
+            "end": 11.0,
+            "text": " Hi everyone, now we are finally going to start with our C++ programming."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 11.0,
+            "end": 23.0,
+            "text": " Now before understanding C++ programming, I will show you a small sample code and with that we will get a clear idea that how this code exactly is, how it looks, how it is executed."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 23.0,
+            "end": 31.0,
+            "text": " So to write the code, first of all I am on Visual Studio Code. On Visual Studio Code, we can go to this icon which is basically our explorer icon."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 31.0,
+            "end": 37.0,
+            "text": " Or if we want, we can go to the files above and open any folder or create a new file."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 37.0,
+            "end": 41.0,
+            "text": " But I will go to this icon and I have to click on open folder."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 41.0,
+            "end": 47.0,
+            "text": " After clicking on open folder, we will get options that which folder we want to create our file in."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 47.0,
+            "end": 54.0,
+            "text": " So I am going to create a new folder in my desktop which I will name as CPP codes."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 54.0,
+            "end": 59.0,
+            "text": " I have created my new folder and now I am going to open this folder."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 59.0,
+            "end": 67.0,
+            "text": " If you are on Windows system or Linux system, then you can open any folder in the same way or you can create a new folder and open it."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 67.0,
+            "end": 76.0,
+            "text": " Now in this folder, using this icon which is my new file icon, I will create a new file which I will name as code.cpp."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 76.0,
+            "end": 82.0,
+            "text": " Now this code is basically the name of my file and .cpp is its extension."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 82.0,
+            "end": 87.0,
+            "text": " All the C++ files that we create will end with .cpp."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 87.0,
+            "end": 90.0,
+            "text": " If I was making a java file, then I would have written .java."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " If I was making a html file, then I would have written .html."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 92.0,
+            "end": 95.0,
+            "text": " So in this way, there are many extensions."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 95.0,
+            "end": 97.0,
+            "text": " We will use CPP extension."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 97.0,
+            "end": 105.0,
+            "text": " I have entered this and I have my code.cpp, that is, my first C++ file has opened in Visual Studio Code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 105.0,
+            "end": 110.0,
+            "text": " We will cross this and click on this icon again, then our bar will close for us."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 110.0,
+            "end": 115.0,
+            "text": " Now in code.cpp, I am going to write a small basic C++ code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 115.0,
+            "end": 117.0,
+            "text": " What is the meaning of that code?"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 117.0,
+            "end": 119.0,
+            "text": " How does that code run or execute?"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 119.0,
+            "end": 126.0,
+            "text": " We don't have to worry about that because the first time you see this code, you will not understand what is written here."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 127.0,
+            "end": 130.0,
+            "text": " Now I am going to write my code quickly."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 130.0,
+            "end": 140.0,
+            "text": " Iostream using name space std int main and this is done."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 140.0,
+            "end": 141.0,
+            "text": " Return 0."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 141.0,
+            "end": 147.0,
+            "text": " So basically I have written a small sample code of C++, whose job is that it does nothing."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 147.0,
+            "end": 151.0,
+            "text": " It will only run, that is, it will execute, but it will not do anything."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 151.0,
+            "end": 159.0,
+            "text": " If I have to bring some output in this code, then I will write here cout, our college and let's do it."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 159.0,
+            "end": 164.0,
+            "text": " So I have written so much code, now we must not be understanding its meaning at all."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 164.0,
+            "end": 168.0,
+            "text": " I am going to run this code once and what will happen by running it?"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 168.0,
+            "end": 174.0,
+            "text": " It's running and finally the thing I wrote here in double quotes, our college, it came to me printed on the screen."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 174.0,
+            "end": 178.0,
+            "text": " Here I can see how much time the code took to execute."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 178.0,
+            "end": 186.0,
+            "text": " So basically in our entire course, when we are talking about C++ codes, then we will make some such files and write some such code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 186.0,
+            "end": 197.0,
+            "text": " And when we are talking about running this code, then we will run it in this way and try to print our output on a screen."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 197.0,
+            "end": 199.0,
+            "text": " This output is coming from the output screen now."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 199.0,
+            "end": 203.0,
+            "text": " If we want, we can generate the same output from our terminal."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 203.0,
+            "end": 207.0,
+            "text": " Now what is this terminal? We will be talking about it in a little while."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 207.0,
+            "end": 210.0,
+            "text": " First of all, we are going to focus on this code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 210.0,
+            "end": 212.0,
+            "text": " We are going to focus on understanding this code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 212.0,
+            "end": 217.0,
+            "text": " Now the code we saw on our screen, we call it boilerplate code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 217.0,
+            "end": 220.0,
+            "text": " Boilerplate code is template code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 220.0,
+            "end": 224.0,
+            "text": " Means this is such a code that you will have to write every time."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 224.0,
+            "end": 229.0,
+            "text": " Whether you are writing any program in C++, whenever we are reading data structures and algorithms."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 229.0,
+            "end": 231.0,
+            "text": " Now this is our boilerplate code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 231.0,
+            "end": 236.0,
+            "text": " Now whenever we understand any code, we always understand the code in the direction from top to bottom."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 236.0,
+            "end": 240.0,
+            "text": " And whenever we are writing the code ourselves, then how does our logic work?"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 240.0,
+            "end": 244.0,
+            "text": " Like we saw in flowcharts, our logic always works from top to bottom."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 244.0,
+            "end": 247.0,
+            "text": " That is, first this line will be executed, then this line will be executed."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 247.0,
+            "end": 251.0,
+            "text": " So in this way, we are executing our code sequentially."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 251.0,
+            "end": 254.0,
+            "text": " Now there are many different parts in our boilerplate code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 254.0,
+            "end": 260.0,
+            "text": " At the top, the hash include iostream we have written, we call it preprocessor directive."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 260.0,
+            "end": 265.0,
+            "text": " Preprocessor directive is that already someone else must have written a code in C++."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 265.0,
+            "end": 270.0,
+            "text": " If we want to use it in our program, then we can include it."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 270.0,
+            "end": 274.0,
+            "text": " Or if you have already read a little bit of C++, then you must have heard the name of macros."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 274.0,
+            "end": 277.0,
+            "text": " Macros are also a type of preprocessor directive."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 277.0,
+            "end": 281.0,
+            "text": " Now what are preprocessor directives in detail? We are going to understand them in a while."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 281.0,
+            "end": 284.0,
+            "text": " In the second line, we are talking about some namespaces."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 284.0,
+            "end": 286.0,
+            "text": " We are going to understand that in detail now."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 286.0,
+            "end": 289.0,
+            "text": " And then finally we have written our main function."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 289.0,
+            "end": 293.0,
+            "text": " Functions are some blocks of code that do some work for us."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 293.0,
+            "end": 295.0,
+            "text": " Now functions are not a small thing."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 295.0,
+            "end": 299.0,
+            "text": " We will read a whole dedicated chapter on functions later."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 299.0,
+            "end": 303.0,
+            "text": " So do not expect that we will understand what functions are in today's class."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 303.0,
+            "end": 307.0,
+            "text": " In today's class, we will be starting our C++ programming."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 307.0,
+            "end": 311.0,
+            "text": " So when we talk about main, main is our main function."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 311.0,
+            "end": 314.0,
+            "text": " And it is also the starting point of execution."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 314.0,
+            "end": 318.0,
+            "text": " Execution means when our code runs, when the output produces,"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 318.0,
+            "end": 324.0,
+            "text": " then the whole process starts with our main function."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 324.0,
+            "end": 328.0,
+            "text": " So all the logic that we write as a programmer to do DSA,"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 328.0,
+            "end": 331.0,
+            "text": " we generally start writing from our main function."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 331.0,
+            "end": 335.0,
+            "text": " And in the main function, we see a lot of things like return 0."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 335.0,
+            "end": 338.0,
+            "text": " Along with this, you must be seeing one more interesting thing in boilerplate code,"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " which are these curly braces."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 340.0,
+            "end": 343.0,
+            "text": " Curly braces show a block of code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 343.0,
+            "end": 348.0,
+            "text": " Curly braces show that the main function starts from here and ends here."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 348.0,
+            "end": 351.0,
+            "text": " So curly braces are basically pairs."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 351.0,
+            "end": 355.0,
+            "text": " And they show that one main function or one function is from here to here."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 355.0,
+            "end": 358.0,
+            "text": " Later we will talk about loops and conditional statements."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 358.0,
+            "end": 362.0,
+            "text": " Then we will also know where our block of code starts and ends."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 362.0,
+            "end": 366.0,
+            "text": " Now along with this, we must be seeing a statement called return 0."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 366.0,
+            "end": 370.0,
+            "text": " Return 0 means wherever it is, our code ends here."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " It is the last point."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 372.0,
+            "end": 375.0,
+            "text": " The start of the loop, the curly braces, is the starting point."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 375.0,
+            "end": 377.0,
+            "text": " And return 0 is the last point."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 377.0,
+            "end": 383.0,
+            "text": " So all the logic that we have, we will write it here in our code."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 383.0,
+            "end": 386.0,
+            "text": " So boilerplate code is our template."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 386.0,
+            "end": 389.0,
+            "text": " And we can fit any extra logic in it."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 389.0,
+            "end": 394.0,
+            "text": " So you don't need to remember what boilerplate code means."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 394.0,
+            "end": 398.0,
+            "text": " We are going to write this code in every single class."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 398.0,
+            "end": 402.0,
+            "text": " We will write this code so many times that it will be printed in our mind after a point."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 402.0,
+            "end": 408.0,
+            "text": " So you don't need to worry if you find these words a little scary at first look."
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 408.0,
+            "end": 412.0,
+            "text": " Because we will be writing this code so many times, we will talk about it so many times,"
+        },
+        {
+            "number": "",
+            "title": "Boilerplate Code in C++",
+            "start": 412.0,
+            "end": 417.0,
+            "text": " we will practice it so many times that we will find these words like ABCD in C++."
+        }
+    ]
+}

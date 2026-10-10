@@ -1,0 +1,463 @@
+{
+    "file": "Comments.mp3",
+    "title": "Comments",
+    "number": "",
+    "text": " Now we are going to talk about comments Like in real life, there are some comments that we have passed on to someone which means we have said something to someone Similarly, apart from code, if we have to say something in the program then we use comments for that Generally, comments are used to tell about any piece of code or program that what we want to do For example, I have made a variable here Age is equal to 25 So if I want to add any English or any other remark along with this So I can use comments for that There are two types of comments First is single line comment For that, we use double slash So we have put two slashes After that, comments are generally highlighted in green After that, whatever we write, our compiler will ignore it Like this is a variable What did I do? I wrote an English line This is a variable But our compiler will completely ignore this English line Compiler ignores all comments We will save it And if I execute it, then there will be no error in this code There was no output and no error in this code So this is my comment So we can add single line comments anywhere in our code Generally, we add comments so that we can tell what we are going to write in our code And the second type of comments are multi-line comments Like if I write here This is a multi-line comment So what happened? This is an English line So we will get an error in this Because this is not aligned with the syntax of C++ But if I want to make it a multi-line comment Then I can simply write slash After that, star And to end, star and again slash So what happened? A multi-line comment has been created which is inside multiple lines And my compiler will completely ignore this too So there are two types of comments One in single line and one in multi-line Now we also have a shortcut to create comments So the shortcut in VS Code First, let's remove it That is command and slash Like we select all the areas and do command slash They will automatically convert into a comment And if we want, we can also undo So they will be removed from the comment And there is one more thing about comments Like for example, if I do cout here My age And l So let's suppose this is my code And I don't want to execute this code I want the compiler to ignore this code So by selecting this, I can convert it into a comment As soon as I make this code a comment Similarly, nothing will be executed If we save this code And run it, then I won't get any output print Because I have commented out this line",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 0.0,
+            "end": 2.32,
+            "text": " Now we are going to talk about comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 2.32,
+            "end": 5.5200000000000005,
+            "text": " Like in real life, there are some comments that we have passed on to someone"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 5.5200000000000005,
+            "end": 7.2,
+            "text": " which means we have said something to someone"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 7.2,
+            "end": 11.08,
+            "text": " Similarly, apart from code, if we have to say something in the program"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 11.08,
+            "end": 12.68,
+            "text": " then we use comments for that"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 12.68,
+            "end": 17.8,
+            "text": " Generally, comments are used to tell about any piece of code or program"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 17.8,
+            "end": 19.080000000000002,
+            "text": " that what we want to do"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 19.080000000000002,
+            "end": 21.64,
+            "text": " For example, I have made a variable here"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 21.64,
+            "end": 23.28,
+            "text": " Age is equal to 25"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 23.28,
+            "end": 28.48,
+            "text": " So if I want to add any English or any other remark along with this"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 28.56,
+            "end": 30.32,
+            "text": " So I can use comments for that"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 30.32,
+            "end": 32.04,
+            "text": " There are two types of comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 32.04,
+            "end": 33.64,
+            "text": " First is single line comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 33.64,
+            "end": 35.76,
+            "text": " For that, we use double slash"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 35.76,
+            "end": 37.120000000000005,
+            "text": " So we have put two slashes"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 37.120000000000005,
+            "end": 39.64,
+            "text": " After that, comments are generally highlighted in green"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 39.64,
+            "end": 43.28,
+            "text": " After that, whatever we write, our compiler will ignore it"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 43.28,
+            "end": 45.68,
+            "text": " Like this is a variable"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 45.68,
+            "end": 47.6,
+            "text": " What did I do? I wrote an English line"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 47.6,
+            "end": 48.56,
+            "text": " This is a variable"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 48.56,
+            "end": 52.0,
+            "text": " But our compiler will completely ignore this English line"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 52.0,
+            "end": 54.2,
+            "text": " Compiler ignores all comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 54.2,
+            "end": 55.6,
+            "text": " We will save it"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 55.76,
+            "end": 59.64,
+            "text": " And if I execute it, then there will be no error in this code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 60.64,
+            "end": 63.56,
+            "text": " There was no output and no error in this code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 63.56,
+            "end": 65.64,
+            "text": " So this is my comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 65.64,
+            "end": 68.8,
+            "text": " So we can add single line comments anywhere in our code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 68.8,
+            "end": 73.8,
+            "text": " Generally, we add comments so that we can tell what we are going to write in our code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 73.8,
+            "end": 76.64,
+            "text": " And the second type of comments are multi-line comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 76.64,
+            "end": 78.64,
+            "text": " Like if I write here"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 79.28,
+            "end": 86.52,
+            "text": " This is a multi-line comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 86.52,
+            "end": 87.32,
+            "text": " So what happened?"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 87.32,
+            "end": 88.6,
+            "text": " This is an English line"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 88.6,
+            "end": 90.32,
+            "text": " So we will get an error in this"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 90.32,
+            "end": 93.36,
+            "text": " Because this is not aligned with the syntax of C++"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 93.36,
+            "end": 95.48,
+            "text": " But if I want to make it a multi-line comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 95.48,
+            "end": 97.6,
+            "text": " Then I can simply write slash"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 97.6,
+            "end": 99.16,
+            "text": " After that, star"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 99.16,
+            "end": 101.92,
+            "text": " And to end, star and again slash"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 101.92,
+            "end": 102.52,
+            "text": " So what happened?"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 102.52,
+            "end": 105.36,
+            "text": " A multi-line comment has been created which is inside multiple lines"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 105.36,
+            "end": 107.96000000000001,
+            "text": " And my compiler will completely ignore this too"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 108.0,
+            "end": 109.44,
+            "text": " So there are two types of comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 109.44,
+            "end": 111.44,
+            "text": " One in single line and one in multi-line"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 111.44,
+            "end": 115.11999999999999,
+            "text": " Now we also have a shortcut to create comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 115.11999999999999,
+            "end": 117.11999999999999,
+            "text": " So the shortcut in VS Code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 117.11999999999999,
+            "end": 118.28,
+            "text": " First, let's remove it"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 118.28,
+            "end": 120.28,
+            "text": " That is command and slash"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 120.28,
+            "end": 124.52,
+            "text": " Like we select all the areas and do command slash"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 124.52,
+            "end": 127.08,
+            "text": " They will automatically convert into a comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 127.08,
+            "end": 129.07999999999998,
+            "text": " And if we want, we can also undo"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 129.07999999999998,
+            "end": 130.32,
+            "text": " So they will be removed from the comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 130.32,
+            "end": 132.6,
+            "text": " And there is one more thing about comments"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 132.6,
+            "end": 134.6,
+            "text": " Like for example, if I do cout here"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 134.6,
+            "end": 135.6,
+            "text": " My age"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 135.6,
+            "end": 137.04,
+            "text": " And l"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 137.16,
+            "end": 138.92,
+            "text": " So let's suppose this is my code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 138.92,
+            "end": 140.92,
+            "text": " And I don't want to execute this code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 140.92,
+            "end": 143.2,
+            "text": " I want the compiler to ignore this code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 143.2,
+            "end": 146.07999999999998,
+            "text": " So by selecting this, I can convert it into a comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 146.07999999999998,
+            "end": 147.88,
+            "text": " As soon as I make this code a comment"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 147.88,
+            "end": 149.88,
+            "text": " Similarly, nothing will be executed"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 149.88,
+            "end": 151.88,
+            "text": " If we save this code"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 151.88,
+            "end": 154.88,
+            "text": " And run it, then I won't get any output print"
+        },
+        {
+            "number": "",
+            "title": "Comments",
+            "start": 154.88,
+            "end": 156.88,
+            "text": " Because I have commented out this line"
+        }
+    ]
+}

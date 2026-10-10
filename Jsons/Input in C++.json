@@ -1,0 +1,792 @@
+{
+    "file": "Input in C++.mp3",
+    "title": "Input in C++",
+    "number": "",
+    "text": " Now we will talk about input in C++ Generally, if we talk about any code What is the function of code? Code's function is that it takes some input and on its basis, there is some output which it returns. And in between, it does some calculations or we also call it computations, it computes something So, we have already seen the function of output in code that we use cout for output Similarly, we have cin which we use for input So, we have an object like cout which we get from Iostream header file Now to use cin, what we can do is I can create some variable int age Let's suppose I have made a variable. What is inside this variable? Now inside this variable, garbage value is stored Then we can make it cout Enter your age So, in this way, we will get some output and then we can do cin Like in cout, there are two symbols less than and less than In cin, there are two symbols greater than and greater than So, cin age. The basic meaning of this line is that whatever value is entered on the terminal now it will be stored inside this age variable And later, what we can do is we can print the age variable Let's write here Your age is I hope this would be clear for us Let's see it again First of all, I have printed only enter your age We already know this much code After that, I have tried to store the value of age in my age variable by using cin Let's save it and try to run it It has been compiled It has been executed Now, what is our code printing? Enter your age Now, we have to enter something Because cin is waiting for us to enter a value Let's suppose I have entered 25 Now, I will press enter on my keyboard Now, program will move forward Now, because 25 value was saved in my age variable So, that 25 value is printed So, this way we can take any value as input in our code Next, we are going to do a small activity In which we are going to calculate a sum of two numbers A and B Now, like in math to calculate the sum of two numbers we write A plus B Similarly, in C++ also to calculate the sum of two variables we write A plus B. So, our sum is calculated First of all, we will create two variables in our code int A and then we will create our second variable int B. Now, we have to take the value of these two variables by entering cin as input So, first we will take A value as input After that, we will take B value as input After that, we are going to output the sum of both If we want, we can make a third variable int sum is equal to, in which we will initialize the value And then by doing cout we will print the value of our sum in our code. So, this will be our basic flow as our code will work logically So, we have two variables whose value we have to take as input then we have to calculate the sum from it and then we have to produce the output So, the whole cycle of our code is to take input then do some computation and then give some output All of that is going to be done through this code So, let's try and write our code We will start with two variables, int A and our second variable, int B Now, first of all, we have to take A value as input So, here we can write input A First, we will do cout enter A and here we will do cin as our A value Then we are going to take input B enter B and cin as our B value Now, we will do the third step to calculate the sum So, let's make a variable int sum is equal to A plus B and we will do cout sum is equal to endline So, in this way, our code is complete This is basically our entire program in which we first entered A, then B and then we calculated the sum and printed it Let's try to run it First, we have to enter A So, let's suppose I entered 10 in A then B, 5 and finally we got the sum of 15 As we have calculated the sum, we can also calculate the product So, here we will calculate the name of our variable product is equal to A multiplied by B and here with sum or in fact, let's do cout int product is equal to prod Let's save it and let's run So, this time let's take the number A is equal to 2 and B is equal to 5 So, as we have calculated sum and product similarly, we can calculate difference I am giving you the difference like a homework problem Just pause the lecture and here instead of plus, we have to create a minus sign and try to print that difference It's going to be very easy",
+    "chunks": [
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 0.0,
+            "end": 3.36,
+            "text": " Now we will talk about input in C++"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 3.36,
+            "end": 6.36,
+            "text": " Generally, if we talk about any code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 6.36,
+            "end": 8.36,
+            "text": " What is the function of code?"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 8.36,
+            "end": 11.36,
+            "text": " Code's function is that it takes some input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 11.36,
+            "end": 14.36,
+            "text": " and on its basis, there is some output"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 14.36,
+            "end": 18.36,
+            "text": " which it returns. And in between, it does some calculations"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 18.36,
+            "end": 22.36,
+            "text": " or we also call it computations, it computes something"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 22.36,
+            "end": 26.36,
+            "text": " So, we have already seen the function of output in code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 26.36,
+            "end": 29.36,
+            "text": " that we use cout for output"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 29.72,
+            "end": 32.72,
+            "text": " Similarly, we have cin which we use for input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 32.72,
+            "end": 36.72,
+            "text": " So, we have an object like cout which we get from Iostream header file"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 36.72,
+            "end": 40.72,
+            "text": " Now to use cin, what we can do is"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 40.72,
+            "end": 44.72,
+            "text": " I can create some variable int age"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 44.72,
+            "end": 48.72,
+            "text": " Let's suppose I have made a variable. What is inside this variable?"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 48.72,
+            "end": 52.72,
+            "text": " Now inside this variable, garbage value is stored"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 52.72,
+            "end": 55.72,
+            "text": " Then we can make it cout"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 56.08,
+            "end": 58.08,
+            "text": " Enter your age"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 58.08,
+            "end": 62.08,
+            "text": " So, in this way, we will get some output"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 62.08,
+            "end": 65.08,
+            "text": " and then we can do cin"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 65.08,
+            "end": 68.08,
+            "text": " Like in cout, there are two symbols less than and less than"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 68.08,
+            "end": 71.08,
+            "text": " In cin, there are two symbols greater than and greater than"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 71.08,
+            "end": 74.08,
+            "text": " So, cin age. The basic meaning of this line is"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 74.08,
+            "end": 78.08,
+            "text": " that whatever value is entered on the terminal"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 78.08,
+            "end": 81.08,
+            "text": " now it will be stored inside this age variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 81.08,
+            "end": 84.08,
+            "text": " And later, what we can do is"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 84.44,
+            "end": 87.44,
+            "text": " we can print the age variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 87.44,
+            "end": 90.44,
+            "text": " Let's write here"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 90.44,
+            "end": 93.44,
+            "text": " Your age is"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 93.44,
+            "end": 96.44,
+            "text": " I hope this would be clear for us"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 96.44,
+            "end": 99.44,
+            "text": " Let's see it again"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 99.44,
+            "end": 102.44,
+            "text": " First of all, I have printed only enter your age"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 102.44,
+            "end": 105.44,
+            "text": " We already know this much code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 105.44,
+            "end": 108.44,
+            "text": " After that, I have tried to store the value of age"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 108.44,
+            "end": 111.44,
+            "text": " in my age variable by using cin"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 111.8,
+            "end": 114.8,
+            "text": " Let's save it and try to run it"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 114.8,
+            "end": 117.8,
+            "text": " It has been compiled"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 117.8,
+            "end": 120.8,
+            "text": " It has been executed"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 120.8,
+            "end": 123.8,
+            "text": " Now, what is our code printing? Enter your age"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 123.8,
+            "end": 126.8,
+            "text": " Now, we have to enter something"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 126.8,
+            "end": 129.8,
+            "text": " Because cin is waiting for us to enter a value"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 129.8,
+            "end": 132.8,
+            "text": " Let's suppose I have entered 25"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 132.8,
+            "end": 135.8,
+            "text": " Now, I will press enter on my keyboard"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 135.8,
+            "end": 138.8,
+            "text": " Now, program will move forward"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 139.16000000000003,
+            "end": 142.16000000000003,
+            "text": " Now, because 25 value was saved in my age variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 142.16000000000003,
+            "end": 145.16000000000003,
+            "text": " So, that 25 value is printed"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 145.16000000000003,
+            "end": 148.16000000000003,
+            "text": " So, this way we can take any value as input in our code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 148.16000000000003,
+            "end": 151.16000000000003,
+            "text": " Next, we are going to do a small activity"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 151.16000000000003,
+            "end": 154.16000000000003,
+            "text": " In which we are going to calculate a sum of two numbers A and B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 154.16000000000003,
+            "end": 157.16000000000003,
+            "text": " Now, like in math to calculate the sum of two numbers"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 157.16000000000003,
+            "end": 160.16000000000003,
+            "text": " we write A plus B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 160.16000000000003,
+            "end": 163.16000000000003,
+            "text": " Similarly, in C++ also to calculate the sum of two variables"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 163.16000000000003,
+            "end": 166.16000000000003,
+            "text": " we write A plus B. So, our sum is calculated"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 166.52,
+            "end": 169.52,
+            "text": " First of all, we will create two variables in our code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 169.52,
+            "end": 172.52,
+            "text": " int A and then we will create our second variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 172.52,
+            "end": 175.51999999999998,
+            "text": " int B. Now, we have to take the value of these two variables"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 175.51999999999998,
+            "end": 178.51999999999998,
+            "text": " by entering cin as input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 178.51999999999998,
+            "end": 181.51999999999998,
+            "text": " So, first we will take A value as input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 181.51999999999998,
+            "end": 184.51999999999998,
+            "text": " After that, we will take B value as input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 184.51999999999998,
+            "end": 187.51999999999998,
+            "text": " After that, we are going to output the sum of both"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 187.51999999999998,
+            "end": 190.51999999999998,
+            "text": " If we want, we can make a third variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 190.51999999999998,
+            "end": 193.51999999999998,
+            "text": " int sum is equal to, in which we will initialize the value"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 194.38000000000002,
+            "end": 197.38000000000002,
+            "text": " And then by doing cout"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 197.38000000000002,
+            "end": 200.38000000000002,
+            "text": " we will print the value of our sum"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 200.38000000000002,
+            "end": 203.38,
+            "text": " in our code. So, this will be our basic flow"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 203.38,
+            "end": 206.38,
+            "text": " as our code will work logically"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 206.38,
+            "end": 209.38000000000002,
+            "text": " So, we have two variables whose value we have to take as input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 209.38000000000002,
+            "end": 212.38,
+            "text": " then we have to calculate the sum from it and then we have to produce the output"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 212.38,
+            "end": 215.38,
+            "text": " So, the whole cycle of our code is to take input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 215.38,
+            "end": 218.38,
+            "text": " then do some computation and then give some output"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 218.38,
+            "end": 221.38,
+            "text": " All of that is going to be done through this code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 222.24,
+            "end": 225.24,
+            "text": " So, let's try and write our code"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 225.24,
+            "end": 228.24,
+            "text": " We will start with two variables, int A"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 228.24,
+            "end": 231.24,
+            "text": " and our second variable, int B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 231.24,
+            "end": 234.24,
+            "text": " Now, first of all, we have to take A value as input"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 234.24,
+            "end": 237.24,
+            "text": " So, here we can write input A"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 237.24,
+            "end": 240.24,
+            "text": " First, we will do cout"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 240.24,
+            "end": 243.24,
+            "text": " enter A"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 243.24,
+            "end": 246.24,
+            "text": " and here we will do cin as our A value"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 246.24,
+            "end": 249.24,
+            "text": " Then we are going to take input B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 250.10000000000002,
+            "end": 253.10000000000002,
+            "text": " enter B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 253.10000000000002,
+            "end": 256.1,
+            "text": " and cin as our B value"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 256.1,
+            "end": 259.1,
+            "text": " Now, we will do the third step to calculate the sum"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 259.1,
+            "end": 262.1,
+            "text": " So, let's make a variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 262.1,
+            "end": 265.1,
+            "text": " int sum is equal to A plus B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 265.1,
+            "end": 268.1,
+            "text": " and we will do cout"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 268.1,
+            "end": 271.1,
+            "text": " sum is equal to"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 271.1,
+            "end": 274.1,
+            "text": " endline"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 274.1,
+            "end": 277.1,
+            "text": " So, in this way, our code is complete"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 277.96000000000004,
+            "end": 280.96000000000004,
+            "text": " This is basically our entire program"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 280.96000000000004,
+            "end": 283.96000000000004,
+            "text": " in which we first entered A, then B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 283.96000000000004,
+            "end": 286.96000000000004,
+            "text": " and then we calculated the sum and printed it"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 286.96000000000004,
+            "end": 289.96000000000004,
+            "text": " Let's try to run it"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 289.96000000000004,
+            "end": 292.96000000000004,
+            "text": " First, we have to enter A"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 292.96000000000004,
+            "end": 295.96000000000004,
+            "text": " So, let's suppose I entered 10 in A"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 295.96000000000004,
+            "end": 298.96000000000004,
+            "text": " then B, 5 and finally we got the sum of 15"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 298.96000000000004,
+            "end": 301.96000000000004,
+            "text": " As we have calculated the sum, we can also calculate the product"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 301.96000000000004,
+            "end": 304.96000000000004,
+            "text": " So, here we will calculate the name of our variable"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 305.82,
+            "end": 308.82,
+            "text": " product is equal to A multiplied by B"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 308.82,
+            "end": 311.82,
+            "text": " and here with sum"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 311.82,
+            "end": 314.82,
+            "text": " or in fact, let's do cout"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 314.82,
+            "end": 319.82,
+            "text": " int product is equal to prod"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 319.82,
+            "end": 322.82,
+            "text": " Let's save it"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 322.82,
+            "end": 325.82,
+            "text": " and let's run"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 327.82,
+            "end": 330.82,
+            "text": " So, this time let's take the number"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 330.82,
+            "end": 333.82,
+            "text": " A is equal to 2 and B is equal to 5"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 334.68,
+            "end": 337.68,
+            "text": " So, as we have calculated sum and product"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 337.68,
+            "end": 340.68,
+            "text": " similarly, we can calculate difference"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 340.68,
+            "end": 343.68,
+            "text": " I am giving you the difference like a homework problem"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 343.68,
+            "end": 346.68,
+            "text": " Just pause the lecture"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 346.68,
+            "end": 349.68,
+            "text": " and here instead of plus, we have to create a minus sign"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 349.68,
+            "end": 352.68,
+            "text": " and try to print that difference"
+        },
+        {
+            "number": "",
+            "title": "Input in C++",
+            "start": 352.68,
+            "end": 355.68,
+            "text": " It's going to be very easy"
+        }
+    ]
+}
